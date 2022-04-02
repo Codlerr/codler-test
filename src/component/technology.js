@@ -24,7 +24,7 @@ function Technology() {
             <section className='w-10/12 mx-auto pb-20'>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='pt-40' data-aos="fade-up">
-                        <p className='text-2xl lg:text-3xl font-bold text-white lg:w-2/3'data-aos="fade-up" data-aos-delay="100">It's your dream and we've got digital technology.</p>
+                        <p className='text-2xl lg:text-3xl font-bold text-white lg:w-2/3'data-aos="fade-up" data-aos-delay="100">It's your dream and we've got digital technology</p>
                         <p className='lg:text-lg lg:text-lg text-zinc-300 text-justify tracking-tight lg:text-left lg:w-3/4'>A variety of software development tools and technologies are used to develop resilient solutions customised to our customers' businesses.</p>
                     </div>
                     <div className='pt-28 hidden lg:block'>

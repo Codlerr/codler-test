@@ -7,31 +7,31 @@
         fields4:'Customized web develepment'
      },
     {
-          heading:'02 Design',
-          fields1:'Design content1',
-          fields2:'Design content2',
-          fields3:'Design content3',
-          fields4:'Design content4'
+          heading:'02 App development',
+          fields1:'Best user experience',
+          fields2:'Android native',
+          fields3:'Flutter',
+          fields4:'React native'
        },
       {
-          heading:'03 Marketing',
-          fields1:'Marketing content1',
-          fields2:'Marketing content2',
-          fields3:'Marketing content3',
-          fields4:'Marketing content4'
+          heading:'03 Digital Marketing',
+          fields1:'Plan your marketing',
+          fields2:'Eye-catchy designs',
+          fields3:'Creating a visual treat for your users',
+          fields4:'Tailor-made digital marketing'
       },
       {
-          heading:'04 UI/UX design',
-          fields1:'UI/UX design content1',
-          fields2:'UI/UX design content2',
-          fields3:'UI/UX design content3',
-          fields4:'UI/UX design content4'
+          heading:'04 Branding',
+          fields1:'Bravely combine creativity ',
+          fields2:'We craft stories ',
+          fields3:'Engage with audiance quickly',
+          fields4:'Focusing on the design'
       },
       {
           heading:'05 SEO',
-          fields1:'SEO content1',
-          fields2:'SEO content2',
-          fields3:'SEO content3',
-          fields4:'SEO content4'
+          fields1:'Tailor according to your business ',
+          fields2:'Increase the credibility ',
+          fields3:'Start earning more qualified',
+          fields4:'Boost up your business growth'
       },
     ]

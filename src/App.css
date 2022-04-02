@@ -167,11 +167,12 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
     
 
 }
-@media (max-width:480px) {
+@media (max-width:768px) {
     .footerbg{
         height: 20vh;
     }
 }
+
 
 /* footer */
 

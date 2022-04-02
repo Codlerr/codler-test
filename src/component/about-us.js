@@ -13,9 +13,9 @@ function Aboutus() {
             <section className='main-content'>
                 <div className='w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2  pt-40' data-aos="fade-up">
                     <div>
-                    <p className="text-white text-3xl lg:text-3xl md:pt-16 font-bold">Want to know more<br></br> about<span className='pl-2 '>codlerr</span></p>
-                        <p className="lg:text-lg text-base tracking-tight  lg:w-2/3  text-zinc-200">We are the perfect professional team of designers and developers for you.Codler is a top website and mobile app development
-                   company.In addition to empower our client sincerely by developinfg full customized mobile and web-based digital solution is our mission.</p>
+                    <p className="text-white text-3xl lg:text-3xl md:pt-16 font-bold">Want to know more<br></br> about<span className='pl-2 '>Codlerr ?</span></p>
+                        <p className="lg:text-lg text-base tracking-tight  lg:w-2/3  text-zinc-200">We are the perfect professional team of designers and developers for you. Codlerr is a top website and mobile app development
+                   company. In addition to empower our client sincerely by developinfg full customized mobile and web-based digital solution is our mission.</p>
                     
                         <div className='hidden lg:block'>
                         <a href='#'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585515/codler/arrw_aof6aj.png'} className='h-20 my-10 lg:my-0 lg:mt-28'></img></a>
@@ -35,9 +35,9 @@ function Aboutus() {
                     <div className='w-10/12 lg:w-8/12 mx-auto'>
                         <div className='grid grid-cols-1 lg:grid-cols-2 py-20'>
                                 <div  data-aos="fade-right">
-                            <p className="text-4xl text-white font-bold">WE are experts with</p>
+                            <p className="text-4xl text-white font-bold">We are experts with</p>
                                     <ul className="">
-                                        <li className="text-xl list-disc text-violet-400  mt-3"><div className="text-zinc-300 text-base">An innovative emphasis.</div></li>
+                                        <li className="text-xl list-disc text-violet-400  mt-3"><div className="text-zinc-300 text-base">Innovative emphasis.</div></li>
                                         <li className="text-xl list-disc mt-1 text-violet-400 "><div className="text-zinc-300 text-base">Exceptional customer oriented attitude.</div></li>
                                         <li className="text-xl list-disc mt-1 text-violet-400 "><div className="text-zinc-300 text-base">Domain expertise in an highly skilled team.</div></li>
                                         <li className="text-xl list-disc mt-1 text-violet-400 "><div className="text-zinc-300 text-base">Assounding focus on work</div></li>

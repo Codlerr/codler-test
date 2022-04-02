@@ -17,7 +17,7 @@ function Services() {
 
             <section className='servebg'>
                     <div className='w-10/12 mx-auto text-white pt-56' data-aos="fade-up">
-                        <p className='text-3xl lg:text-3xl font-bold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>business.</p>
+                        <p className='text-xl md:text-3xl font-bold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>Business</p>
                         <p className='lg:w-2/6 tracking-wide'>Delivering high-quality software development services and leading the way in digital transformation are our strengths. Our skilled staff have demonstrated their talents and are ready to assist you. </p>
                     </div>
             </section>
