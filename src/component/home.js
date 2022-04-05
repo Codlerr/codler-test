@@ -37,7 +37,7 @@ function Home() {
                         <div className='ml-0 lg:ml-16 pt-14 lg:pt-48' data-aos="fade-up">
                             
                         <h1 className="text-white text-xl lg:text-2xl mt-10 md:mt-10 font-bold ">
-                        <p className='text-white text-xl lg:text-2xl' data-aos="fade-right">CREATING EXCEPTIONAL</p> <p class='text-white text-xl lg:text-2xl -mt-3 md:mt-0' data-aos="fade-right" data-aos-delay="1000">STRATEGIES THAT BRING LIFE TO YOUR</p> <p class='text-white text-xl lg:text-2xl -mt-3 md:mt-0' data-aos="fade-right" data-aos-delay="2000">BRANDS</p>
+                        <p className='text-white text-xl lg:text-3xl md:tracking-wide' data-aos="fade-right">Creating Exceptional</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="1000">Strategies That Bring Life To Your</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="2000">Brands</p>
                             </h1>
                             <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
@@ -85,7 +85,7 @@ function Home() {
                         <p className='text-8xl lg:text-9xl  text-zinc-900 font-extrabold z-0 -ml-6'>01</p>
                         <p className='text-white text-4xl font-semibold lg:font-bold -mt-20 lg:-mt-24' data-aos="fade-right" data-aos-delay="200">A little about us</p>
                         <p className='text-white text-sm md:text-sm lg:w-3/4'>We are a team of innovative minds handpicked to provide app, web and digital media solutions for your business that will help you achieve your current and future goals. We transform visionaries into digital products with care and ease, helping you focus on what matters to your business and customers. Codlerr is uniquely positioned to deliver strategic and results-driven services.</p>
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557288/codler/An_Astonishing_Workplace._ooboll.png'} className='w-60 pt-8'></img>
+                        <p className='textlbg testdecoration-none text-sm font-bold no-underline mt-7'>AN ASTONISHING WORKSPACE</p>
                     </div>
 
                     <div className="pt-8 relative" data-aos="fade-up">
@@ -106,12 +106,12 @@ function Home() {
             <div className='md:grid grid-cols-1 md:grid-cols-2 z-10'>
 
                 <div className='lg:pl-24 p-10  lg:pt-24' data-aos="fade-up">
-                <h4 className="text-sm  font-bold z-20 opacity-100 text-white" data-aos="fade-right" data-aos-delay="200">OUR SPECIAL WORK</h4>
-                              <h1 className="md:text-2xl text-2xl font-bold text-white" data-aos="fade-right" data-aos-delay="200">Travel app<br></br> design for a tripexpo</h1>
-                              <p className="md:text-sm text-sm  mt-6 text-zinc-300 lg:pr-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et ultricies. Urna proin dignissim eu nisl ac sed et velit. Suscipit amet ac duis pretium elementum.</p>
+                <h4 className="text-sm  font-semibold z-20 opacity-100 text-white" data-aos="fade-right" data-aos-delay="200">OUR RECENT WORK</h4><hr className='w-12 h-24 text-pink-500 font-bold text-3xl -mt-5 ml-36'/>
+                              <h1 className="md:text-3xl text-2xl font-bold text-white" data-aos="fade-right" data-aos-delay="200">Travel app<br></br> design for a tripexpo</h1>
+                              <p className="md:text-sm text-sm  mt-3 text-zinc-300 lg:pr-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et ultricies. Urna proin dignissim eu nisl ac sed et velit. Suscipit amet ac duis pretium elementum.</p>
 
                              <div className='pt-4'>
-                                 <a href='#' className='flex'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557938/codler/View_all_projects_e7s5bh.png'} className='w-32 lg:w-38'></img><FontAwesomeIcon icon={faArrowRight} className="text-xl ml-2 text-white cursor-pointer" /></a>
+                                 <a href='#' className='flex no-underline '><p className='textlbg testdecoration-none text-lg no-underline -mt-1'>View All Projects</p><FontAwesomeIcon icon={faArrowRight} className="text-xl ml-4  mt-0.5 text-white cursor-pointer" /></a>
                              </div>
                     </div>
                     <div className="w-full" data-aos="fade-up">
@@ -123,7 +123,7 @@ function Home() {
 
           <section >
           <div className="w-full" data-aos="zoom-in">
-                      <p className="w-full text-xl md:text-5xl font-extrabold opacity-20 mb-10 mt-8 md:mb-20 text-white tracking-wider">
+                      <p className="w-full text-xl md:text-6xl font-extrabold opacity-10 mb-10 mt-8 md:mb-20 text-white tracking-wider">
                           <marquee>Future is here! Future is here!  Future is here! Future is here!</marquee>
                       </p>
 
@@ -131,7 +131,7 @@ function Home() {
          </section>    
 
 
-         <section>
+         <section className='bg-transparent'>
             <div className='grid grid-cols-3 lg:grid-cols-4 lg:-mt-16'>
             <div class="">
                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557034/codler/bulbb_gr1sci.png'} className='w-36 md:w-56 pt-0 lg:pt-10' data-aos="fade-up">
@@ -146,12 +146,12 @@ function Home() {
 
         <section className='w-full h-full lg:mt-5 '>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
-                <div className='bg-purple-700' data-aos="fade-up">
-                <h1 className="text-white ml-16 md:ml-8   md:ml-16 mt-10 text-sm tracking-widest" data-aos="fade-up">- BRANDS</h1>
+                <div className='' style={{backgroundColor:'#8B008B'}} data-aos="fade-up">
+                <h1 className="text-white ml-16 md:ml-8   md:ml-16 mt-8 text-sm tracking-widest" data-aos="fade-up">- BRANDS</h1>
                     <h2 className="text-white ml-16 md:ml-8  md:ml-16 mt-3 text-xl md:text-3xl tracking-wider" data-aos="fade-up">Our Happy Clients</h2>
-                    <p className="text-zinc-300 p-12 md:p-0 text-sm ml-8 md:ml-16 mr-5 md:mt-5 lg:pr-36" data-aos="fade-up">Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
+                    <p className="text-zinc-300 p-12 md:p-0 text-sm ml-8 md:ml-16 mr-5 md:mt-3 lg:pr-36" data-aos="fade-up">Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
                 
-                    <div className='grid grid-cols-2 lg:grid-cols-2 -mt-20 md:mt-0 gap-4 w-8/12 mx-auto pb-10' data-aos="fade-right">
+                    <div className='grid grid-cols-2 lg:grid-cols-2 -mt-24- md:mt-0 gap-4 w-8/12 mx-auto pb-10' data-aos="fade-right">
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556429/codler/jsk_tjljta.png'} className='md:w-48 h-16 mt-12 w-24 '></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/odikko_bzk7bo.png'} className='md:w-56 mt-3 md:mt-0 w-36 h-28 md:h-36'></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/ondace_yjiyg9.jpg'} className='w-24 h-24 md:w-32 md:h-28 md:mt-4 md:ml-10'></img>
@@ -171,7 +171,7 @@ function Home() {
  
 
         <section className="lg:h-screen sm:h-4/5 w-full ">
-              <div className=" w-full  md:mt-20 p-10 bg-black">
+              <div className=" w-full p-10 bg-black">
                   <div className="grid   sm:grid-cols-1 lg:grid-cols-2  gap-60">
                   <div className='text-white md:ml-24' data-aos="fade-up">
                 <p className="  text-xl md:text-3xl text-white font-semibold mt-16 text-2xl lg:mt-40 text-center lg:flex lg:justify-start" data-aos="fade-right" data-aos-delay="200">What we offer is</p>
@@ -180,8 +180,8 @@ function Home() {
 </p>
                 </div>
                       <div className="w-1/2 ml-0 md:ml-48 lg:ml-0 lg:mt-60  hidden md:block" >
-                          <div className="w-80  -mt-40  z-0 sectionbg3 lg:ml-48" data-aos="zoom-in-right" style={{height:'600px'}}></div>
-                            <div className=" bg-gray-900 colorbox -ml-36 w-96 z-10 rounded drop-shadow-2xl  " style={{height:'500px',width:'500px',marginTop:'-550px'}}>
+                          <div className="w-80  -mt-96  sectionbg3 lg:ml-48" data-aos="zoom-in-right" style={{height:'800px',width:'357px',marginTop:'-396px',zIndex:'0'}}></div>
+                            <div className=" bg-gray-900 colorbox -ml-36 w-96  rounded drop-shadow-2xl  " style={{height:'500px',width:'500px',marginTop:'-620px',zIndex:'2'}}>
                                 <div className="grid grid-cols-2  grid-flow-col h-80 gap-2 " style={{width:'600px'}}>
                                     <div data-aos="zoom-in-right ">
                                       <p className="lg:text-2xl blur-sm  ml-20 mt-10 font-semibold text-white cursor-pointer" onMouseEnter={()=>showCards(2)} onMouseLeave={mouseLeave}> 01 text editing</p>
@@ -203,7 +203,9 @@ function Home() {
                                  
                       </div>
                       </div>
+
                       </div>
+
                   </div>
               </div>
             
@@ -261,7 +263,7 @@ function Home() {
                         
                        <hr className="w-5 h-12 text-purple-500 ml-24 mt-12"/> <span> <p className="text-l  lg:ml-32  -mt-7 font-normal text-white" data-aos="fade-right" data-aos-delay="200">OUR STRENGTH</p>
                         </span>
-                        <p className="text-xl lg:text-2xl  lg:ml-24 mt-3 text-white font-bold tracking-wider" data-aos="fade-right" data-aos-delay="200">Get real world advice <br />from people<br />who have been there</p>
+                        <p className="text-xl lg:text-2xl  lg:ml-24 mt-3 text-white font-bold tracking-wide" data-aos="fade-right" data-aos-delay="200">Get real world advice <br />from people<br />who have been there</p>
                         <p className="text-xs w-64 lg:ml-24 lg:pr-5 text-zinc-300 ">We work closely with our clients to define, design, and develop transformative user experiences across all platforms and brand touchpoints. We break boundaries to create extraordinary digital products for our clients and have satisfied clients’ accounts for our success. Positive and constructive feedback from our clients is pure bliss for us and keeps us going; we'd like to hear it more often. </p>
                     </div>
                 </div>
@@ -368,14 +370,16 @@ function Home() {
                         <div data-aos="fade-down">
                         <h1 className="text-white text-5xl mt-6 md:mt-8 md:text-4xl -ml-3 lg:ml-8 font-extrabold opacity-50 absolute" data-aos="fade-right" data-aos-delay="200">06</h1>
                           <p className="text-white text-lg ml-6 lg:ml-14 mt-10 font-bold " data-aos="fade-right" data-aos-delay="200">--- CREATIVE</p>
-                          <p className="text-white text-2xl md:text-4xl ml-10 mt-4 lg:mt-0 font-bold tracking-wider" data-aos="fade-right" data-aos-delay="200">Find us on social<br />media</p>
+                          <p className="text-white text-2xl md:text-4xl ml-10 mt-4 lg:mt-0 font-bold tracking-wide" data-aos="fade-right" data-aos-delay="200">Find us on social<br />media</p>
+                          <p className='text-white text-sm ml-10 -mt-2'>#CODLERR</p>
                         </div>
 
                         <div data-aos="fade-up">
                             <div className='pt-10'>
                                 <p className='text-sm -mt-5 md:mt-0 text-white pl-10 md:pl-0 lg:pr-10 leading-6'>You don't just have to pick up the phone to ring us - we are on Facebook, LinkedIn as well Instagram! See you there!</p>
                                     <div className='pt-2 pl-10 md:pl-0'>
-                                        <a href='#' className='flex'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557950/codler/Take_me_to_instagram_xs3ee9.png'}></img><FontAwesomeIcon icon={faArrowRight} className="text-base ml-2 text-white cursor-pointer" /></a>
+                                        <a href='#' className='flex no-underline'> <p className='textlbg testdecoration-none text-sm text-lg font-semibold -mt-2'>Take me to Instagram</p>
+                                     <FontAwesomeIcon icon={faArrowRight} className="text-base ml-2 text-white cursor-pointer" /></a>
                                     {/* <span>
                                         <FontAwesomeIcon icon={faArrowRight} className="text-base ml-2 text-white cursor-pointer" />
                                     </span> */}

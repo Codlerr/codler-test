@@ -398,7 +398,7 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
 }
 .sectionbg3 {
     
-    background: linear-gradient(#5408C7 5.97% ,#1F76E9 34.29%, #8F47E8 69.75%, #F70AB8 95.31%, #5408C7  5.97%, #1F76E9  34.29% ,#8F47E8 69.75% ,#F70AB8 95.31%);
+    background: linear-gradient( #800080 5.97% ,#1F76E9 34.29%, #800080 69.75%, #F70AB8 95.31%,#5408C7  5.97%, #1F76E9  34.29% ,#8F47E8 69.75% ,#F70AB8 95.31%);
 }
 .colortext {
     background: linear-gradient(to bottom, #000099 0%, #ff00ff 100%);
@@ -468,7 +468,7 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
     -webkit-text-fill-color: transparent;
 }
 .textlbg{
-    background: linear-gradient(to right,#5408C7,#1F76E9,#8F47E8,#F70AB8);
+    background: linear-gradient(to right,#F70AB8,#5408C7,#1F76E9,#8F47E8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -477,7 +477,7 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
     overflow: hidden;
 }
 .line{
-    background: linear-gradient(90deg,#000099,#fc00ff);
+    background: linear-gradient(90deg,#fc00ff,#000099);
     text-transform: uppercase;
     text-align: center;
     font-size: 16px;
