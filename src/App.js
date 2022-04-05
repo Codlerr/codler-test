@@ -24,7 +24,7 @@ function App() {
               <Route element={<Aboutus />} path='/Aboutus' />
               <Route element={<Contact />} path='/Contactus' />
               <Route element={<Portfolio />} path='/portfolio' />
-              <Route element={<Portfolioinner />} path='/portfolio-details' />
+              <Route element={<Portfolioinner />} path='portfolio/portfolio-details' />
               <Route element={<Technology/>} path='/technology' />
               <Route element={<Services />} path='/services' />
               <Route element={<Servicedetails />} path='/services/servicedetails' />

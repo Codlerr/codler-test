@@ -17,7 +17,7 @@ function Footer() {
     return (
            <div>
                 <section>
-                        <div className='lg:w-10/12 p-10 md:p-0  mx-auto md:pb-32 overflow:hidden'>
+                        <div className='md:w-10/12 p-10 md:p-0 w-screen mx-auto md:pb-32'>
                             <div className='flex '>
                             <img src={tbubble1} className=' lg:block w-16 mt-16 lg:w-24 lg:h-24 ml-2 bubble'></img>
                             <img src={tbubble1} className=' lg:block w-8 h-8 mt-56 lg:w-16  lg:h-16 ml-2 lg:ml-4 bubble2'></img>
@@ -25,8 +25,8 @@ function Footer() {
                             </div>
                             <div className='footerbg -mt-10 md:footerbg lg:rounded-lg'>
                                 <div className='w-11/12 lg:w-8/12 mx-auto grid grid-cols-2 lg:grid-cols-2 gap-4'>
-                                    <div>
-                                        <p className='text-white text-sm lg:text-3xl font-medium pt-8'  data-aos="fade-right">Let's focus on making<br></br>amazing things digitally.</p>
+                                    <div className='p-2'>
+                                        <p className='text-white text-xs mt-2 lg:text-3xl md:pt-8'  data-aos="fade-right">Let's focus on making<br></br>amazing things digitally.</p>
                                         <a href='#'><button class="man-btn border-slate-100  hover:bg-slate-800 text-xs lg:text-sm w-32   lg:w-44 lg:h-18 text-white border-nuetral-800 rounded lg:px-4 py-2">Discuss your project</button></a>
                                     </div>
                                     <div>

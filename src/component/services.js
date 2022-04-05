@@ -166,7 +166,7 @@ function Services() {
 
             <section className='w-11/12 lg:w-10/12 mx-auto py-24'>
                 <div className='w-10/12 mx-auto' data-aos="fade-up">
-                    <p className='text-zinc-800 text-lg text-color lg:text-3xl hover:text-purple-500 font-bold'>Developing a top-notch product is the result of researching and defining the current market as well as the goals you have in mind.</p>
+                    <p className='text-zinc-800 text-lg text-color cursor-pointer lg:text-4xl hover:text-purple-500 font-bold'>Developing a top-notch product is the result of researching and defining the current market as well as the goals you have in mind.</p>
                 </div>
             </section>
 

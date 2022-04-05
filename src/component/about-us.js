@@ -13,7 +13,7 @@ function Aboutus() {
             <section className='main-content'>
                 <div className='w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2  pt-40' data-aos="fade-up">
                     <div>
-                    <p className="text-white text-3xl lg:text-3xl md:pt-16 font-bold">Want to know more<br></br> about<span className='pl-2 '>Codlerr ?</span></p>
+                    <p className="text-white text-3xl lg:text-3xl md:pt-16 font-bold" data-aos="fade-right" data-aos-delay="200" >Want to know more<br></br> about<span className='pl-2 textlbg'>codlerr</span></p>
                         <p className="lg:text-lg text-base tracking-tight  lg:w-2/3  text-zinc-200">We are the perfect professional team of designers and developers for you. Codlerr is a top website and mobile app development
                    company. In addition to empower our client sincerely by developinfg full customized mobile and web-based digital solution is our mission.</p>
                     
@@ -26,7 +26,6 @@ function Aboutus() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585635/codler/officework_bbpbsv.jpg'} className='rounded-lg pt-16 lg:pt-0 lg:h-96 lg:ml-14'></img>
                     </div>
                         <div>
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585802/codler/tbubble_cbgwls.png'} className='bubble hidden lg:block absolute right-0 h-16 w-16 -mt-24'></img>
                         </div>
                 </div>
             </section>
@@ -37,15 +36,15 @@ function Aboutus() {
                                 <div  data-aos="fade-right">
                             <p className="text-4xl text-white font-bold">We are experts with</p>
                                     <ul className="">
-                                        <li className="text-xl list-disc text-violet-400  mt-3"><div className="text-zinc-300 text-base">Innovative emphasis.</div></li>
-                                        <li className="text-xl list-disc mt-1 text-violet-400 "><div className="text-zinc-300 text-base">Exceptional customer oriented attitude.</div></li>
-                                        <li className="text-xl list-disc mt-1 text-violet-400 "><div className="text-zinc-300 text-base">Domain expertise in an highly skilled team.</div></li>
-                                        <li className="text-xl list-disc mt-1 text-violet-400 "><div className="text-zinc-300 text-base">Assounding focus on work</div></li>
+                                        <li className="text-2xl list-disc text-pink-600  mt-3"><div className="text-zinc-300 text-base">Innovative emphasis.</div></li>
+                                        <li className="text-2xl list-disc mt-1 text-pink-600 "><div className="text-zinc-300 text-base">Exceptional customer oriented attitude.</div></li>
+                                        <li className="text-2xl list-disc mt-1 text-pink-600 "><div className="text-zinc-300 text-base">Domain expertise in an highly skilled team.</div></li>
+                                        <li className="text-2xl list-disc mt-1 text-pink-600"><div className="text-zinc-300 text-base">Assounding focus on work</div></li>
                                     </ul>
                             </div>
 
                             <div>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585907/codler/handimage1_pxznpl.png'} className='absolute h-96 w-80 -mt-40 hidden lg:block'  data-aos="fade-up"></img>
+                                <img src={require('../images/about-us-images/mangroup.png')} className='absolute h-96 w-96 md:ml-24 -mt-40 hidden lg:block'  data-aos="fade-up" style={{opacity:'0.5'}}></img>
                             </div>
                         </div>
                     </div>
@@ -74,34 +73,34 @@ function Aboutus() {
                     <div data-aos="fade-right">
                         <h4 className='text-zinc-900 text-8xl font-extrabold absolute'>03</h4>
                         <p className='text-white relative text-sm font-semibold tracking-widest pt-12'>- OUR STRENGTH</p>
-                        <p className='text-white relative text-4xl font-semibold tracking-wider'>Our core value</p>
+                        <p className='text-white relative text-4xl font-semibold tracking-wide'>Our core value</p>
                     </div>
                     <div className='col-span-2'>
                         <div className='grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-y-8 lg:gap-y-14' >
                             <div data-aos="fade-up">
                                 <div className='flex pt-10 lg:pt-0'>
-                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585975/codler/Union_h18vh6.png'} className='h-11'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585975/codler/Union_h18vh6.png'} className='h-10'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Client satisfaction<br></br> at its highest level</p>
                                 </div>
                                 <p  className='text-zinc-400 pl-14 text-sm lg:px-14  font-normal tracking-normal'>Specifically having satisfied clients accounts for our success. It is a core part of our strategy. This kind of praise is pure bliss to us, so that we'd like to hear it more often. It's a never-ending desire in us - it's built-in to our DNA.</p>
                             </div>
                             <div data-aos="fade-up">
                                 <div className='flex'>
-                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585993/codler/Vectors16_ssimsk.png'} className='h-11'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585993/codler/Vectors16_ssimsk.png'} className='h-10 mt-1'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Approach with<br></br> a Vision</p>
                                 </div>
                                 <p className='text-zinc-400 pl-12  lg:px-12 text-sm  font-normal tracking-normal'>Our performance is dependent on our vision and how we make it a reality. We follow our ideals throughout the whole process, from recruiting to exceptional outputs. We realize the necessity of meeting client expectations in order to provide high-quality products.</p>
                             </div>
                             <div data-aos="fade-up">
                                 <div className='flex'>
-                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586005/codler/Vectors17_dzs170.png'} className='h-11'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586005/codler/Vectors17_dzs170.png'} className='h-10'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Genuity</p>
                                 </div>
                                 <p className='text-zinc-400 pl-14 text-sm lg:px-14   font-normal tracking-normal'>Integrity is at the heart of everything we do, and it is the foundation of our work. It's about keeping our promises, being honest and fair in business and everyday life in particular.</p>
                             </div>
                             <div data-aos="fade-up">
                                 <div className='flex'>
-                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586016/codler/Vectors13_b7gsxi.png'} className='h-11'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586016/codler/Vectors13_b7gsxi.png'} className='h-10'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Amazing Environment</p>
                                 </div>
                                 <p className='text-zinc-400 pl-16 text-sm lg:px-16   font-normal tracking-normal'>All that Codlerr has to offer includes promises, global recognitions, and testaments. Besides, we value the variety of opinions, cultures, and people with the utmost respect. </p>
@@ -130,11 +129,11 @@ function Aboutus() {
                             <p className='text-white text-base tracking-wider'>PROCESS WE FOLLOW</p>
                         </div>
                         <div className='flex justify-center'>
-                        <p className='text-white text-center text-xl lg:text-4xl font-semibold tracking-wider'>Inbuilt Ux Provides<br></br> a HigherCustomer Experience<br></br> & a Greter Impact</p>
+                        <p className='text-white text-center text-xl lg:text-4xl font-semibold tracking-wide'>Inbuilt Ux Provides<br></br> a HigherCustomer Experience<br></br> & a Greter Impact</p>
 
                         </div>
                         <div className='flex justify-center'>
-                        <p className='text-zinc-200 text-center font-extralight lg:text-xl  tracking-wider'> Codlerr helps your business's portal installation of secure digital access to<br></br> improve customer engagement and, as a result, business growth.</p>
+                        <p className='text-zinc-200 text-center font-extralight lg:text-xl  tracking-wide'> Codlerr helps your business's portal installation of secure digital access to<br></br> improve customer engagement and, as a result, business growth.</p>
 
                         </div>
                     </div>
@@ -211,7 +210,7 @@ function Aboutus() {
                     <p className='pt-20 w-10/12 lg:w-7/12 mx-auto text-zinc-300  text-center text-sm lg:text-base' data-aos="fade-up">The Codlerr team of top experts can assist you with any industrial project you select, regardless of its scale or complexity. It is important for us to keep up with the latest developments in the industry in which we work.Our inventive professionals provide you with highly competent and customer-centric solutions. From small companies to multinationals, our top-notch mobile app, web development and designing services are available to businesses of all sizes.</p>
             </section>
 
-            <section className='lg:py-0'>
+            <section className='lg:py-0 md:-mt-24'>
                         <div className="blur-xl z-0 ">
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="mobile"  className="" data-aos="zoom-in" />
                             

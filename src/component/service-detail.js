@@ -116,17 +116,17 @@ function Servicedetails() {
                         (PWA) Development:</h2>
                         <p className='text-sm lg:text-base pt-4  lg:pt-8'>Codlerr is the premier cross-platform/hybrid mobile app development company, providing businesses with a variety of benefits while also allowing them to reach a larger audience via devices running different operating systems. Our cross-platform developers have a track record of creating feature-rich, cross-platform compatible hybrid apps using cross-platform and technologies like React Native and Flutter, as well as HTML5 and JavaScript.
                         </p>
-                        <p className='text-lg textlbg'>Features</p>
+                        <p className='text-lg font-bold sectionbg4'>Features</p>
                         <div className='lg:flex' data-aos="fade-right">
                     <p className='text-zinc-400 pr-8 text-3xl opacity-30 font-bold'>01</p>
                         <p className='text-white lg:text-sm ' >Whereas web and mobile apps have the same code base in the case of hybrid apps.</p>
                     </div>
-                    <hr className="textlgcolor ml-16 text-6xl" />
+                    <hr className="textlgcolor ml-16 text-6xl" style={{height:'3px'}}/>
                     <div className='lg:flex ' data-aos="fade-right">
                         <p className='text-zinc-400 pr-8 text-3xl opacity-30 font-bold'>02</p>
                         <p className='text-white lg:text-sm '>In brief, we are using various plugins, you may control numerous hardware and software capabilities.
                     </p></div>
-                    <hr className="textlgcolor  ml-16 w-46  text-6xl" />
+                    <hr className="textlgcolor  ml-16 w-46  text-6xl"style={{height:'3px'}} />
                     <div className='lg:flex ' data-aos="fade-right">
                         <p className='text-white lg:text-xl '>
                     <div className='lg:flex ' data-aos="fade-right">

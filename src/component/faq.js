@@ -11,12 +11,6 @@ import h4 from '../images/faq/Our Devoted TEAM.png';
 import drop1 from '../images/faq/drop1.png';
 import drop2 from '../images/faq/drop2.png';
 import line from '../images/faq/Line 6.png';
-
-
-
-
-
-
 function Faq() {
     useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -29,7 +23,7 @@ function Faq() {
                 <div className='w-8/12 mx-auto grid grid-cols-1 lg:grid-cols-2'>
                     <div className='pt-40 pb-28 blur-none' data-aos="fade-up">
                         <span className='flex'><img src={line} className='w-6 h-0.5 mt-2.5'></img><p className='text-white font-semibold pl-2'>FAQ</p></span>
-                        <p className='text-white text-xl lg:text-4xl tracking-wide font-semibold'>Do you hanve any question or quries, then please ask</p>
+                        <p className='text-white text-xl lg:text-3xl tracking-wide font-semibold'>Do you have any question or queries, then please ask</p>
                         <div class="pt-4 lg:pt-8">
                             <form className=''>
                                  <input className='rounded-full h-10 w-full bg-zinc-700 outline-none text-white pl-10 pr-36' type='text' placeholder=''></input>

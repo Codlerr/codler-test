@@ -42,22 +42,22 @@ function Contact() {
                     </div>
                 </div>
 
-                <div className='contact-shade' data-aos="fade-up">
+                <div className='contact-shade' style={{backgroundColor:'#800080'}} data-aos="fade-up">
                         <img src={drop1} className='absolute hidden lg:block right-20 -mt-10 w-28'></img>
                     <div className='w-10/12 lg:w-8/12 mx-auto lg:pl-4 py-8 text-white'>
                         <p className='text-2xl lg:text-4xl font-semibold'>You can always find us on</p>
                             <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-6 gap-x-16 pt-4'>
                                 <div>
-                                    <p className='text-xl lg:text-2xl font-semibold'>Bengaluru</p>
-                                    <p>Buildings Alyssa, Begonia & Clove Embassy Tech Village,Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103</p>
+                                    <p className='text-lg lg:text-2xl font-semibold'>Bengaluru</p>
+                                    <p className='text-sm md:text-sm'>Buildings Alyssa, Begonia & Clove Embassy Tech Village,Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103</p>
                                 </div>
                                 <div>
                                     <p className='text-xl lg:text-2xl font-semibold'>Info@codler.com</p>
-                                    <p>Mail us directly if any queries, we are here to help you</p>
+                                    <p className='text-sm md:text-sm'>Mail us directly if any queries, we are here to help you</p>
                                 </div>
                                 <div>
-                                    <p className='text-xl lg:text-2xl font-semibold'>+91 7012696630</p>
-                                    <p>Give us a ring if you want to talk to us</p>
+                                    <p className='text-lg lg:text-2xl font-semibold'>+91 7012696630</p>
+                                    <p className='text-sm md:text-sm'>Give us a ring if you want to talk to us</p>
                                 </div>
                             </div>
                     </div>

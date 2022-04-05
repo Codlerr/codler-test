@@ -10,8 +10,10 @@ import v5 from '../images/portfolio-images/7.png';
 import v6 from '../images/portfolio-images/8.png';
 import v7 from '../images/portfolio-images/9.jpg';
 import line from '../images/portfolio-images/Line 6.png';
+import { useNavigate } from "react-router-dom";
 import bub from '../images/portfolio-images/bubble.png';
 function Portfolio() {
+    const navigate = useNavigate('');
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
@@ -22,8 +24,8 @@ function Portfolio() {
                   <div className='w-10/12 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2'>
                       
                         <div className='pt-48 lg:pl-32' data-aos="fade-up">
-                            <p className='text-white text-3xl  lg:text-3xl font-bold'>Explore our portfolio</p>
-                            <p className='text-white text-sm lg:text-lg lg:w-3/4 lg:pt-3'> We are passionate about what we do! Our portfolio is the pure essence of success over our hard work. We have years of industry experience, collaboration, expertise, and quality results.</p>
+                            <p className='text-white text-3xl  lg:text-4xl font-bold'>Explore our portfolio</p>
+                            <p className='text-white text-sm lg:text-lg lg:w-3/4 lg:pt-1'> We are passionate about what we do! Our portfolio is the pure essence of success over our hard work. We have years of industry experience, collaboration, expertise, and quality results.</p>
                         </div>
                         <div className='pt-14 hidden lg:block lg:-ml-20'>
                             <img src={bg1} className='port-bg ' data-aos="fade-up"></img>
@@ -41,11 +43,8 @@ function Portfolio() {
               </section>
 
               <section className='w-10/12 lg:w-10/12 mx-auto pt-28 overflow-hidden' data-aos="fade-up">
-                  <div className='port-bg'>
-                                <img src={bub} className='absolute hidden lg:block animate-bounce right-0 -mt-8 w-20 lg:w-24'></img>
-                                <img src={bub} className='absolute hidden lg:block animate-bounce right-28 pt-8 w-4 lg:w-8'></img>
-                                <img src={bub} className='absolute hidden lg:block animate-bounce right-20 pt-16 w-2 lg:w-4'></img>
-                    <div className='w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2'>
+                  <div className='port-bg' style={{backgroundColor:'#800080'}}>
+                    <div className='w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2' onClick={()=>navigate('./portfolio/portfolio-details')}>
                             <div>
                                 <div className='mt-8 lg:my-24'>
                                     <span className='flex'><p className='text-white font-semibold text-xs lg:text-base' >OUR RECENT WORK</p><img src={line} className='h-0.5 mt-2.5 pl-2'></img></span>
