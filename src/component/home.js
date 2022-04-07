@@ -39,7 +39,7 @@ function Home() {
                         <h1 className="text-white text-xl lg:text-2xl mt-10 md:mt-10 font-bold ">
                         <p className='text-white text-xl lg:text-3xl md:tracking-wide' data-aos="fade-right">Creating Exceptional</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="1000">Strategies That Bring Life To Your</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="2000">Brands</p>
                             </h1>
-                            <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you !</p>
+                            <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
                             <div className=" sm:mb-0 mb-20">
                                 <div className='pt-10 lg:pt-10'>
@@ -272,8 +272,8 @@ We don’t create mere identities. We craft stories that help you tell your stor
                 <div className="md:-ml-8">
                     <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 gap-3 '>
                     <div className="flex  flex-col" data-aos="fade-left">
-                            <div className="md:w-80 w-68 text-xs md:text-sm md:p-3 ml-2 md:ml-5 md:h-72 rounded hover:scale-105 box" style={{backgroundColor:'#8B008B'}}>
-                              <div className="inline-block ml-5 md:ml-0">
+                            <div className="md:w-80 w-68 text-xs md:text-sm md:p-2 ml-2 md:h-68 rounded hover:scale-105 box" style={{backgroundColor:'#8B008B'}}>
+                              <div className="inline-block ml-3">
                                   <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
                                   <FontAwesomeIcon icon={faStar} className="text-l  text-yellow-500 " />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
@@ -283,7 +283,7 @@ We don’t create mere identities. We craft stories that help you tell your stor
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
 
                               </div>
-                              <p className="md:text-sm text-xs ml-5 md:ml-0 mt-3 text-white">Lorem Ipsum is simply dummy text of the<br /> printing and typesetting industry. <br />Lorem Ipsum has been the industry's <br />standard dummy text ever since the 1500s,</p>
+                              <p className="md:text-sm text-xs ml-3 md:ml-0 mt-3 text-white">Lorem Ipsum is simply dummy text of the<br /> printing and typesetting industry. <br />Lorem Ipsum has been the industry's <br />standard dummy text ever since the 1500s,</p>
                               <div className='flex'>
                                 <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4 ml-2 md:ml-0 mt-3 '></img>
                                      <div className='text-white text-xs md:text-sm leading-3 md:mt-3 ml-3'>
@@ -292,9 +292,9 @@ We don’t create mere identities. We craft stories that help you tell your stor
                                     </div>
                                 </div>
                           </div>
-                            <div className="w-2/3 md:w-80 ml-5 mt-3 lg:p-3 rounded hover:scale-105 md:h-64 sectionbg">
-                              <div className="inline-block ml-5 md:ml-0">
-                                  <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
+                            <div className=" md:w-80 ml-2  mt-3  rounded hover:scale-105 md:h-60 sectionbg">
+                              <div className="inline-block  ml-3">
+                                  <p className="md:text-xl text-sm mt-3 md:mt-0   text-white font-semibold">5.0</p>
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
@@ -303,7 +303,7 @@ We don’t create mere identities. We craft stories that help you tell your stor
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
 
                               </div>
-                              <p className="text-sm mt-2 text-white ml-5 md:ml-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />Lorem Ipsum has been the industry's </p>
+                              <p className="text-sm mt-2 text-white  ml-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />Lorem Ipsum has been the industry's </p>
                                <div className='flex'>
                                 <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 h-4 w-4 mt-3 ml-2 md:ml-0'></img>
                                      <div className='text-white text-sm leading-3 mt-3 ml-3'>

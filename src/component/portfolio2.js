@@ -10,9 +10,6 @@ import v2 from '../images/portfolio-images/port-inner/Pose10 1.png';
 import bub from '../images/portfolio-images/port-inner/bubble.png';
 import bubhalf from '../images/portfolio-images/port-inner/bubble1@2x 2 (1).png';
 import drop from '../images/portfolio-images/port-inner/img4@2x 1.png';
-import sl1 from '../images/portfolio-images/port-inner/Screenshot 2022-01-31 at 9.09.png';
-import sl2 from '../images/portfolio-images/port-inner/Screenshot 2022-01-31 at 4.40.png';
-import sl3 from '../images/portfolio-images/port-inner/Screenshot 2022-01-31 at 9.10.png';
 
 
 
@@ -105,6 +102,30 @@ function Portfolio2() {
                         </div>
                 </div>
             </section>
+            <section className='hidden mb-64 lg:block'>
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+             <div className="carousel-inner h-96">
+             <div className="carousel-item active w-96 ml-12 ">
+            <img className="d-block w-100" src={require('../images/portfolio-images/port-inner/screenshot.png')} alt="First slide"/>
+            </div>
+            <div className="carousel-item ">
+            <img class="d-block w-100" src={require('../images/portfolio-images/port-inner/screenshot2.png')} alt="Second slide"/>
+            </div>
+            <div class="carousel-item ">
+            <img class="d-block w-100" src={require('../images/portfolio-images/port-inner/screenshot3.png')} alt="Third slide"/>
+            </div>
+          </div>
+                   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                 </a>
+                   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
+                    </a>
+              </div>
+            </section>
+
 
 {/* 
             <section>

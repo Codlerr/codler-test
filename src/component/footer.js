@@ -17,22 +17,22 @@ function Footer() {
     return (
            <div>
                 <section>
-                        <div className='md:w-10/12  p-10 md:p-0 w-screen mx-auto md:pb-32 '>
+                        <div className='md:w-10/12 p-10 md:p-0 w-screen mx-auto md:pb-32'>
                             <div className='flex '>
                             <img src={tbubble1} className=' lg:block w-16 mt-16 lg:w-24 lg:h-24 ml-2 bubble'></img>
                             <img src={tbubble1} className=' lg:block w-8 h-8 mt-56 lg:w-16  lg:h-16 ml-2 lg:ml-4 bubble2'></img>
                             <img src={tbubble1} className='lg:block w-4 h-4 mt-80 lg:w-8 lg:h-8  ml-2 lg:ml-4  bubble3'></img>
                             </div>
-                            <div className='footerbg -mt-10 md:h-48 lg:h-56 lg:rounded-lg'>
+                            <div className='footerbg -mt-10 md:footerbg lg:rounded-lg'>
                                 <div className='w-11/12 lg:w-8/12 mx-auto grid grid-cols-2 lg:grid-cols-2 gap-4'>
-                                    <div className='p-3'>
+                                    <div className='p-2'>
                                         <p className='text-white text-xs mt-2 lg:text-3xl md:pt-8'  data-aos="fade-right">Let's focus on making<br></br>amazing things digitally.</p>
                                         <a href='#'><button class="man-btn border-slate-100  hover:bg-slate-800 text-xs lg:text-sm w-32   lg:w-44 lg:h-18 text-white border-nuetral-800 rounded lg:px-4 py-2">Discuss your project</button></a>
                                     </div>
                                     <div>
                                         
                                         {/* <img src={bgbk} className='absolute right-10 lg:right-80 lg:w-44 w-40 h-52 lg:h-60 -mt-2 lg:-mt-10'></img> */}
-                                        <img src={bgman} className='absolute right-8 lg:right-80 lg:w-44 w-32 h-40 lg:h-60 -mt-2 lg:-mt-10' data-aos="zoom-in-down"></img>
+                                        <img src={bgman} className='absolute right-8 lg:right-80 -ml-48 md:ml-0 lg:w-44 w-24 h-36 lg:h-60 -mt-2 lg:-mt-10' data-aos="zoom-in-down"></img>
                                     </div>
                                 </div>
 
