@@ -63,7 +63,7 @@ function Portfolio2() {
             <section className='port-sec3-bg'>
 
                 <div className='w-10/12 mx-auto py-20 text-white' data-aos="fade-up">
-                    <p className='text-3xl lg:text-4xl font-semibold'>The opportunity</p>
+                    <p className='text-3xl lg:text-4xl md:mt-36 lg:mt-0 font-semibold'>The opportunity</p>
                     <p className='lg:w-2/4 text-zinc-300'> AI Brilliance is a startup based on e-learning, who claims to take their business to new heights and accordingly we were able to fulfill their requirements by building a website for them to establish an online presence. Firstly they researched the industry and collaborated with Coddler to build an advanced and efficient portal within four months time  in order to create a visual centerpiece to welcome users.</p>
                 </div>
                    

@@ -44,7 +44,7 @@ function Portfolio() {
 
               <section className='w-10/12 lg:w-10/12 mx-auto pt-28 overflow-hidden' data-aos="fade-up">
                   <div className='port-bg' style={{backgroundColor:'#800080'}}>
-                    <div className='w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2' onClick={()=>navigate('./portfolio/portfolio-details')}>
+                    <div className='w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2' onClick={()=>navigate('./portfoliodetails')}>
                             <div>
                                 <div className='mt-8 lg:my-24'>
                                     <span className='flex'><p className='text-white font-semibold text-xs lg:text-base' >OUR RECENT WORK</p><img src={line} className='h-0.5 mt-2.5 pl-2'></img></span>

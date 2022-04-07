@@ -30,9 +30,9 @@ function Servicedetails() {
 
             <section className="s-inner-bg">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
-                    <div className="w-10/12 mx-auto lg:w-full text-white pt-80 lg:pt-64 lg:pl-32">
-                        <h1 className='font-bold text-3xl lg:text-4xl lg:w-3/4'data-aos="fade-right" data-aos-delay="1000">Mobile application development company</h1>
-                        <p className='text-sm lg:text-lg mt-3 font-light tracking-wider lg:w-3/4' data-aos="fade-right" data-aos-delay="2000">Codlerr's mobile app development service uses world-class technologies.</p>
+                    <div className="w-10/12 mx-auto  lg:w-full text-white md:py-96 pt-80 lg:pt-64 lg:pl-32">
+                        <h1 className='font-bold text-3xl  md:text-4xl lg:w-3/4'data-aos="fade-right" data-aos-delay="1000">Mobile application development company</h1>
+                        <p className='text-sm md:text-lg mt-3 font-light tracking-wider lg:w-3/4' data-aos="fade-right" data-aos-delay="2000">Codlerr's mobile app development service uses world-class technologies.</p>
                     </div>
                     <div className='hidden lg:block'>
                         <img src={b1} className='lg:pt-40 absolute right-0'></img>
@@ -246,7 +246,7 @@ function Servicedetails() {
 
                             {/* form */}
                            <div className='py-10' data-aos="fade-up">
-                                        <div class="md:ml-20 border-2 border-zinc-600  rounded-md">
+                                        <div class="lg:ml-20 border-2 border-zinc-600  rounded-md">
                                         <div class="p-4">
                                             <div class="text-white">
                                             <p class="text-2xl font-bold">Ready to start a Project?</p>

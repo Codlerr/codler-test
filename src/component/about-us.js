@@ -68,7 +68,7 @@ function Aboutus() {
                 </div>
             </section>
 
-            <section className='w-10/12 mx-auto py-40'>
+            <section className='w-10/12 mx-auto py-10 md:py-40'>
                 <div className='grid grid-cols-1 lg:grid-cols-3'>
                     <div data-aos="fade-right">
                         <h4 className='text-zinc-900 text-8xl font-extrabold absolute'>03</h4>
@@ -114,7 +114,7 @@ function Aboutus() {
                      
             <section className='w-11/12 lg:w-10/12 mx-auto bg-zinc-900 rounded-xl lg:mb-56'>
               
-                <div className="py-20  overflow-hidden">
+                <div className="py-10 md:py-20  overflow-hidden">
                     <div className="">
                         
                         <div className="w-full blur-2xl lg:ml-40  z-0 " data-aos="fade-left">
@@ -183,7 +183,7 @@ function Aboutus() {
                     
             </section>
                    
-            <section className='w-10/12 mx-auto my-28 '>
+            <section className='w-10/12 mx-auto mt-10 md:my-28 '>
                     <div data-aos="fade-up">
                         <p className='text-white text-4xl font-bold text-center'>Industries we serve</p>
              

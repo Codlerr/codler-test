@@ -49,7 +49,7 @@ function Blog() {
                                         <span className='flex'><img src={line} className='h-0.5 mt-2.5 pr-2'></img><p className='text-white font-semibold'>UI/ UX DESIGN</p></span>
                                         <p className='cursor-pointer text-white text-xl font-semibold' onClick={() => navigate('blog/blogdetails')}>10 Non-Trivial Design Challenge Generators for Practice UX/UI Design</p>
                                         <p className='cursor-pointer text-zinc-300 text-sm'>How I found myself in a battle of ideas with Elon Musk — (For folks who prefer to listen instead of read, you can watch a video version of this article...</p>
-                                        <div className='md:flex pt-6'>
+                                        <div className='md:flex  pt-6'>
                                             <img src={s1} className='cursor-pointer w-10'></img>
                                            <div className='flex'>
                                                 <p className='pl-0 lg:pl-3 pt-2 text-xs cursor-pointer text-zinc-400'>Hans van de Bruggen</p>

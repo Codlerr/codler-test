@@ -179,7 +179,7 @@ function Home() {
                       Our team only uses cutting-edge tools to bring out innovative solutions to help with your product strategy, design, and development. We develop web apps that are smooth, attractive, secure, and user-friendly for your business.
 </p>
                 </div>
-                      <div className="w-1/2 ml-0 md:ml-48 lg:ml-0 lg:mt-60 relative  hidden lg:block" >
+                      <div className="w-1/2 ml-0 md:ml-48 lg:ml-0 lg:mt-60 relative md:mt-96  hidden md:block" >
                           <div className="w-80  -mt-96 sectionbg3 lg:ml-48" data-aos="zoom-in-right" style={{height:'800px',width:'359px',marginTop:'-376px',zIndex:'100'}}></div>
                             <div className=" bg-gray-900 colorbox relative -ml-36 w-96  rounded drop-shadow-2xl  " style={{height:'500px',width:'500px',marginTop:'-620px',zIndex:'200'}}>
                                 <div className="grid grid-cols-2  grid-flow-col h-80 gap-2 " style={{width:'600px'}}>
