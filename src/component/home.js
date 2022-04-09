@@ -149,7 +149,7 @@ function Home() {
                 <div className='' style={{backgroundColor:'#8B008B'}} data-aos="fade-up">
                 <h1 className="text-white ml-16   md:ml-24 mt-8 text-sm tracking-widest" data-aos="fade-up">- BRANDS</h1>
                     <h2 className="text-white ml-16 md:ml-24 mt-3 text-2xl md:text-3xl tracking-wider" data-aos="fade-up">Our Happy Clients</h2>
-                    <p className="text-zinc-300 px-10 md:px-0 md:p-0 text-sm ml-3 md:ml-24 mr-5 md:mt-3 lg:pr-36" data-aos="fade-up">Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
+                    <p className="text-zinc-300 px-10 md:px-0 md:p-0 text lg:ml-24 md:mt-3 lg:pr-36" data-aos="fade-up">Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
                 
                     <div className='grid grid-cols-2 lg:grid-cols-2  md:-mt-10 gap-4 w-8/12 mx-auto  pb-10' data-aos="fade-right">
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556429/codler/jsk_tjljta.png'} className='md:w-48 h-16 mt-12 w-24 '></img>
@@ -180,7 +180,7 @@ function Home() {
 </p>
                 </div>
                       <div className="w-1/2 ml-0 md:ml-48 lg:ml-0 lg:mt-60 relative md:mt-96  hidden md:block" >
-                          <div className="w-80  -mt-96 sectionbg3 lg:ml-48" data-aos="zoom-in-right" style={{height:'800px',width:'359px',marginTop:'-376px',zIndex:'100'}}></div>
+                          <div className="w-80  -mt-96 sectionbg3 lg:ml-48" data-aos="zoom-in-right" style={{height:'800px',width:'359px',marginTop:'-396px',zIndex:'100'}}></div>
                             <div className=" bg-gray-900 colorbox relative -ml-36 w-96  rounded drop-shadow-2xl  " style={{height:'500px',width:'500px',marginTop:'-620px',zIndex:'200'}}>
                                 <div className="grid grid-cols-2  grid-flow-col h-80 gap-2 " style={{width:'600px'}}>
                                     <div data-aos="zoom-in-right ">
