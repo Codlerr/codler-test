@@ -34,7 +34,7 @@ function Home() {
         <div>
         <section className=' mainbg'>
                 <div className='w-10/12 lg:w-11/12 grid mx-auto grid-cols-1 lg:grid-cols-2 flex flex-col-reverse'>
-                        <div className='ml-0 lg:ml-16 pt-14 lg:pt-48' data-aos="fade-up">
+                        <div className='lg:ml-16 pt-14 lg:pt-48' data-aos="fade-up">
                             
                         <h1 className="text-white text-xl lg:text-2xl mt-10 md:mt-10 font-bold ">
                         <p className='text-white text-xl lg:text-3xl md:tracking-wide' data-aos="fade-right">Creating Exceptional</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="1000">Strategies That Bring Life To Your</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="2000">Brands</p>
