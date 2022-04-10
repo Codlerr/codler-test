@@ -102,7 +102,7 @@ function Portfolio2() {
                         </div>
                 </div>
             </section>
-            <section className='hidden mb-64 lg:block'>
+        {/* <section className='hidden mb-64 lg:block'>
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
              <div className="carousel-inner h-96">
              <div className="carousel-item active w-96 ml-12 ">
@@ -125,7 +125,7 @@ function Portfolio2() {
                     </a>
               </div>
             </section>
-
+*/}
 
 {/* 
             <section>

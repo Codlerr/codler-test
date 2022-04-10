@@ -44,7 +44,7 @@ function Aboutus() {
                             </div>
 
                             <div>
-                                <img src={require('../images/about-us-images/mangroup.png')} className='absolute h-96 w-96 md:ml-24 -mt-40 hidden lg:block'  data-aos="fade-up" style={{opacity:'0.5'}}></img>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649503993/codler/creative-business-team-discussing-over-the-laptop-2021-08-28-18-10-11-utc_1_v46o3a.png'} className='absolute h-96 w-96 md:ml-24 -mt-40 hidden lg:block'  data-aos="fade-up" style={{width:'500px'}}></img>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ function Aboutus() {
 
 
                      
-            <section className='w-11/12 lg:w-10/12 mx-auto bg-zinc-900 rounded-xl lg:mb-56'>
+            <section className='w-11/12 lg:w-10/12 mx-auto bg-zinc-900 rounded-xl lg:mb-36'>
               
                 <div className="py-10 md:py-20  overflow-hidden">
                     <div className="">
@@ -183,7 +183,7 @@ function Aboutus() {
                     
             </section>
                    
-            <section className='w-10/12 mx-auto mt-10 md:my-28 '>
+            <section className='w-10/12 mx-auto mt-10 md:mt-0 md:my-12 '>
                     <div data-aos="fade-up">
                         <p className='text-white text-4xl font-bold text-center'>Industries we serve</p>
              

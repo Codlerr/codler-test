@@ -27,8 +27,8 @@ function Blog() {
                     <img src={bub}  className='hidden lg:block pt-96 absolute w-16 right-28'></img>
                     <img src={bubr} className='hidden lg:block pt-40 absolute w-32 right-0'></img>
                    <div className='text-white text-center pt-64' data-aos="fade-up">
-                    <p className='font-semibold' >OUR BLOG</p>
-                    <p className='text-3xl lg:text-4xl font-bold -mt-4' data-aos="fade-up-right" data-aos-delay="400">This is where we tell stories</p>
+                    <p className='font-semibold md:mt-10 lg:mt-0' >OUR BLOG</p>
+                    <p className='text-3xl lg:text-4xl font-bold -mt-4 md:mt-20 lg:-mt-4' data-aos="fade-up-right" data-aos-delay="400">This is where we tell stories</p>
                    </div>
                    <img src={bub}  className='hidden lg:block -mt-40 absolute w-8 left-20'></img>
                     <img src={bub}  className='hidden lg:block -mt-40 absolute w-16 left-32'></img>

@@ -39,9 +39,9 @@ function Header() {
                                 <li><a href=" " onClick={() => navigate('/Aboutus')}>About us</a></li>
                                 <li><a href=" " onClick={() => navigate('/services')}>Services</a></li>
                                 <li><a href=" " onClick={() => navigate('/technology')}>Technology</a></li>
-                                <li><a href=" " onClick={() => navigate('/faq')}>Faq</a></li>
                                 <li><a href=" " onClick={() => navigate('/portfolio')}>Portfolio</a></li>
                                 <li><a href=" " onClick={() => navigate('/blog')}>Blog</a></li>
+                                <li><a href=" " onClick={() => navigate('/faq')}>Faq</a></li>
                                 <li><a href=" " onClick={() => navigate('/Contactus')}>Contact us</a></li>
                             </ul>
                         </div>
