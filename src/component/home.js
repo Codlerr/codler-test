@@ -132,7 +132,7 @@ function Home() {
          </section>    
 
 
-         <section className='bg-transparent overflow-hidden'>
+         <section className='bg-transparent'>
             <div className='grid grid-cols-3 lg:grid-cols-4 lg:-mt-16'>
             <div class="">
                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557034/codler/bulbb_gr1sci.png'} className='w-36 md:w-56 pt-0 lg:pt-10' data-aos="fade-up">
@@ -175,7 +175,7 @@ function Home() {
               <div className="p-10 bg-black">
                   <div className="grid   sm:grid-cols-1 lg:grid-cols-2  gap-60">
                   <div className='text-white md:ml-24' data-aos="fade-up">
-                <p className="  text-xl md:text-3xl text-white -ml-5 md:ml-0 font-semibold mt-16 text-2xl lg:mt-40 text-center lg:flex lg:justify-start" data-aos="fade-right" data-aos-delay="200">What we offer is</p>
+                <p className="  text-xl md:text-3xl text-white -ml-5 md:ml-0 font-semibold mt-16 text-4xl lg:mt-40 text-center lg:flex lg:justify-start" data-aos="fade-right" data-aos-delay="200">What we offer is</p>
                       <p className="px-10  md:ml-0 md:px-0 lg:pr-20 text-sm text-zinc-400 font-light ">Invest in the top-notch web and digital marketing company with your valuable and genuine ideas
                       Our team only uses cutting-edge tools to bring out innovative solutions to help with your product strategy, design, and development. We develop web apps that are smooth, attractive, secure, and user-friendly for your business.
 </p>
@@ -288,7 +288,7 @@ We don’t create mere identities. We craft stories that help you tell your stor
                               <div className='flex'>
                                 <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4 ml-2 md:ml-0 mt-3 '></img>
                                      <div className='text-white text-xs md:text-sm leading-3 md:mt-3 ml-3'>
-                                     <p>Arjun nabiyar<br/><br/>
+                                     <p>Arjun nabiyar<br/>
                                         Director,lolipop desings</p>
                                     </div>
                                 </div>
@@ -335,7 +335,7 @@ We don’t create mere identities. We craft stories that help you tell your stor
                                     </div>
                                 </div>
                           </div>
-                            <div className="w-2/3 md:w-80 md:h-68 p-3 mt-3 ml-5 md:ml-12 rounded sectionbg hover:scale-105">
+                            <div className="w-2/3 md:w-80 md:h-[259px] p-3 mt-3 ml-5 md:ml-12 rounded sectionbg hover:scale-105">
                               <div className="inline-block">
                                   <p className="text-xl  text-white font-semibold">5.0</p>
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
