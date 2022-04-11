@@ -33,13 +33,8 @@ function Faq() {
                         </div>
                     </div>
                     <div className='hidden lg:block' >
-                        <img src={bub} className='absolute  pt-12 ml-60 w-24'></img>
-                        <img src={bub} className='absolute  pt-28 ml-44 w-8'></img>
-                        <img src={bub} className='absolute  pt-40 ml-56 w-4'></img>
-                        <img src={dp} className='h-96 mt-24 ml-80 blur-none'></img>
-                        
-
-                    </div>
+                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649618103/codler/businessman-with-laptop-thinking-at-office-2021-08-26-22-49-15-utc_1_lzbmzs.png' className='h-96 mt-24 ml-36 blur-none'></img>
+                 </div>
                 </div>
             </section>
 

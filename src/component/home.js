@@ -69,10 +69,9 @@ function Home() {
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold absolute text-xl  z-0 lg:-ml-10  mt-50 bold text-zinc-700" >Web design</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold  text-xl absolute z-0   lg:mt-10 lg:ml-80  bold text-zinc-700">HTML</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold relative z-0  text-xl lg:ml-36 md:mt-36 bold text-zinc-700">Python</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl absolute z-0 relative lg:-ml-12 md:-mt-12 opacity-30 text-zinc-700">React js</p>
-                                
+                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl absolute z-0 relative lg:-ml-12 md:-mt-12 opacity-30 text-zinc-700">React js</p>   
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649514196/codler/iStock-1313253488_1_dnz9mp.png'} alt="image1" className="image1 hidden md:block absolute w-96 h-56 md:-mt-64 " data-aos="fade-up"/>
-
+                            <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649615719/codler/Ellipse_36_dv7pgn.png' alt='img' className='w-9 h-9 relative z-300 ml-4 -mt-28'/>
                             </span> 
                            
                         </div>
@@ -82,7 +81,7 @@ function Home() {
         
  
 
-        <section className='w-10/12 mx-auto -mt-36 md:mt-0 md:pt-24 lg:pt-10'>
+        <section className='w-10/12 mx-auto -mt-36 md:mt-0 md:pt-24 lg:pt-10 overflow-hidden'>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div data-aos="fade-up" className="mt-5 md:mt-10">
                         <p className='text-8xl lg:text-9xl  text-zinc-900 font-extrabold z-0 -ml-6'>01</p>
@@ -91,8 +90,8 @@ function Home() {
                         <p className='textlbg testdecoration-none text-sm font-bold no-underline mt-7'>AN ASTONISHING WORKSPACE</p>
                     </div>
                     <div className="pt-8 md:pt-0 relative md:grid-cols-2" data-aos="fade-up">
-                   
-                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649497031/codler/perfect-team-2021-09-02-03-15-29-utc_1_qdbcf6.png'} alt="img" className='md:-mt-5 ' data-aos="fade-up"/>
+                    <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649615719/codler/Ellipse_36_dv7pgn.png' alt='img' className='w-9 h-9 hidden lg:block z-300 ml-96 '/>
+                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649497031/codler/perfect-team-2021-09-02-03-15-29-utc_1_qdbcf6.png'} alt="img" className='md:-mt-12 ' data-aos="fade-up"/>
                    </div>
                    
             </div>
@@ -133,7 +132,7 @@ function Home() {
          </section>    
 
 
-         <section className='bg-transparent'>
+         <section className='bg-transparent overflow-hidden'>
             <div className='grid grid-cols-3 lg:grid-cols-4 lg:-mt-16'>
             <div class="">
                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557034/codler/bulbb_gr1sci.png'} className='w-36 md:w-56 pt-0 lg:pt-10' data-aos="fade-up">
@@ -141,12 +140,12 @@ function Home() {
             </div>
             <div class="col-span-2 md:pt-14 md:-ml-10 lg:ml-0 " data-aos="zoom-in">
             <p className="w-full font-bold mt-6 md:mt-2 text-lg md:text-2xl lg:ml-0 -ml-3  text-center text-white lg:text-4xl tracking-wider" data-aos="fade-right" data-aos-delay="200">Tell us about your ideas</p>
-            <p className="w-full -mt-5 md:mt-5 text-justify lg:text-center  text-sm overflow-hidden lg:text-sm text-zinc-400 hidden lg:block md:px-14">Share your visions and insights with us and let’s grow your business together</p>
+            <p className="w-full -mt-5 md:mt-5 text-justify lg:text-center  text-sm overflow-hidden lg:text-sm text-zinc-400 hidden lg:block md:px-16 lg:ml-10">Share your visions and insights with us and let’s grow your business together</p>
             </div>
             </div>
             </section>
 
-        <section className='w-full h-full lg:mt-5'>
+        <section className='w-full h-full lg:mt-5 overflow-hidden'>
             <div className='grid grid-cols-1 lg:grid-cols-2 relative overflow-hidden'>
                 <div className='z-20 lg:w-3/5' style={{backgroundColor:'#8B008B',height:'500px'}} data-aos="fade-up">
                 <h1 className="text-white ml-16   md:ml-24 mt-8 text-sm tracking-widest" data-aos="fade-up">- BRANDS</h1>
@@ -172,8 +171,8 @@ function Home() {
         
  
 
-        <section className="lg:h-screen md:h-full sm:h-4/5 w-full ">
-              <div className=" w-full p-10 bg-black">
+        <section className="lg:h-screen md:h-full sm:h-4/5">
+              <div className="p-10 bg-black">
                   <div className="grid   sm:grid-cols-1 lg:grid-cols-2  gap-60">
                   <div className='text-white md:ml-24' data-aos="fade-up">
                 <p className="  text-xl md:text-3xl text-white -ml-5 md:ml-0 font-semibold mt-16 text-2xl lg:mt-40 text-center lg:flex lg:justify-start" data-aos="fade-right" data-aos-delay="200">What we offer is</p>
@@ -258,8 +257,8 @@ We don’t create mere identities. We craft stories that help you tell your stor
         </section>
           
     
-        <section className=' md:h-screen md:mt-20 lg:-mt-20 p-12 md:mx-0 md:p-20'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 '>
+        <section className=' md:h-screen md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 overflow-hidden '>
                 <div data-aos="fade-down h-96">
                 <FontAwesomeIcon icon={faQuoteLeft} className="text-2xl lg:text-7xl text-gray-800 z-0" />
                     <div className='z-10 lg:-mt-24'>
@@ -315,7 +314,7 @@ We don’t create mere identities. We craft stories that help you tell your stor
                                 </div>
                           </div>
                       </div>
-                      <div className="flex flex-col md:h-64 lg:-ml-2 hidden lg:block" data-aos="fade-left">
+                      <div className="flex flex-col md:h-64 lg:-ml-12 hidden lg:block" data-aos="fade-left">
                             <div className="w-2/3 md:w-80 ml-5 md:ml-12 p-3  rounded sectionbg hover:scale-105">
                               <div className="inline-block ml-2 md:ml-0">
                                   <p className="text-xl  text-white font-semibold">5.0</p>
@@ -359,10 +358,10 @@ We don’t create mere identities. We craft stories that help you tell your stor
                       </div>
                     </div>
                  </div>
-                 <div className="md:w-screen  -ml-24 w-screen h-96 -mt-96 ">
+            </div>
+            <div className="md:w-screen  -ml-24 w-screen h-96 mt-[-65%] ">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen h-80  -mt-96 " />
                   </div>
-            </div>
         </section>
         
            
