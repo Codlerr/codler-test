@@ -160,9 +160,7 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
 .footerbg{
     background-image: url('images/lastbg.png');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    height: 30vh;
     /* border-radius: 10px; */
     
 

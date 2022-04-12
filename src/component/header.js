@@ -31,7 +31,7 @@ function Header() {
                    <div className='navbar-main'>
                    <input type="checkbox" id="active"/>
                             
-                        <img onClick={() => navigate('/')} src={logo} className='z-50 absolute w-32 h-9 lg:w-40 lg:h-11 ml-7 lg:ml-28 mt-7 lg:mt-6 cursor-pointer'></img>
+                        <img onClick={() => navigate('/')} src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649676291/codler/White_jgawtg.png'} className='z-50 absolute w-32 h-16 lg:w-40 lg:h-[60px] ml-7 lg:ml-28 mt-7 lg:mt-6 cursor-pointer'></img>
                         <label for="active" className="menu-btn md:mr-0"><i className="fas fa-bars"></i></label>
                         <div class="wrapper">
                             <ul>

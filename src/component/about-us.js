@@ -13,8 +13,8 @@ function Aboutus() {
             <section className='main-content'>
                 <div className='w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2  pt-40' data-aos="fade-up">
                     <div>
-                    <p className="text-white text-3xl lg:text-3xl md:pt-16 font-bold" data-aos="fade-right" data-aos-delay="200" >Want to know more<br></br> about<span className='pl-2 textlbg'>codlerr</span></p>
-                        <p className="lg:text-lg text-base tracking-tight  lg:w-2/3  text-zinc-200">We are the perfect professional team of designers and developers for you. Codlerr is a top website and mobile app development
+                    <p className="text-white text-3xl lg:text-3xl md:pt-16 font-bold" data-aos="fade-right" data-aos-delay="200" >Want to know more<br></br> about<span className='pl-2 textlbg'>codler</span></p>
+                        <p className="lg:text-lg text-base tracking-tight  lg:w-2/3  text-zinc-200">We are the perfect professional team of designers and developers for you. Codler xz is a top website and mobile app development
                    company. In addition to empower our client sincerely by developinfg full customized mobile and web-based digital solution is our mission.</p>
                     
                         <div className='hidden lg:block'>
@@ -76,13 +76,13 @@ function Aboutus() {
                     <div data-aos="fade-right">
                         <h4 className='text-zinc-900 text-8xl font-extrabold absolute'>03</h4>
                         <p className='text-white relative text-sm font-semibold tracking-widest pt-12'>- OUR STRENGTH</p>
-                        <p className='text-white relative text-4xl font-semibold tracking-wide'>Our core value</p>
+                        <p className='text-white relative text-2xl md:text-4xl font-semibold '>Our core value</p>
                     </div>
                     <div className='col-span-2'>
                         <div className='grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-y-8 lg:gap-y-14' >
                             <div data-aos="fade-up">
                                 <div className='flex pt-10 lg:pt-0'>
-                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585975/codler/Union_h18vh6.png'} className='h-10'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585975/codler/Union_h18vh6.png'} className='h-8 md:h-10 '></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Client satisfaction<br></br> at its highest level</p>
                                 </div>
                                 <p  className='text-zinc-400 pl-14 text-sm lg:px-14  font-normal tracking-normal'>Specifically having satisfied clients accounts for our success. It is a core part of our strategy. This kind of praise is pure bliss to us, so that we'd like to hear it more often. It's a never-ending desire in us - it's built-in to our DNA.</p>
@@ -92,21 +92,21 @@ function Aboutus() {
                                     <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585993/codler/Vectors16_ssimsk.png'} className='h-10 mt-1'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Approach with<br></br> a Vision</p>
                                 </div>
-                                <p className='text-zinc-400 pl-12  lg:px-12 text-sm  font-normal tracking-normal'>Our performance is dependent on our vision and how we make it a reality. We follow our ideals throughout the whole process, from recruiting to exceptional outputs. We realize the necessity of meeting client expectations in order to provide high-quality products.</p>
+                                <p className='text-zinc-400 pl-12 lg:px-12 text-sm  font-normal tracking-normal'>Our performance is dependent on our vision and how we make it a reality. We follow our ideals throughout the whole process, from recruiting to exceptional outputs. We realize the necessity of meeting client expectations in order to provide high-quality products.</p>
                             </div>
                             <div data-aos="fade-up">
                                 <div className='flex'>
                                     <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586005/codler/Vectors17_dzs170.png'} className='h-10'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Genuity</p>
                                 </div>
-                                <p className='text-zinc-400 pl-14 text-sm lg:px-14   font-normal tracking-normal'>Integrity is at the heart of everything we do, and it is the foundation of our work. It's about keeping our promises, being honest and fair in business and everyday life in particular.</p>
+                                <p className='text-zinc-400 pl-12 md:pl-10 text-sm lg:px-14   font-normal tracking-normal'>Integrity is at the heart of everything we do, and it is the foundation of our work. It's about keeping our promises, being honest and fair in business and everyday life in particular.</p>
                             </div>
                             <div data-aos="fade-up">
                                 <div className='flex'>
                                     <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586016/codler/Vectors13_b7gsxi.png'} className='h-10'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Amazing Environment</p>
                                 </div>
-                                <p className='text-zinc-400 pl-16 text-sm lg:px-16   font-normal tracking-normal'>All that Codlerr has to offer includes promises, global recognitions, and testaments. Besides, we value the variety of opinions, cultures, and people with the utmost respect. </p>
+                                <p className='text-zinc-400 pl-12  text-sm lg:px-16   font-normal tracking-normal'>All that Codlerr has to offer includes promises, global recognitions, and testaments. Besides, we value the variety of opinions, cultures, and people with the utmost respect. </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ function Aboutus() {
 
                         </div>
                         <div className='flex justify-center'>
-                        <p className='text-zinc-200 text-center font-extralight lg:text-xl  tracking-wide'> Codlerr helps your business's portal installation of secure digital access to<br></br> improve customer engagement and, as a result, business growth.</p>
+                        <p className='text-zinc-200 text-center font-extralight text-xs lg:text-xl  tracking-wide'> Codlerr helps your business's portal installation of secure digital access to<br/> improve customer engagement and, as a result, business growth.</p>
 
                         </div>
                     </div>
@@ -210,7 +210,7 @@ function Aboutus() {
                             </div>
                             
                     </div>
-                    <p className='pt-20 w-10/12 lg:w-7/12 mx-auto text-zinc-300  text-center text-sm lg:text-base' data-aos="fade-up">The Codlerr team of top experts can assist you with any industrial project you select, regardless of its scale or complexity. It is important for us to keep up with the latest developments in the industry in which we work.Our inventive professionals provide you with highly competent and customer-centric solutions. From small companies to multinationals, our top-notch mobile app, web development and designing services are available to businesses of all sizes.</p>
+                    <p className='pt-20 w-10/12 lg:w-7/12 mx-auto text-zinc-300  text-center text-xs lg:text-base' data-aos="fade-up">The Codlerr team of top experts can assist you with any industrial project you select, regardless of its scale or complexity. It is important for us to keep up with the latest developments in the industry in which we work.Our inventive professionals provide you with highly competent and customer-centric solutions. From small companies to multinationals, our top-notch mobile app, web development and designing services are available to businesses of all sizes.</p>
             </section>
 
             <section className='lg:py-0 md:-mt-24'>
