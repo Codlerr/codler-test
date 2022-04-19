@@ -35,3 +35,35 @@
           fields4:'Boost up your business growth'
       },
     ]
+     export const images=[{
+         name:"kiran",
+         designation:'developer',
+         url:require('../images/teams/image 1.jpg')
+
+     },
+     {
+        name:"kiran2",
+        designation:'developer2',
+        url:require('../images/teams/image 2.jpg')
+
+    },
+    {
+        name:"kiran3",
+        designation:'developer3',
+        url:require('../images/teams/image 3.jpg')
+
+    },
+    {
+        name:"kiran1",
+        designation:'developer1',
+        url:require('../images/teams/Image 4.jpg')
+
+    },
+    {
+        name:"kiran4",
+        designation:'developer',
+        url:require('../images/teams/Image 5.jpg')
+
+    },
+    
+    ]

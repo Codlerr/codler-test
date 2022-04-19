@@ -15,6 +15,8 @@ import Portfolio from './component/portfolio';
 import Portfolioinner from './component/portfolio2';
 import Blogdetails from './component/blog-details';
 import OnClickMobile from './component/onclick-mobile';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
       <div className="bg-black  h-full w-full  ">

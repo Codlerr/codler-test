@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { services } from '../constants/constants';
+import Imageslider from './slider';
 
 
 function Home() {
@@ -61,7 +62,7 @@ function Home() {
                         </div>
                         <div className='bg-gray-800 opacity-50 ml-96 relative w-56 h-screen hidden lg:block' style={{height:'850px'}}>
                         </div>
-                        <div className='mt-8 md:-ml-48 flex hidden lg:block justify-center'> 
+                        <div className='mt-12 md:-ml-48 flex hidden lg:block justify-center'> 
                         <span className='' >     
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl relative z-0 absolute lg:ml-56 lg:top-36 text-zinc-700" >CSS</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl relative z-0 absolute lg:mt-36 lg:pl-16  bold text-zinc-700" >Javascript</p>
@@ -146,23 +147,26 @@ function Home() {
 
         <section className='w-full h-full lg:mt-5 overflow-hidden'>
             <div className='grid grid-cols-1 lg:grid-cols-2 relative overflow-hidden'>
-                <div className='z-20 lg:w-3/5' style={{backgroundColor:'#8B008B',height:'500px'}} data-aos="fade-up">
-                <h1 className="text-white ml-16   md:ml-24 mt-8 text-sm tracking-widest" data-aos="fade-up">- BRANDS</h1>
+                <div className='z-20 lg:w-3/5 ' style={{backgroundColor:'#000',height:'500px'}} data-aos="fade-up">
+                <h1 className="text-white ml-16  mt-20  md:ml-24 mt-8 text-sm tracking-widest" data-aos="fade-up">- BRANDS</h1>
                     <h2 className="text-white ml-16 md:ml-24 mt-3 text-2xl md:text-3xl tracking-wider" data-aos="fade-up">Our Happy Clients</h2>
-                    <p className="text-zinc-300 px-10 md:px-0 md:p-0 text-xs md:mr-12 lg:mr-0  md:ml-24 md:mt-3 lg:pr-36"
+                    <p className="text-zinc-300 px-10 md:px-0 md:p-0 text-xs md:mr-12 lg:mr-0  md:ml-24 md:mt-3 lg:pr-36 leading-5"
                      data-aos="fade-up">Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
-                    <div className='grid grid-cols-3 lg:grid-cols-3  md:-mt-10 gap-4 w-8/12 mx-auto  pb-10' data-aos="fade-right">
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703089/codler/Group_260_uxfom5.png'} className='md:w-[45%] h-[40%]  w-12 h-10 mt-16 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='md:w-20 mt-16 w-36 h-12 md:h-10'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703656/codler/Group_3990_1_gjtw1g.png'} className='w-36 h-10 mt-16 md:w-48 md:h-10 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703940/codler/Group_1682_godhzj.png'} className=' w-12 h-10 mt-5  md:w-16 md:h-16'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704073/codler/U_GRAB_FINAL_PDF-01_1_1_lgfsu6.png'} className=' w-24 h-10  mt-5 md:w-28 md:h-16'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704176/codler/CEANOR_1_1_1_1_mebevp.png'} className=' w-36 h-12 mt-5 md:w-48 md:h-16 '></img>
+                    <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%]  md:-mt-10 gap-4 md:w-8/12 mx-auto  pb-10' data-aos="fade-right">
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703089/codler/Group_260_uxfom5.png'} className='md:w-[20] h-[20]  w-12 h-10 mt-16 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='md:w-24 mt-16 -ml-8 md:-ml-24 w-36 h-10 md:h-10'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703656/codler/Group_3990_1_gjtw1g.png'} className='w-96 h-10 mt-16 -ml-8 md:-ml-32 md:w-[800px] md:h-10 '></img>
+                    </div>
+                    <div className='grid grid-cols-4 lg:grid-cols-4 -mt-10 gap-2 w-8/12 mx-auto  pb-10' data-aos="fade-right">
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703940/codler/Group_1682_godhzj.png'} className=' w-12 h-10 mt-5  md:w-8 md:h-8'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704073/codler/U_GRAB_FINAL_PDF-01_1_1_lgfsu6.png'} className=' w-36 h-10  mt-5 md:mt-0  md:w-24 md:h-10 md:-ml-16'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/Group_2028_jlc1se.png'} className='md:w-24 md:h-9 md:mt-12 mt-16 lg:mt-5 md:-ml-20 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704176/codler/CEANOR_1_1_1_1_mebevp.png'} className=' w-56 h-10 mt-5 md:w-24 md:h-10 md:-ml-24 '></img>
                     </div>
                 </div>
 
             <div>
-                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557602/codler/businessagmnt_fciszm.jpg'} className='lg:h-[520px] h-80' data-aos="fade-up"></img>
+                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557602/codler/businessagmnt_fciszm.jpg'} className='lg:h-[520px] h-80 mt-10 md:mt-0 md:ml-36 lg:ml-0' data-aos="fade-up"></img>
                 </div>  
             </div>
         </section>
@@ -257,7 +261,7 @@ We don’t create mere identities. We craft stories that help you tell your stor
         </section>
           
     
-        <section className=' md:h-screen -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
+        <section className=' lg:h-screen -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
             <div className='grid grid-cols-1  md:grid-cols-2 overflow-hidden '>
                 <div data-aos="fade-down h-96">
                 <FontAwesomeIcon icon={faQuoteLeft} className="text-2xl lg:text-7xl text-gray-800 z-0" />
@@ -363,7 +367,12 @@ We don’t create mere identities. We craft stories that help you tell your stor
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen h-80  -mt-96 " />
                   </div>
         </section>
-        
+        <section className='bg-[#191919] h-full w-full px-10 md:px-24 md:py-4  py-10 lg:my-20'>
+            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/img4_2x_1_3_qfxnu0.png'} className='w-20 h-20 -ml-24 -mt-12'/>
+            <div>
+            <Imageslider/>
+            </div>
+        </section>
            
 
 
