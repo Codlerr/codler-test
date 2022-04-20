@@ -40,7 +40,7 @@ function Home() {
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-10 font-bold ">
                         <p className='text-white text-xl lg:text-3xl md:tracking-wide' data-aos="fade-right">The Most</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="1000">Relaible Development</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="2000">Company</p>
                             </h1>
-                            <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you !</p>
+                            <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
                             <div className=" sm:mb-0 mb-20">
                                 <div className='pt-10 lg:pt-10'>
