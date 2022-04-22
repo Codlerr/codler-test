@@ -65,5 +65,11 @@
         url:require('../images/teams/Image 5.jpg')
 
     },
+    {
+        name:"kiran4",
+        designation:'developer',
+        url:require('../images/teams/Image 6.jpg')
+
+    },
     
     ]

@@ -33,12 +33,12 @@ function Home() {
       }
     return (
         <div>
-        <section className=' mainbg md:h-full lg:h-screen'>
+        <section className=' mainbg sm:h-full md:h-full lg:h-screen'>
                 <div className='w-10/12 lg:w-11/12 grid mx-auto grid-cols-1 md:grid-cols-3 flex flex-col-reverse'>
                         <div className='lg:ml-16 pt-12 lg:pt-48' data-aos="fade-up">
                             
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-10 font-bold ">
-                        <p className='text-white text-xl lg:text-3xl md:tracking-wide' data-aos="fade-right">The Most</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="1000">Relaible Development</p> <p class='text-white text-xl lg:text-3xl -mt-3 md:tracking-wide' data-aos="fade-right" data-aos-delay="2000">Company</p>
+                        <p className='text-white text-xl lg:text-3xl md:tracking-wide' data-aos="fade-right"> Creating Stratergies</p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"> That Bring Life To</p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200">Your Brands</p>
                             </h1>
                             <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
@@ -81,12 +81,12 @@ function Home() {
         
  
 
-        <section className='w-10/12 mx-auto -mt-36 md:mt-0 md:pt-24 lg:pt-10 overflow-hidden'>
+        <section className='w-10/12 mx-auto xs:mt-5 sm:-mt-12 md:mt-0 md:pt-24 lg:pt-10 overflow-hidden'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div data-aos="fade-up" className="mt-5 md:mt-10">
                         <p className='text-8xl lg:text-9xl  text-zinc-900 font-extrabold z-0 -ml-6'>01</p>
                         <p className='text-white text-2xl md:text-4xl font-semibold lg:font-bold -mt-20 lg:-mt-24' data-aos="fade-right" data-aos-delay="200">A little about us</p>
-                        <p className='text-white text-sm md:text-sm lg:w-3/4'>We are a team of innovative minds handpicked to provide app, web and digital media solutions for your business that will help you achieve your current and future goals. We transform visionaries into digital products with care and ease, helping you focus on what matters to your business and customers. Codlerr is uniquely positioned to deliver strategic and results-driven services.</p>
+                        <p className='text-white text-xs md:text-sm lg:w-3/4'>We are a team of innovative minds handpicked to provide app, web and digital media solutions for your business that will help you achieve your current and future goals. We transform visionaries into digital products with care and ease, helping you focus on what matters to your business and customers. Codlerr is uniquely positioned to deliver strategic and results-driven services.</p>
                         <p className='textlbg testdecoration-none text-sm font-bold no-underline mt-7'>AN ASTONISHING WORKSPACE</p>
                     </div>
                     <div className="pt-8 md:pt-0 relative md:grid-cols-2" data-aos="fade-up">
@@ -154,19 +154,19 @@ function Home() {
                      data-aos="fade-up">Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
                     <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%]  md:-mt-10 gap-4 md:w-8/12 mx-auto  pb-10' data-aos="fade-right">
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703089/codler/Group_260_uxfom5.png'} className='md:w-[20] h-[20]  w-12 h-10 mt-16 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='md:w-24 mt-16 -ml-8 md:-ml-24 w-36 h-10 md:h-10'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703656/codler/Group_3990_1_gjtw1g.png'} className='w-96 h-10 mt-16 -ml-8 md:-ml-32 md:w-[800px] md:h-10 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='md:w-24 mt-16 xs:ml-0 sm:-ml-8 md:-ml-24 w-36 h-10 md:h-10'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703656/codler/Group_3990_1_gjtw1g.png'} className='w-96 h-10 mt-16 xs:ml-0 sm:-ml-8 md:-ml-32 md:w-[800px] md:h-10 '></img>
                     </div>
                     <div className='grid grid-cols-4 lg:grid-cols-4 -mt-10 gap-2 w-8/12 mx-auto  pb-10' data-aos="fade-right">
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703940/codler/Group_1682_godhzj.png'} className=' w-12 h-10 mt-5  md:w-8 md:h-8'></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704073/codler/U_GRAB_FINAL_PDF-01_1_1_lgfsu6.png'} className=' w-36 h-10  mt-5 md:mt-0  md:w-24 md:h-10 md:-ml-16'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/Group_2028_jlc1se.png'} className='md:w-24 md:h-9 md:mt-12 mt-16 lg:mt-5 md:-ml-20 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/Group_2028_jlc1se.png'} className='md:w-24 md:h-9 md:mt-12 mt-16 lg:mt-12 md:-ml-20 '></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704176/codler/CEANOR_1_1_1_1_mebevp.png'} className=' w-56 h-10 mt-5 md:w-24 md:h-10 md:-ml-24 '></img>
                     </div>
                 </div>
 
             <div>
-                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557602/codler/businessagmnt_fciszm.jpg'} className='lg:h-[520px] h-80 mt-10 md:mt-0 md:ml-36 lg:ml-0' data-aos="fade-up"></img>
+                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557602/codler/businessagmnt_fciszm.jpg'} className='lg:h-[520px] h-80 mt-20 md:mt-0 md:ml-36 lg:ml-0' data-aos="fade-up"></img>
                 </div>  
             </div>
         </section>
@@ -175,17 +175,17 @@ function Home() {
         
  
 
-        <section className="lg:h-screen md:h-full sm:h-4/5">
+        <section className="lg:h-screen h-full  md:h-full">
               <div className="p-10 bg-black">
                   <div className="grid   sm:grid-cols-1 lg:grid-cols-2  gap-60">
                   <div className='text-white md:ml-24' data-aos="fade-up">
                 <p className=" md:text-3xl text-white -ml-5 md:ml-0 font-semibold mt-16 text-3xl lg:mt-40 text-center lg:flex lg:justify-start" data-aos="fade-right" data-aos-delay="200">What we offer is</p>
-                      <p className="px-10  md:ml-0 md:px-0 lg:pr-20 text-sm text-zinc-400 font-light ">Invest in the top-notch web and digital marketing company with your valuable and genuine ideas
+                      <p className="sm:px-10  md:ml-0 md:px-0 lg:pr-20 text-sm text-zinc-400 font-light ">Invest in the top-notch web and digital marketing company with your valuable and genuine ideas
                       Our team only uses cutting-edge tools to bring out innovative solutions to help with your product strategy, design, and development. We develop web apps that are smooth, attractive, secure, and user-friendly for your business.
 </p>
                 </div>
                       <div className="w-1/2 ml-0 md:ml-48 lg:ml-0 lg:mt-60 relative md:mt-96 hidden lg:block" >
-                          <div className="w-80  -mt-96 sectionbg3 lg:ml-48" data-aos="zoom-in-right" style={{height:'690px',width:'359px',marginTop:'-280px',zIndex:'100'}}></div>
+                          <div className="w-80  -mt-96 sectionbg3 lg:ml-8 xl:ml-48" data-aos="zoom-in-right" style={{height:'690px',width:'359px',marginTop:'-280px',zIndex:'100'}}></div>
                             <div className=" bg-gray-900 colorbox relative -ml-36 w-96  rounded drop-shadow-2xl  " style={{height:'500px',width:'500px',marginTop:'-600px',zIndex:'200'}}>
                                 <div className="grid grid-cols-2  grid-flow-col h-80 gap-2 " style={{width:'600px'}}>
                                     <div data-aos="zoom-in-right ">
@@ -209,7 +209,7 @@ function Home() {
                       </div>
 
                       </div>
-                      <img src={require('../images/about-us-images/img3.png')} className='w-96 h-64 ml-12 overflow-hidden colorbubble -mt-96 hidden lg:block'/>
+                      <img src={require('../images/about-us-images/img3.png')} className='w-96 h-64 ml-12 overflow-hidden colorbubble -mt-96 hidden xl:block'/>
 
 </div>
               </div>
@@ -234,23 +234,23 @@ function Home() {
                 </div>
                 <div className='col-span-2'>
                     <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 '>
-                        <div className='lg:p-10 pt-10 lg:pt-0' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0' data-aos="fade-up">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/startergy_kvcx48.png'} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Stratergy</h2>
                         <p className="text-white text-xs lg:pr-20  mt-3">Human focused approach to build the best strategy. Our team works collectively to develop strategies that bridge the gap between you and your audience.</p>
                         </div>
-                        <div className='lg:p-10 pt-10 lg:pt-0' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0' data-aos="fade-up">
                         <img src={require('../images/design.png')} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Design</h2>
                         <p className="text-white text-xs lg:pr-20  mt-3"> With our meticulous research, we create innovative designs for that delight and engage users. Whether a logo, website, print collateral, or other branding, the results of the design process will be responsible for creating your brand’s first impression</p>
                         </div>
-                        <div className='lg:p-10 pt-10 lg:pt-0' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0' data-aos="fade-up">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556429/codler/marketing_wdpffh.png'} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Marketing</h2>
                         <p className="text-white text-xs lg:pr-20  mt-3">Creating a defined awareness between you and your customer, for a lasting impression.
-We don’t create mere identities. We craft stories that help you tell your story in a way that makes it stand out.</p>
+                        We don’t create mere identities. We craft stories that help you tell your story in a way that makes it stand out.</p>
                         </div>
-                        <div className='lg:p-10 pt-10 lg:pt-0' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0' data-aos="fade-up">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556743/codler/development_awauy4.png'} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Development</h2>
                         <p className="text-white text-xs lg:pr-20  mt-3 mb-20 lg:mb-0">Whether we have designed a new site or we’re looking to make updates to an existing web or print work, the development stage is where we get into the nuts and bolts of the project. We know what we’re there to do, and we’re ready to do it.</p>
@@ -367,7 +367,7 @@ We don’t create mere identities. We craft stories that help you tell your stor
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen h-80  -mt-96 " />
                   </div>
         </section>
-        <section className='bg-[#191919] h-full w-full px-10 md:px-24 md:py-4  py-10 lg:my-20'>
+        <section className='bg-[#191919] h-full w-full xs:px-0 sm:px-10 md:px-24 md:py-4  py-10 lg:my-20'>
             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/img4_2x_1_3_qfxnu0.png'} className='w-20 h-20 -ml-24 -mt-12'/>
             <div>
             <Imageslider/>

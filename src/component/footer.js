@@ -1,12 +1,10 @@
-import react from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import tbubble1 from '../images/tbubble.jpg';
-import log from '../images/White.png';
 import bgman from '../images/bgman.png';
 import '../App.css';
-import { Link, useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 
 function Footer() {
@@ -23,10 +21,10 @@ function Footer() {
                             <img src={tbubble1} className=' lg:block w-8 h-8 mt-56 lg:w-16  lg:h-16 ml-2 lg:ml-4 bubble2'></img>
                             <img src={tbubble1} className='lg:block w-4 h-4 mt-80 lg:w-8 lg:h-8  ml-2 lg:ml-4  bubble3'></img>
                             </div>
-                            <div className='footerbg -mt-10 lg:h-48 lg:rounded-lg'>
+                            <div className='footerbg -mt-10 xs:h-[20%] lg:h-48 lg:rounded-lg'>
                                 <div className=' mx-auto grid grid-cols-2 lg:grid-cols-2 gap-4'>
-                                    <div className='p-[15%] lg:p-12 lg:ml-24'>
-                                        <p className='text-white text-xs lg:text-2xl '  data-aos="fade-right">Let's focus on making<br></br>amazing things digitally.</p>
+                                    <div className='p-[15%] xl:p-12  lg:ml-24'>
+                                        <p className='text-white text-xs lg:-mt-8 xl:mt-0 lg:text-xl xl:text-2xl '  data-aos="fade-right">Let's focus on making<br></br>amazing things digitally.</p>
                                         <a href='#'><button class="man-btn border-slate-100 md:mb-0 hover:bg-slate-800 text-xs lg:text-sm w-32 h-[30%]  lg:w-44 lg:h-18 text-white border-nuetral-800 rounded lg:px-4 ">Discuss your project</button></a>
                                     </div>
                                     <div>
@@ -84,7 +82,7 @@ function Footer() {
                  </footer>
                  <section className=' bg-zinc-900'>
                      <div className='w-10/12 mx-auto h-14 py-2 flex'>
-                         <img src={log} className='w-20 h-7 lg:w-28 lg:h-8'></img>
+                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649676291/codler/White_jgawtg.png'} className='w-16 h-7 lg:mt-[3px] lg:w-24 xl:h-8'></img>
                          <a href='#' className='no-underline text-zinc-500 hover:text-zinc-400 py-1.5  pl-2 text-xs lg:text-base '><p>2021 codlerr Inc. all rights reserved</p></a>
                      </div>
                  </section>
