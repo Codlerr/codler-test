@@ -36,40 +36,41 @@
       },
     ]
      export const images=[{
-         name:"kiran",
-         designation:'developer',
-         url:require('../images/teams/image 1.jpg')
+         name:"N Manasa",
+         designation:'Senior Content Writer',
+         url:require('../images/teams/Image 4.jpg')
 
      },
      {
-        name:"kiran2",
-        designation:'developer2',
+        name:"Rashid PK",
+        designation:'Web Developer',
         url:require('../images/teams/image 2.jpg')
 
     },
     {
-        name:"kiran3",
-        designation:'developer3',
-        url:require('../images/teams/image 3.jpg')
+        name:"Suha Fazal",
+        designation:'Social Media Marketer',
+        url:require('../images/teams/Image 6.jpg')
 
     },
     {
-        name:"kiran1",
-        designation:'developer1',
-        url:require('../images/teams/Image 4.jpg')
+        name:"Mirza Sadique",
+        designation:'Intern',
+        url:require('../images/teams/image 1.jpg')
 
     },
     {
-        name:"kiran4",
-        designation:'developer',
+        name:"Noora Latheef",
+        designation:'Web Developer',
         url:require('../images/teams/Image 5.jpg')
 
     },
     {
-        name:"kiran4",
-        designation:'developer',
-        url:require('../images/teams/Image 6.jpg')
+        name:"Haniyya Hessa Sharfu",
+        designation:'Intern',
+        url:require('../images/teams/image 3.jpg')
 
     },
     
     ]
+   

@@ -2,15 +2,10 @@ import react from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link, useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
-import { Transition } from "@headlessui/react";
-import { button,form,nav} from 'react-bootstrap';
-import logo from '../images/White.png';
-import menu from '../images/heading/menuclick.png';
+
 
 
 
@@ -41,6 +36,7 @@ function Header() {
                                 <li><a href=" " onClick={() => navigate('/technology')}>Technology</a></li>
                                 <li><a href=" " onClick={() => navigate('/portfolio')}>Portfolio</a></li>
                                 <li><a href=" " onClick={() => navigate('/blog')}>Blog</a></li>
+                                <li><a href=" " onClick={() => navigate('/teams')}>Our Team</a></li>
                                 <li><a href=" " onClick={() => navigate('/faq')}>Faq</a></li>
                                 <li><a href=" " onClick={() => navigate('/Contactus')}>Contact us</a></li>
                             </ul>

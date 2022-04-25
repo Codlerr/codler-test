@@ -32,37 +32,37 @@ export default function Imageslider() {
         </div>
         </div>
         
-      <div className="w-[100%] mt-5 lg:mt-5 xs:px-0 sm:px-6 md:px-0">
+      <div className="w-[100%] mt-5 lg:mt-5 xs:w-96 md:w-full xs:-ml-3 sm:ml-0 sm:px-6 md:px-0">
         <Slider ref={sliderRef} arrows={false} slidesToShow={4} {...settings}>
         <div>
-          <img src={images[3].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-sm'/>
+          <img src={images[0].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-sm'/>
           <p className="text-white font-semibold text-sm ml-24 mt-1">N Manasa</p>
           <p className="textlbg font-semibold text-xs ml-[70px] -mt-4">Senior Content Writer</p>
           </div>
           <div>
-          <img src={images[5].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-sm'/>
-          <p className="text-white font-semibold text-sm ml-24 mt-1">Suha Fazal</p>
+          <img src={images[1].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-sm'/>
+          <p className="text-white font-semibold text-sm ml-24 mt-1">Rashid PK</p>
+          <p className="textlbg font-semibold text-xs ml-[90px] -mt-4">Web Developer</p>
+          </div>
+          <div className="">
+          <img src={images[2].url} alt='image' className='w-[227px] h-[228px] ml-2 rounded-sm'/>
+          <p className="text-white font-semibold text-sm ml-20 mt-1">Suha Fazal</p>
           <p className="textlbg font-semibold text-xs ml-[70px] -mt-4">Social Media Marketer</p>
           </div>
-          <div>
-          <img src={images[1].url} alt='image' className='w-[227px] h-[228px] ml-2 rounded-sm'/>
-          <p className="text-white font-semibold text-sm ml-20 mt-1">Rashid PK</p>
-          <p className="textlbg font-semibold text-xs ml-[70px] -mt-4">Web Developer</p>
-          </div>
           <div className='ml-3 md:ml-0'>
-            <img src={images[0].url} alt='image' className='w-[227px] h-[228px] rounded-sm'/>
+            <img src={images[3].url} alt='image' className='w-[227px] h-[228px] rounded-sm'/>
             <p className="text-white font-semibold text-sm ml-16 mt-1">Mirza Sadique</p>
             <p className="textlbg font-semibold text-xs ml-[90px] -mt-4"> Intern</p>
           </div>
           <div>
-          <img src={images[2].url} alt='image' className='w-[227px] h-[228px] ml-3 rounded-sm'/>
-          <p className="text-white font-semibold text-sm ml-10 mt-1">Haniyya Hessa Sharfu</p>
-          <p className="textlbg font-semibold text-xs ml-24 -mt-4">Intern</p>
-          </div>
-          <div>
-          <img src={images[4].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-sm'/>
+          <img src={images[4].url} alt='image' className='w-[227px] h-[228px] ml-3 rounded-sm'/>
           <p className="text-white font-semibold text-sm ml-20 mt-1">Noora Latheef</p>
           <p className="textlbg font-semibold text-xs ml-20 -mt-4">Web Developer</p>
+          </div>
+          <div>
+          <img src={images[5].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-sm'/>
+          <p className="text-white font-semibold text-sm ml-20 mt-1">Haniyya Hessa Sharfu</p>
+          <p className="textlbg font-semibold text-xs ml-[130px] -mt-4">Intern</p>
           </div>
         </Slider>
       </div>

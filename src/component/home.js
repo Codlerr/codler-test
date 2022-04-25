@@ -367,7 +367,7 @@ function Home() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen h-80  -mt-96 " />
                   </div>
         </section>
-        <section className='bg-[#191919] h-full w-full xs:px-0 sm:px-10 md:px-24 md:py-4  py-10 lg:my-20'>
+        <section className='bg-[#191919] h-full w-full xs:px-0 sm:px-10 md:px-24 md:py-4  py-10 lg:my-20' >
             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/img4_2x_1_3_qfxnu0.png'} className='w-20 h-20 -ml-24 -mt-12'/>
             <div>
             <Imageslider/>

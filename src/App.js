@@ -15,6 +15,7 @@ import Portfolio from './component/portfolio';
 import Portfolioinner from './component/portfolio2';
 import Blogdetails from './component/blog-details';
 import OnClickMobile from './component/onclick-mobile';
+import Teams from './component/teams';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 function App() {
@@ -34,6 +35,7 @@ function App() {
               <Route element={<Blog />} path='/blog' />
               <Route element={<Blogdetails />} path='/blog/blogdetails' />
               <Route element={<OnClickMobile />} path='/technology/onclickmobile' />
+              <Route element={<Teams />} path='/teams' />
 
               </Routes>
           <Footer />
