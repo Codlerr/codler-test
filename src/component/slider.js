@@ -32,7 +32,7 @@ export default function Imageslider() {
         </div>
         </div>
         
-      <div className="w-[100%] mt-5 lg:mt-5 xs:w-96 md:w-full xs:-ml-3 sm:ml-0 sm:px-6 md:px-0">
+      <div className=" mt-5 lg:mt-5 md:w-full xs:-ml-3 sm:ml-0 sm:px-6 md:px-0">
         <Slider ref={sliderRef} arrows={false} slidesToShow={4} {...settings}>
         <div>
           <img src={images[0].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-sm'/>

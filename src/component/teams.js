@@ -24,7 +24,7 @@ function Teams() {
         <div>
             
                                                                        
-                <section className=''>
+                <section className='h-96'>
                     <div className=''>
                     <img src={shade} className='blur-lg z-0 absolute  pt-40 lg:pt-16' data-aos="zoom-in"></img>
                         <div className='text-white blur-none py-40 mx-12 lg:mx-36' data-aos="fade-up">
@@ -35,8 +35,8 @@ function Teams() {
                     </div>
                 </section>
 
-                <section className=''>
-                    <div className='lg:mx-36 mx-8 md:mx-12 sm:mx-[25%] grid md:grid-cols-3 xl:grid-cols-4 -mt-10 '>
+                <section className='overflow-hidden '>
+                    <div className='lg:mx-36 mx-10 sm:mx-20 md:mx-12  grid md:grid-cols-3 xl:grid-cols-4  '>
                        {images.map(display)}
                    </div>
                 </section>
