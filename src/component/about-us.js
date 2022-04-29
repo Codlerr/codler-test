@@ -13,8 +13,8 @@ function Aboutus() {
             <section className='main-content'>
                 <div className='w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2  pt-40' data-aos="fade-up">
                     <div>
-                    <p className="text-white text-3xl lg:text-3xl md:pt-16 font-bold" data-aos="fade-right" data-aos-delay="200" >Want to know more<br></br> about<span className='pl-2 textlbg'>codler</span></p>
-                        <p className="lg:text-lg text-base tracking-tight  lg:w-2/3  text-zinc-200">We are the perfect professional team of designers and developers for you. Codler xz is a top website and mobile app development
+                    <p className="text-white text-3xl lg:text-3xl md:pt-16 md:mt-10 font-bold" data-aos="fade-right" data-aos-delay="200" >Want to know more<br></br> about<span className='pl-2 textlbg'>codler</span></p>
+                        <p className="lg:text-sm text-xs tracking-tight  lg:w-2/3  text-zinc-200">We are the perfect professional team of designers and developers for you. Codler is a top website and mobile app development
                    company. In addition to empower our client sincerely by developinfg full customized mobile and web-based digital solution is our mission.</p>
                     
                         <div className='hidden lg:block'>
@@ -62,10 +62,10 @@ function Aboutus() {
                     <div>
                         <p className='text-white text-base font-bold'>We proudly work with</p>
                         <div className='grid grid-cols-2 lg:grid-flow-col gap-6 mt-2' >
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/odikko_bzk7bo.png'} className='mt-8 w-56'></img>
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556429/codler/jsk_tjljta.png'} className='mt-5 w-56'></img>
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/ondace_yjiyg9.jpg'} className='lg:w-36 mt-3'></img>
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/ugrab_fbpxud.png'} className='lg:w-56 mt-4'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/U_GRAB_FINAL_PDF-01_1_2_nrltee.png'} className='w-56 h-20 mt-7'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='lg:w-36 lg:h-16 mt-10 xs:mt-12 lg:mt-9'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/Group_60570_otkpul.png'} className='w-64 h-12 xl:-ml-12 mt-12 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/CEANOR_1_1_1_2_x89qjw.png'} className='w-48 mt-10 h-16'></img>
                         </div>
                     </div>
                 </div>

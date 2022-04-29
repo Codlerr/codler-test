@@ -21,8 +21,6 @@ function Services() {
                         <p className='lg:w-2/6 tracking-wide'>Delivering high-quality software development services and leading the way in digital transformation are our strengths. Our skilled staff have demonstrated their talents and are ready to assist you. </p>
                     </div>
             </section>
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/bubble1_2x_2_jthasr.png'} className='hidden lg:block absolute w-32 right-0 -mt-8'></img>
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629514/codler/tbubble_uuck1c.png'} className='hidden lg:block absolute w-16 right-52 mt-16'></img>
             <section className='w-11/12 lg:w-10/12 mx-auto mt-20' data-aos="fade-up">
                 <div className='s-bg1 rounded-lg' >
                     <div className='grid grid-cols-1 lg:grid-cols-2 relative'>
@@ -30,9 +28,9 @@ function Services() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipses_62_lwwbms.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
                         <div className=' lg:py-20 text-white relative'>
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629514/codler/shade1_ypr4ql.png'} className='absolute hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
-                           <div className='relative p-4 lg:p-0'>
-                            <p className='text-2xl lg:text-4xl font-bold lg:w-3/4'>Web design and development company</p>
-                                <p className='text-sm lg:text-base lg:w-5/6'>Develop your goals with the best website development partner.CODLERR is a leading website design and web development company in India. In fact, we offer the finest web development services to worldwide organizations and startups. We create customized websites, web apps, web tools and more with a 100% project delivery rate. </p>
+                           <div className='relative p-4 mr-5 lg:p-0'>
+                            <p className='text-2xl lg:text-3xl font-bold lg:w-full'>Web design and development company</p>
+                                <p className='text-xs md:text-sm lg:text-base lg:w-full'>Take your brand online and lead your business with the help of one of the best teams in India. We will walk you through every nook and corner of the project. Our team will brainstorm, plan, research and organise data to meet your goals. Our accurate market understanding allows us to identify the market demands and integrate them into the design for a better user experience.</p>
                                 <a href='#'  onClick={() => navigate('/services/servicedetails')} className='flex no-underline text-white sbg1-btn w-36 rounded-full'><p className='my-2.5 lg:my-3 px-3'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -64,9 +62,9 @@ function Services() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipse_62_paozir.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
                         <div className='py-8 lg:py-20 text-white relative'>
                             
-                           <div className='relative pl-4 pr-4 lg:pl-24'>
-                            <p className='text-2xl lg:text-4xl font-bold lg:w-3/4'>Mobile App Developement.</p>
-                                <p className='text-sm lg:text-base'>Codlerr's mobile app development service uses world-class technologies. We use React Native, Flutter and others to make your apps scalable and future-proof on both native and cross-platforms. Our backbone is our professional mobile developers, who will interact with you at every stage of the project.</p>
+                           <div className='relative pl-10 pr-4 lg:pl-24'>
+                            <p className='text-2xl lg:text-3xl font-bold lg:w-3/4'>Mobile App Developement</p>
+                                <p className='text-xs md:text-sm lg:text-base'>Our creative team values your brand and makes the best user experience possible to increase the emotions between your brand and customers. We are experts at building intuitive apps using android native, flutter and react native. Our developers work closely with you from the initial design of your app to ongoing maintenance.</p>
                                 <a href='#' className='flex no-underline text-white sbg2-btn w-36 rounded-full'><p className='my-2.5 lg:my-3 px-3'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -87,9 +85,9 @@ function Services() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipse_62_1_rgwqva.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
                         <div className='lg:py-20 text-white relative'>
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/Ellipse_60_1_aawdaq.png'} className='absolute hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
-                           <div className='relative p-4 lg:p-0'>
-                            <p className='text-2xl lg:text-4xl font-bold lg:w-3/4'>Digital marketing</p>
-                                <p className='text-sm lg:text-base lg:w-5/6'>Develop your goals with the best website development partner.CODLERR is a leading website design and web development company in India. In fact, we offer the finest web development services to worldwide organizations and startups. We create customized websites, web apps, web tools and more with a 100% project delivery rate. </p>
+                           <div className='relative p-4 mr-5 lg:p-0'>
+                            <p className='text-2xl lg:text-3xl font-bold lg:w-full'>Digital marketing</p>
+                                <p className='text-xs md:text-sm lg:text-base lg:w-full'>With a strong digital DNA, Codler steps into your marketing world and works as a partner in your growth. We help you plan your marketing ideas effectively and provide an optimal brand roadmap for your journey across the digital landscape. Our tailor-made digital marketing services help you build your brand across every social media platform. Our creative heads transform your ideas into eye-catchy designs.</p>
                                 <a href='#' className='flex no-underline text-white sbg3-btn w-36 rounded-full'><p className='my-2.5 lg:my-3 px-3'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -106,9 +104,9 @@ function Services() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipse_62_2_lcipqb.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
                         <div className='py-8 lg:py-20 text-white relative'>
                             
-                           <div className='relative pl-4 pr-4 lg:pl-24'>
-                            <p className='text-2xl lg:text-4xl font-bold lg:w-3/4'>Quality Assurance (QA) & Testing Services</p>
-                                <p className='text-sm lg:text-base'>Clients around the world exclusively use Codlerr's quality assurance services. We are experts in software testing, and they test anything from websites and apps to software products. We help clients minimize risks and succeed. They test many important aspects of software, including functionality, behavior, performance, flexibility, and more. </p>
+                           <div className='relative pl-10 pr-4 lg:pl-24'>
+                            <p className='text-2xl lg:text-3xl font-bold lg:w-full'>Quality Assurance (QA) & Testing Services</p>
+                                <p className='text-xs md:text-sm lg:text-base'>Clients around the world exclusively use Codlerr's quality assurance services. We are experts in software testing, and they test anything from websites and apps to software products. We help clients minimize risks and succeed. They test many important aspects of software, including functionality, behavior, performance, flexibility, and more. </p>
                                 <a href='#' className='flex no-underline text-white sbg4-btn w-36 rounded-full'><p className='my-2.5 lg:my-3 px-3'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -130,9 +128,9 @@ function Services() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipse_62_3_r1xmfa.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
                         <div className='lg:py-20 text-white relative'>
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/Ellipse_60_3_eealyi.png'} className='absolute hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
-                           <div className='relative p-4 lg:p-0'>
-                            <p className='text-2xl lg:text-4xl font-bold lg:w-3/4'>Branding</p>
-                                <p className='text-sm lg:text-base lg:w-5/6'>Clients around the world exclusively use Codlerr's quality assurance services. We are experts in software testing, and they test anything from websites and apps to software products. We help clients minimize risks and succeed. They test many important aspects of software, including functionality, behavior, performance, flexibility, and more. </p>
+                           <div className='relative p-4 mr-8 lg:p-0'>
+                            <p className='text-2xl lg:text-3xl font-bold lg:w-full'>Branding</p>
+                                <p className='text-xs md:text-sm lg:text-base lg:w-full'>Our creative heads are continually questioning and eternally curious, be it examining the technical details of the product or getting inside the minds of consumers. We bravely combine creativity with identity to create brands that live in the hearts of many. We craft stories that let you tell your story in a way that connects the gap between you and your spectators, allowing you to engage with them more quickly and efficiently.  </p>
                                 <a href='#' className='flex no-underline text-white sbg5-btn w-36 rounded-full'><p className='my-2.5 lg:my-3 px-3'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -148,9 +146,9 @@ function Services() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629514/codler/sss1_it1gpf.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
                         <div className='py-8 lg:py-20 text-white relative'>
                             
-                           <div className='relative pl-4 pr-4 lg:pl-24'>
-                            <p className='text-2xl lg:text-4xl font-bold lg:w-3/4'>Search Engine Optimisation ( SEO )</p>
-                                <p className='text-sm lg:text-base'>Clients around the world exclusively use Codlerr's quality assurance services. We are experts in software testing, and they test anything from websites and apps to software products. We help clients minimize risks and</p>
+                           <div className='relative pl-10 pr-4 lg:pl-24'>
+                            <p className='text-2xl lg:text-3xl font-bold lg:w-3/4'>Search Engine Optimisation ( SEO )</p>
+                                <p className='text-xs md:text-sm lg:text-base'>Codler uses strategies to get your business in the top searches and earn more revenue. We tailor SEO strategies according to your business model, making it easier to increase the business's credibility and boost your business growth. Earn qualified search traffic to your website with our search engine optimisation services. </p>
                                 <a href='#' className='flex no-underline text-white sbg6-btn w-36 rounded-full'><p className='my-2.5 lg:my-3 px-3'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -177,12 +175,12 @@ function Services() {
             <section className='w-10/12 mt-5 mx-auto bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-xl mb-20' data-aos="zoom-in">
                 <div className='w-10/12 mx-auto py-14'>
                     <div>
-                        <p className='text-white text-base font-bold'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-56 h-24 textlgcolor'></hr></p>
+                        <p className='text-white text-base font-bold'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-48 md:ml-56 h-24 textlgcolor'></hr></p>
                         <div className='grid grid-cols-2 lg:grid-flow-col gap-6 mt-2' >
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556429/codler/jsk_tjljta.png'} className='w-48 h-16 mt-12'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/odikko_bzk7bo.png'} className='w-56 h-36'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/ondace_yjiyg9.jpg'} className='w-32 h-28 md:mt-4 md:ml-10'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/ugrab_fbpxud.png'} className='w-56 h-36 -mt-5'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/U_GRAB_FINAL_PDF-01_1_2_nrltee.png'} className='w-56 h-20 mt-7'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='lg:w-36 lg:h-16 mt-10 xs:mt-12 lg:mt-9'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/Group_60570_otkpul.png'} className='w-64 h-12 xl:-ml-12 mt-12 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/CEANOR_1_1_1_2_x89qjw.png'} className='w-48 mt-10 h-16'></img>
                         </div>
                     </div>
                 </div>
