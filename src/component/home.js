@@ -35,10 +35,10 @@ function Home() {
         <div>
         <section className=' mainbg sm:h-full md:h-full lg:h-screen'>
                 <div className='w-10/12 lg:w-11/12 grid mx-auto grid-cols-1 md:grid-cols-3 flex flex-col-reverse'>
-                        <div className='lg:ml-16 pt-12 lg:pt-48' data-aos="fade-up">
+                        <div className='lg:ml-16 pt-12 lg:pt-36' data-aos="fade-up">
                             
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-10 font-bold ">
-                        <p className='text-white text-xl lg:text-3xl md:tracking-wide md:w-[500px]' data-aos="fade-right">Innovative Visions, Strategic Aims and Building Brands are </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200">what we Code </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
+                        <p className='text-white text-xl lg:text-3xl md:tracking-wide md:w-[450px]' data-aos="fade-right">Innovative Visions, Strategic Aims and Building Brands are </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200">what we Code </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                             </h1>
                             <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
@@ -62,16 +62,16 @@ function Home() {
                         </div>
                         <div className='bg-gray-800 opacity-50 ml-96 relative w-56 h-screen hidden lg:block' style={{height:'850px'}}>
                         </div>
-                        <div className='mt-12 md:-ml-48 flex hidden lg:block justify-center'> 
+                        <div className='mt-8 md:-ml-48 flex hidden lg:block justify-center'> 
                         <span className='' >     
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl relative z-0 absolute lg:ml-56 lg:top-36 text-zinc-700" >CSS</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl relative z-0 absolute lg:mt-36 lg:pl-16  bold text-zinc-700" >Javascript</p>
+                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl relative z-0 absolute lg:mt-24 lg:pl-16  bold text-zinc-700" >Javascript</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold  text-xl relative z-0 absolute lg:mt-0 lg:ml-[70%]  bold text-zinc-700" >UI/UX</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold absolute text-xl  z-0 lg:-ml-10  mt-50 bold text-zinc-700" >Web design</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold  text-xl  z-0   lg:mt-10 lg:ml-[70%]  bold text-zinc-700">HTML</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold relative z-0  text-xl lg:ml-36 md:mt-24 bold text-zinc-700">Python</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl absolute z-0 relative lg:-ml-12 md:-mt-12 opacity-30 text-zinc-700">React js</p>   
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649675344/codler/Group_2531_keeobr.png'} alt="image1" className="image1 hidden md:block absolute w-[35%] h-64 md:-mt-72 " data-aos="fade-up"/>
+                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold  z-0  text-xl lg:ml-36 md:mt-36 bold text-zinc-700">Python</p>
+                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-xl absolute z-0 relative lg:ml-0 md:-mt-12 opacity-30 text-zinc-700">React js</p>   
+                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649675344/codler/Group_2531_keeobr.png'} alt="image1" className="image1 hidden md:block absolute w-[35%] h-72 md:-mt-80 " data-aos="fade-up"/>
                             </span> 
                            
                         </div>
@@ -81,7 +81,7 @@ function Home() {
         
  
 
-        <section className='w-10/12 mx-auto xs:mt-5 sm:-mt-12 md:mt-0 md:pt-24 lg:pt-10 '>
+        <section className='w-10/12 mx-auto xs:mt-5 sm:-mt-12 md:mt-0 md:pt-24 lg:pt-24 lg:pb-24 '>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div data-aos="fade-up" className="mt-5 md:mt-10">
                         <p className='text-8xl lg:text-9xl  text-zinc-900 font-extrabold z-0 -ml-6'>01</p>
@@ -101,7 +101,7 @@ function Home() {
         <section className='w-11/12 lg:w-10/12 mx-auto bg-zinc-900 mt-20'>
                      
                       <div className="w-full blur-sm -ml-40 z-0 absolute pt-52">
-                          <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557491/codler/drop2_nza6it.png'} alt="mobile" style={{ width: '430px', height: '400px' }} className=" opacity-50 mt-10 lg:mt-24 " />
+                          <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557491/codler/drop2_nza6it.png'} alt="mobile" style={{ width: '430px', height: '400px' }} className=" mt-10 lg:-mt-48 " />
 
                       </div>
             <div className='md:grid grid-cols-1 md:grid-cols-2 z-10'>
@@ -116,7 +116,7 @@ function Home() {
                              </div>
                     </div>
                     <div className="w-full" data-aos="fade-up">
-                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557521/codler/screenshot_gw2vyv.png'} alt="mobile"  className="p-16 md:p-0 md:w-full md:h-full"/>
+                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557521/codler/screenshot_gw2vyv.png'} alt="mobile"  className="p-16 md:p-0 md:w-[600px] md:h-[500px]"/>
                           </div>
             </div>
         </section>
@@ -136,10 +136,10 @@ function Home() {
          <section className='bg-transparent'>
             <div className='grid grid-cols-3 lg:grid-cols-4 lg:-mt-16'>
             <div class="">
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557034/codler/bulbb_gr1sci.png'} className='w-36 md:w-56 pt-0 lg:pt-10' data-aos="fade-up">
+                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557034/codler/bulbb_gr1sci.png'} className='w-36 md:w-56 pt-0 lg:pt-10 lg:mt-8' data-aos="fade-up">
                 </img>
             </div>
-            <div class="col-span-2 md:pt-14 md:-ml-10 lg:ml-0 " data-aos="zoom-in">
+            <div class="col-span-2 md:pt-14 md:-ml-10 lg:ml-0 lg:mb-16 " data-aos="zoom-in">
             <p className="w-full font-bold mt-6 md:mt-0 text-lg md:text-2xl lg:ml-0 -ml-3  text-center text-white lg:text-4xl tracking-wider" data-aos="fade-right" data-aos-delay="200">Tell us about your ideas</p>
             <p className="w-full -mt-5 md:mt-5 text-justify lg:text-center  text-sm overflow-hidden lg:text-sm text-zinc-400 hidden lg:block md:px-16 ">Share your visions and insights with us, and let's grow your business together. Let us create opportunities for you rather than wait for them to happen.</p>
             </div>
