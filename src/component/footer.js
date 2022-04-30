@@ -16,7 +16,7 @@ function Footer() {
            <div>
                 <section>
                         <div className='lg:w-10/12 md:p-0 w-screen md:mx-auto md:pb-32'>
-                            <div className='flex '>
+                            <div className='flex relative z-600'>
                             <img src={tbubble1} className=' lg:block w-16 mt-16 lg:w-24 lg:h-24 ml-2 bubble'></img>
                             <img src={tbubble1} className=' lg:block w-8 h-8 mt-56 lg:w-16  lg:h-16 ml-2 lg:ml-4 bubble2'></img>
                             <img src={tbubble1} className='lg:block w-4 h-4 mt-80 lg:w-8 lg:h-8  ml-2 lg:ml-4  bubble3'></img>
@@ -24,8 +24,8 @@ function Footer() {
                             <div className='footerbg -mt-10 xs:h-[20%] lg:h-48 lg:rounded-lg'>
                                 <div className=' mx-auto grid grid-cols-2 lg:grid-cols-2 gap-4'>
                                     <div className='p-[15%] xl:p-12  lg:ml-24'>
-                                        <p className='text-white text-xs lg:-mt-8 xl:mt-0 lg:text-xl xl:text-2xl '  data-aos="fade-right">We believe in changing the <br></br>world digitally.</p>
-                                        <a href='#'><button class="man-btn border-slate-100 md:mb-0 hover:bg-slate-800 text-xs lg:text-sm w-32 h-[30%]  lg:w-44 lg:h-18 text-white border-nuetral-800 rounded lg:px-4 ">Discuss your project</button></a>
+                                        <p className='text-white text-xs lg:-mt-8 xl:mt-0 lg:text-xl xl:text-2xl xl:-mt-4 xs:text-[10px]'  data-aos="fade-right">We believe in changing the <br></br>world digitally</p>
+                                        <a href='#'><button class="man-btn border-slate-100 sm:-mt-12 md:mt-0 md:mb-0 xs:text-[7px] m:h-16 hover:bg-slate-800 text-xs xs:w-20 lg:text-sm w-32 h-[30%] lg:h-10 lg:w-44 lg:h-18 text-white border-nuetral-800 rounded lg:px-4 ">Discuss your project</button></a>
                                     </div>
                                     <div>
                                         

@@ -38,7 +38,7 @@ function Home() {
                         <div className='lg:ml-16 pt-12 lg:pt-48' data-aos="fade-up">
                             
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-10 font-bold ">
-                        <p className='text-white text-xl lg:text-3xl md:tracking-wide md:w-[400px]' data-aos="fade-right"> Creating Exceptional </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200">Stratergies That Bring Life To Your Brands </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
+                        <p className='text-white text-xl lg:text-3xl md:tracking-wide md:w-[500px]' data-aos="fade-right">Innovative Visions, Strategic Aims and Building Brands are </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200">what we Code </p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                             </h1>
                             <p className="text-white lg:text-l  mt-4" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
@@ -124,8 +124,9 @@ function Home() {
 
           <section >
           <div className="w-full" data-aos="zoom-in">
-                      <p className="w-full text-xl md:text-6xl font-extrabold opacity-10 mb-10 mt-8 md:mb-20 text-white tracking-wider">
-                          <marquee>Future is here! Future is here!  Future is here! Future is here!</marquee>
+                      <p className="w-full text-xl md:text-6xl font-bold opacity-10 mb-10 mt-8 md:mb-20 text-white tracking-wider">
+                          <marquee>We code your vision into reality! We code your vision into reality! We code your vision into reality!
+                          </marquee>
                       </p>
 
                   </div>
