@@ -23,7 +23,7 @@ function Faq() {
                 <div className='w-8/12 mx-auto grid grid-cols-1 lg:grid-cols-2'>
                     <div className='pt-40 pb-28 blur-none' data-aos="fade-up">
                         <span className='flex'><img src={line} className='w-6 h-0.5 mt-2.5'></img><p className='text-white font-semibold pl-2'>FAQ</p></span>
-                        <p className='text-white text-xl lg:text-3xl tracking-wide font-semibold'>Do you have any question or queries, then please ask</p>
+                        <p className='text-white text-xl xl:text-4xl tracking-wide xl:w-[600px] font-semibold'>Do you have any question or queries, then please ask</p>
                         <div class="pt-4 lg:pt-8">
                             <form className=''>
                                  <input className='rounded-full h-10 w-full bg-zinc-700 outline-none text-white pl-10 pr-36' type='text' placeholder=''></input>
@@ -33,15 +33,16 @@ function Faq() {
                         </div>
                     </div>
                     <div className='hidden lg:block' >
-                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649618103/codler/businessman-with-laptop-thinking-at-office-2021-08-26-22-49-15-utc_1_lzbmzs.png' className='h-96 mt-24 ml-36 blur-none'></img>
-                 </div>
+                      <div className='bg-zinc-500 mt-[19px] opacity-50 h-[96%] w-96 hidden ] z-0 md:ml-28 md:block'></div>
+                      <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649618103/codler/businessman-with-laptop-thinking-at-office-2021-08-26-22-49-15-utc_1_lzbmzs.png' className='h-80 -mt-80 ml-12 w-[900px] relative z-200 blur-none'></img>
+                     </div>
                 </div>
             </section>
 
             <section className='bg-zinc-800'>
             <img src={drop2} className='absolute hidden lg:block right-0 h-40 mt-80' data-aos="fade-up"></img>
                 <div className='w-9/12 lg:w-8/12 mx-auto py-10'>
-                    <img src={h1} className='w-20 lg:w-28' data-aos="fade-up"></img>
+                    <img src={h1} className='w-20 lg:w-20' data-aos="fade-up"></img>
                     <div className='pt-6' data-aos="fade-up">
                     <p className='text-white font-semibold lg:text-lg'>Which city does CODLERR call home? What is the size of the workforce?</p>
                     <p className='text-zinc-400 lg:w-4/5 text-xs lg:text-base'>Since 2021, we've been a top software development IT company based in Bangalore, India. We have a fantastic staff of around 200 people who are extraordinary.</p>
@@ -77,12 +78,7 @@ function Faq() {
             <section className='bg-black'>
             <img src={drop1} className='absolute hidden lg:block left-0 h-40 mt-96' data-aos="fade-up"></img>
                     <div className='w-9/12 lg:w-8/12 mx-auto py-14'>
-                       <div className='hidden lg:block'>
-                            <img src={bub} className='absolute animate-bounce -mt-24 left-8 w-24'></img>
-                            <img src={bub} className='absolute animate-bounce -mt-24 left-40 w-8'></img>
-                            <img src={bub} className='absolute animate-bounce -mt-24 left-32 w-4'></img>
-                       </div>
-                    <img src={h2} className='w-40 lg:w-60'  data-aos="fade-up"></img>
+                    <img src={h2} className='w-40 lg:w-48'  data-aos="fade-up"></img>
                         <div className='pt-6' data-aos="fade-up">
                         <p className='text-white font-semibold lg:text-lg'>How long does it take you to design a website on average?</p>
                         <p className='text-zinc-400 lg:w-4/5 text-xs lg:text-base'>The total time it takes to build a website is determined by a number of factors. A static website often takes less time to design than an e-commerce or flash-based website. Complex websites, such as eCommerce websites, take a little longer due to their level of difficulty.</p>
@@ -141,7 +137,7 @@ function Faq() {
 
             <section className='bg-zinc-800'>
                 <div className='w-9/12 lg:w-8/12 mx-auto py-14'>
-                <img src={h3} className='w-40 lg:w-60'  data-aos="fade-up"></img>
+                <img src={h3} className='w-40 lg:w-48'  data-aos="fade-up"></img>
                     <div className='pt-6' data-aos="fade-up">
                         <p className='text-white font-semibold lg:text-lg'>What's the difference between a native and a web-based application?</p>
                         <p className='text-zinc-400 lg:w-4/5 text-xs lg:text-base'>A native app runs on only one platform (e.g. iOS, Android, Windows Phone). Web-based apps are virtual web pages that operate within the mobile browser. They provide the same user experience across all handsets, but can't access some device functionalities.</p>
@@ -170,7 +166,7 @@ function Faq() {
 
             <section className='bg-black'>
                     <div className='w-9/12 lg:w-8/12 mx-auto pt-14 pb-20'>
-                    <img src={h4} className='w-40 lg:w-56'  data-aos="fade-up"></img>
+                    <img src={h4} className='w-40 lg:w-48'  data-aos="fade-up"></img>
                         <div className='pt-6'  data-aos="fade-up">
                             <p className='text-white font-semibold lg:text-lg'>Why should I employ CODLERR's specialized team? </p>
                             <p className='text-zinc-400 lg:w-4/5 text-xs lg:text-base'>We're a wonderful mix of bright young minds and seasoned industry experts. With the help of the lessons we've learned over the years, accordingly we've continued to improve our internal processes. That's what keeps us on our toes as we strive to be the best at what we do.</p>

@@ -34,21 +34,21 @@ function Home() {
     return (
         <div>
         <section className=' mainbg sm:h-full md:h-full lg:h-screen'>
-                <div className='w-10/12 lg:w-11/12 grid mx-auto grid-cols-1 md:grid-cols-3 flex flex-col-reverse'>
+                <div className='w-10/12 lg:w-11/12 grid mx-auto grid-cols-1 lg:grid-cols-3 flex flex-col-reverse'>
                         <div className='lg:ml-8 pt-12 lg:pt-36' data-aos="fade-up">
                             
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-24 font-bold ">
-                        <p className='text-white text-xl lg:text-4xl md:tracking-wide md:w-[500px]' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
+                        <p className='text-white text-xl lg:text-5xl md:tracking-wide md:w-[500px]' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                             </h1>
                             <p className="text-white lg:text-l  mt-8" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
-                            <div className=" sm:mb-0 mb-20">
+                            <div className=" sm:mb-0 mb-12">
                                 <div className='pt-10 lg:pt-16'>
                                     <a href='#'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557143/codler/arrw_jfawrk.png'} className='h-20'></img></a>
-                                    <hr className=" mt-3 w-72 text-gray-200"/>
-                                    <div className=''>
+                                    <hr className=" w-72 text-gray-200"/>
+                                    <div className='-mt-3'>
                                         <a href='#' className='no-underline'><p className='text-zinc-300 hover:text-white text-xs'>Now proudly work with<span>
-                                            <div className='text-sm ml-32 pl-1 absolute -mt-4 font-bold animated-text'>
+                                            <div className='text-sm ml-32 pl-1 absolute -mt-[18px] md:font-bold animated-text'>
                                                 <p className='line'>Ai Brilliance</p>
                                                 <p className='line'>ugrab</p>
                                                 <p className='line'>Ondace</p>
@@ -91,7 +91,7 @@ function Home() {
                     </div>
                     <div className="pt-8 md:pt-0 relative md:grid-cols-2" data-aos="fade-up">
                     <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649615719/codler/Ellipse_36_dv7pgn.png' alt='img' className='w-9 h-9 hidden lg:block z-300 ml-96 '/>
-                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649497031/codler/perfect-team-2021-09-02-03-15-29-utc_1_qdbcf6.png'} alt="img" className='md:-mt-24 md:h-[400px] md:w-[800px] ' data-aos="fade-up"/>
+                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649497031/codler/perfect-team-2021-09-02-03-15-29-utc_1_qdbcf6.png'} alt="img" className='md:-mt-24 lg:h-[400px] lg:w-[800px] ' data-aos="fade-up"/>
                    </div>
                    
             </div>
@@ -106,18 +106,18 @@ function Home() {
                       </div>
             <div className='md:grid grid-cols-1 md:grid-cols-2 z-10'>
 
-                <div className='lg:pl-24 p-10  lg:pt-24' data-aos="fade-up">
+                <div className='xl:pl-24 p-10  lg:pt-24' data-aos="fade-up">
                 <h4 className="text-sm md:text-lg  font-light tracking-wide leading-3 z-20 opacity-100 text-white" data-aos="fade-right" data-aos-delay="200">OUR RECENT WORK</h4><hr className='w-12 h-24 text-pink-500 font-bold text-3xl -mt-5 ml-48'/>
-                              <h1 className="md:text-4xl text-2xl font-bold text-white tracking-wider" data-aos="fade-right" data-aos-delay="200">Car Rental App – CAR CHILLI</h1>
-                              <p className="md:text-lg text-sm font-light  mt-3 text-zinc-300 lg:pr-20 md:w-[530px]">A Singapore based car rental mobile app where a user can rent a car from its owner quickly and easily. We were able to change the UI design from a basic structure to a better UI that interacts with the customers—researched how the app should be, and changed the logo to a better one. </p>
+                              <h1 className="lg:text-4xl text-2xl font-bold text-white tracking-wider" data-aos="fade-right" data-aos-delay="200">Car Rental App – CAR CHILLI</h1>
+                              <p className="md:text-lg text-sm font-light  mt-3 text-zinc-300 xl:pr-20 xl:w-[530px]">A Singapore based car rental mobile app where a user can rent a car from its owner quickly and easily. We were able to change the UI design from a basic structure to a better UI that interacts with the customers—researched how the app should be, and changed the logo to a better one. </p>
 
                              <div className='pt-4'>
                                  <a href='#' className='flex no-underline '><p className='textlbg testdecoration-none text-lg no-underline -mt-1'>View All Projects</p><FontAwesomeIcon icon={faArrowRight} className="text-xl ml-4  mt-0.5 text-white cursor-pointer" /></a>
                              </div>
                     </div>
                     <div className="w-full" data-aos="fade-up">
-                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557521/codler/screenshot_gw2vyv.png'} alt="mobile"  className="p-16 md:p-0 md:w-[600px] md:h-[500px]"/>
-                              <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-28 h-28 ml-[96%]  hidden lg:block'/>
+                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557521/codler/screenshot_gw2vyv.png'} alt="mobile"  className="p-16 md:p-0  md:w-[600px] md:h-[500px]"/>
+                              <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-28 h-28 ml-[96%]  hidden xl:block'/>
 
                           </div>
             </div>
@@ -186,7 +186,7 @@ function Home() {
                       <p className="sm:px-10  md:ml-0 md:px-0 lg:pr-20 text-xs md:text-lg font-light tracking-wide text-white font-light lg:w-[500px]">Invest in the top-notch web and digital marketing company with your valuable and genuine ideas.Our team only uses cutting-edge tools to bring out innovative solutions to help with your product strategy, design, and development. We develop web apps that are smooth, attractive, secure, and user-friendly for your business.
 </p>
                 </div>
-                      <div className="w-1/2 ml-0 md:ml-48 lg:ml-0 lg:mt-60 relative md:mt-96 hidden lg:block" >
+                      <div className="w-1/2 ml-0 md:ml-48 lg:ml-0 lg:mt-60 relative md:mt-96 hidden xl:block" >
                           <div className="w-80  -mt-96 sectionbg3 lg:ml-8 xl:ml-48" data-aos="zoom-in-right" style={{height:'690px',width:'359px',marginTop:'-280px',zIndex:'100'}}></div>
                             <div className=" bg-zinc-900 colorbox relative -ml-36 w-96  rounded drop-shadow-2xl  " style={{height:'500px',width:'600px',marginTop:'-600px',zIndex:'200'}}>
                                 <div className="grid grid-cols-2  grid-flow-col h-80 gap-2 " style={{width:'600px'}}>
@@ -236,22 +236,22 @@ function Home() {
                 </div>
                 <div className='col-span-2'>
                     <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 '>
-                        <div className='xl:p-10 pt-10 lg:pt-0 lg:w-[96]' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0 xl:w-[96]' data-aos="fade-up">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/startergy_kvcx48.png'} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Stratergy</h2>
                         <p className="text-white text-xs md:text-sm font-light tracking-wide lg:pr-5  mt-3">The human-focused approach to building the best strategy. It’s an extensive plan that outlines the use of technology to meet business goals. We believe in this plan of action for an organisation to achieve its goals.</p>
                         </div>
-                        <div className='xl:p-10 pt-10 lg:pt-0 lg:w-[400px]' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0 xl:w-[400px]' data-aos="fade-up">
                         <img src={require('../images/design.png')} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Design</h2>
                         <p className="text-white text-xs lg:text-sm  lg:pr-20 font-light tracking-wide  mt-3"> With our meticulous research, we create innovative designs for that delight and engage users. Whether a logo, website, print collateral, or other branding, the results of the design process will be responsible for creating your brand’s first impression</p>
                         </div>
-                        <div className='xl:p-10 pt-10 lg:pt-0 lg:w-[400px]' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0 xl:w-[400px]' data-aos="fade-up">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556429/codler/marketing_wdpffh.png'} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Marketing</h2>
                         <p className="text-white text-xs lg:text-sm  lg:pr-20 font-light tracking-wide mt-3"> With our meticulous research, we create innovative designs for that delight and engage users. Whether a logo, website, print collateral, or other branding, the results of the design process will be responsible for creating your brand’s first impression</p>
                         </div>
-                        <div className='xl:p-10 pt-10 lg:pt-0 lg:w-[400px]' data-aos="fade-up">
+                        <div className='xl:p-10 pt-10 lg:pt-0 xl:w-[400px]' data-aos="fade-up">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556743/codler/development_awauy4.png'} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Development</h2>
                         <p className="text-white text-xs lg:pr-20  lg:text-sm font-light tracking-wide mt-3 mb-20 lg:mb-0">Whether we have designed a new site or we’re looking to make updates to an existing web or print work, the development stage is where we get into the nuts and bolts of the project. We know what we’re there to do, and we’re ready to do it.</p>

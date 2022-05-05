@@ -28,7 +28,7 @@ function Portfolio2() {
 
             <section>
             <img src={shade} className='pt-60 lg:pt-12 blur-xl  lg:blur-lg z-0 absolute' data-aos="zoom-in"></img>
-                <div className='w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 blur-0 lg:pb-32'>
+                <div className='w-10/12 mx-auto xl:mx-20 grid grid-cols-1 lg:grid-cols-2 blur-0 lg:pb-32'>
                     <div className='pt-52 lg:pt-48' data-aos="fade-up">
                         <p className='text-white text-2xl md:mt-5 lg:text-4xl font-bold'>AI Brilliance(Education)</p>
                         <p className='text-white py-2'>A stylish website that we have made proudly,<br></br>we realy enjoyed the projuct, want to see you  scroll down</p>

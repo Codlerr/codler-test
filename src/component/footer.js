@@ -71,7 +71,7 @@ function Footer() {
                                 <p className='text-zinc-200 text-xs'>Email</p>
                                 <div className=''>
                                     <form action="" className="max-w-full">
-                                    <input className="bg-transparent text-white font-semibold  border-b-2 h-10 w-48 text-sm border-0 outline-none" type="text" placeholder="Samplemail@.com"/><a href="#"><i class="fas fa-arrow-circle-right text-pink-500  text-3xl" ></i></a>
+                                    <input className="bg-transparent text-white font-semibold opacity-50  border-b-2 h-10 w-48 text-sm font-light border-0 outline-none" type="text" placeholder="Samplemail@.com"/><a href="#"><i class="fas fa-arrow-circle-right text-pink-500  text-3xl" ></i></a>
                                     <hr className="text-gray-200 opacity-20 text-2xl w-60 -mt-0" />
                                     </form>
                                     
@@ -83,7 +83,7 @@ function Footer() {
                  <section className=' bg-zinc-900'>
                      <div className='w-10/12 mx-auto h-14 py-2 flex'>
                          <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649676291/codler/White_jgawtg.png'} className='w-16 h-7 lg:mt-[3px] lg:w-24 xl:h-8'></img>
-                         <a href='#' className='no-underline text-zinc-500 hover:text-zinc-400 py-1.5  pl-2 text-xs lg:text-base '><p>2021 codlerr Inc. all rights reserved</p></a>
+                         <a href='#' className='no-underline text-zinc-500 hover:text-zinc-400 py-2.5  pl-2 text-xs lg:text-xs '><p>2021 codlerr Inc. all rights reserved</p></a>
                      </div>
                  </section>
            </div>
