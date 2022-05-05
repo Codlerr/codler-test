@@ -43,24 +43,24 @@ function Footer() {
                             <div  className=''>
                                 <p className='text-white lg:text-base font-semibold'>Quick links</p>
                                 <div>
-                                    <a href='#' onClick={() => navigate('/Aboutus')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline'><p className=''>About us</p></a>
-                                    <a href='#' onClick={() => navigate('/services')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline'><p className='-mt-2 md:mt-0'>Services</p></a>
-                                    <a href='#' onClick={() => navigate('/portfolio')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline'><p className='-mt-2 md:mt-0'>Portfolio</p></a>
-                                    <a href='#' onClick={() => navigate('/Contactus')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline'><p className='-mt-2 md:mt-0'>Contact us</p></a>
+                                    <a href='#' onClick={() => navigate('/Aboutus')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 font-semibold tracking-wide no-underline'><p className=''>About us</p></a>
+                                    <a href='#' onClick={() => navigate('/services')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 font-semibold tracking-wide no-underline'><p className='-mt-2 md:mt-0'>Services</p></a>
+                                    <a href='#' onClick={() => navigate('/portfolio')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 font-semibold tracking-wide no-underline'><p className='-mt-2 md:mt-0'>Portfolio</p></a>
+                                    <a href='#' onClick={() => navigate('/Contactus')} className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 font-semibold tracking-wide no-underline'><p className='-mt-2 md:mt-0'>Contact us</p></a>
                                 </div>
                             </div>
                             <div  className=''>
                                 <p className='text-white lg:text-base  font-semibold'>Social media</p>
                                 <div>
-                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline '><p className=''><span className='pr-4'><i class="fa-brands fa-instagram"></i></span>Instagram</p></a>
-                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline -mt-2 md:mt-0'><p className=''><span className='pr-4'><i class="fa-brands fa-facebook-square"></i></span>Facebook</p></a>
-                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline -mt-2 md:mt-0'><p className=''><span className='pr-4'><i class="fa-brands fa-youtube"></i></span>Youtube</p></a>
-                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline -mt-2 md:mt-0'><p className=''><span className='pr-4'><i class="fa-brands fa-twitter"></i></span>Twitter</p></a>
+                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline font-semibold'><p className=''><span className='pr-4'><i class="fa-brands fa-instagram"></i></span>Instagram</p></a>
+                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline font-semibold -mt-2 md:mt-0'><p className=''><span className='pr-4'><i class="fa-brands fa-facebook-square"></i></span>Facebook</p></a>
+                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline font-semibold -mt-2 md:mt-0'><p className=''><span className='pr-4'><i class="fa-brands fa-youtube"></i></span>Youtube</p></a>
+                                    <a href='#' className='text-zinc-600 lg:text-sm hover:text-zinc-400 duration-500 tracking-wide no-underline font-semibold -mt-2 md:mt-0'><p className=''><span className='pr-4'><i class="fa-brands fa-twitter"></i></span>Twitter</p></a>
                                 </div>
                             </div>
-                            <div className=''>
+                            <div className='lg:-ml-10'>
                                 <p className='text-white text-sm lg:text-base  font-semibold'>Registered Office Address</p>
-                                <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline'>codlerr Private Limited,<br></br>
+                                <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline font-semibold'>codlerr Private Limited,<br></br>
                                     Buildings Alyssa, Begonia &<br></br>
                                     Clove Embassy Tech Village,<br></br>
                                     Outer Ring Road, Devarabeesanahalli<br></br> Village, Bengaluru, 560103,<br></br>
@@ -68,10 +68,10 @@ function Footer() {
                             </div>
                             <div className=''>
                                 <p className='text-white lg:text-base  font-semibold'>Signup for newsletters</p>
-                                <p className='text-zinc-200'>Email</p>
+                                <p className='text-zinc-200 text-xs'>Email</p>
                                 <div className=''>
                                     <form action="" className="max-w-full">
-                                    <input className="bg-transparent text-white border-b-2 h-10 w-48 text-sm border-0 outline-none" type="text" placeholder="Samplemail@.com"/><a href="#"><i class="fas fa-arrow-circle-right text-pink-500  text-3xl" ></i></a>
+                                    <input className="bg-transparent text-white font-semibold  border-b-2 h-10 w-48 text-sm border-0 outline-none" type="text" placeholder="Samplemail@.com"/><a href="#"><i class="fas fa-arrow-circle-right text-pink-500  text-3xl" ></i></a>
                                     <hr className="text-gray-200 opacity-20 text-2xl w-60 -mt-0" />
                                     </form>
                                     

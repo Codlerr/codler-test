@@ -1,38 +1,38 @@
  export const services=[
      {
         heading:'01 Web Development',
-        fields1:'E-commerce',
-        fields2:'Content Management System',
-        fields3:'API & Back-end development',
-        fields4:'Customized web develepment'
+        fields1:'E-commerce website',
+        fields2:'Static website',
+        fields3:'WordPress website',
+        fields4:'Responsive websites'
      },
     {
           heading:'02 App development',
-          fields1:'Best user experience',
-          fields2:'Android native',
-          fields3:'Flutter',
-          fields4:'React native'
+          fields1:'Mobile App Optimization',
+          fields2:'IOS App Development',
+          fields3:'Android App Development',
+          fields4:'Windows App Development'
        },
       {
           heading:'03 Digital Marketing',
-          fields1:'Plan your marketing',
-          fields2:'Eye-catchy designs',
-          fields3:'Creating a visual treat for your users',
-          fields4:'Tailor-made digital marketing'
+          fields1:'Social media Marketing ',
+          fields2:'Lead Generation campaigns',
+          fields3:'Email Marketing ',
+          fields4:'Google ads'
       },
       {
           heading:'04 Branding',
-          fields1:'Bravely combine creativity ',
-          fields2:'We craft stories ',
-          fields3:'Engage with audiance quickly',
-          fields4:'Focusing on the design'
+          fields1:'Strategic research planning ',
+          fields2:'LOGO Design',
+          fields3:'Logo oriented website',
+          fields4:'Developing brand position'
       },
       {
           heading:'05 SEO',
-          fields1:'Tailor according to your business ',
-          fields2:'Increase the credibility ',
-          fields3:'Start earning more qualified',
-          fields4:'Boost up your business growth'
+          fields1:'SEO Audit',
+          fields2:'Competitive Analysis ',
+          fields3:'ON-Page SEO',
+          fields4:'Off-page SEO'
       },
     ]
      export const images=[{

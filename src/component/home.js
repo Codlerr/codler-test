@@ -38,7 +38,7 @@ function Home() {
                         <div className='lg:ml-8 pt-12 lg:pt-36' data-aos="fade-up">
                             
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-24 font-bold ">
-                        <p className='text-white text-xl lg:text-4xl md:tracking-wide md:w-[500px]' data-aos="fade-right">The Most <br/>Reliable Development<br/>Company</p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
+                        <p className='text-white text-xl lg:text-4xl md:tracking-wide md:w-[500px]' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                             </h1>
                             <p className="text-white lg:text-l  mt-8" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>
                             <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
@@ -108,8 +108,8 @@ function Home() {
 
                 <div className='lg:pl-24 p-10  lg:pt-24' data-aos="fade-up">
                 <h4 className="text-sm md:text-lg  font-light tracking-wide leading-3 z-20 opacity-100 text-white" data-aos="fade-right" data-aos-delay="200">OUR RECENT WORK</h4><hr className='w-12 h-24 text-pink-500 font-bold text-3xl -mt-5 ml-48'/>
-                              <h1 className="md:text-4xl text-2xl font-bold text-white tracking-wider" data-aos="fade-right" data-aos-delay="200">Travel app<br></br> design for a tripexpo</h1>
-                              <p className="md:text-lg text-sm font-light  mt-3 text-zinc-300 lg:pr-20 md:w-[530px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et ultricies. Urna proin dignissim eu nisl ac sed et velit. Suscipit amet ac duis pretium elementum.</p>
+                              <h1 className="md:text-4xl text-2xl font-bold text-white tracking-wider" data-aos="fade-right" data-aos-delay="200">Car Rental App – CAR CHILLI</h1>
+                              <p className="md:text-lg text-sm font-light  mt-3 text-zinc-300 lg:pr-20 md:w-[530px]">A Singapore based car rental mobile app where a user can rent a car from its owner quickly and easily. We were able to change the UI design from a basic structure to a better UI that interacts with the customers—researched how the app should be, and changed the logo to a better one. </p>
 
                              <div className='pt-4'>
                                  <a href='#' className='flex no-underline '><p className='textlbg testdecoration-none text-lg no-underline -mt-1'>View All Projects</p><FontAwesomeIcon icon={faArrowRight} className="text-xl ml-4  mt-0.5 text-white cursor-pointer" /></a>
@@ -194,10 +194,10 @@ function Home() {
                                       <p className="lg:text-2xl blur-sm  ml-20 mt-10 font-semibold text-white cursor-pointer" onMouseEnter={()=>showCards(2)} onMouseLeave={mouseLeave}> 01 text editing</p>
                                       <p className="lg:text-2xl blur-sm lg:mt-5  ml-10 font-semibold text-white cursor-pointer" onMouseEnter={()=>showCards(1)} onMouseLeave={mouseLeave}>02 text editing</p>
                                       <p className="lg:text-2xl ml-5  font-bold text-white " id='heading' data-aos="zoom-in-right" data-aos-delay='1000' data-toggle="animation" data-animation-reset='true' data-animation='slide-right' data-animation-start='onLoad'>01 Web development</p>
-                                      <span><hr className="w-5 ml-8 text-5xl h-56 text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content1' data-aos="fade-right" data-aos-delay='1000'> E-commerce</p>
-                                      <span><hr className="w-5 ml-8  text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content2' data-aos="fade-right" data-aos-delay='1000'> Content Management System</p>
-                                      <span><hr className="w-5 ml-8  text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content3' data-aos="fade-right" data-aos-delay='1000'> API & Back-end development</p>
-                                      <span><hr className="w-5 ml-8  text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content4' data-aos="fade-right" data-aos-delay='1000'> Customized web develepment</p>
+                                      <span><hr className="w-5 ml-8 text-5xl h-56 text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content1' data-aos="fade-right" data-aos-delay='1000'>E-commerce website</p>
+                                      <span><hr className="w-5 ml-8  text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content2' data-aos="fade-right" data-aos-delay='1000'>Static website</p>
+                                      <span><hr className="w-5 ml-8  text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content3' data-aos="fade-right" data-aos-delay='1000'>WordPress website</p>
+                                      <span><hr className="w-5 ml-8  text-purple-500" /></span> <p className="text-sm  ml-20 -mt-6 font-semibold text-white" id='content4' data-aos="fade-right" data-aos-delay='1000'>Responsive websites</p>
 
                                       <p className="text-2xl blur-sm mt-2  ml-10 font-semibold text-white cursor-pointer" onMouseEnter={()=>showCards(3)} onMouseLeave={mouseLeave}>04 text editing</p>
                                       <p className="text-2xl blur-sm  ml-20 mt-2 font-semibold text-white cursor-pointer" onMouseEnter={()=>showCards(4)} onMouseLeave={mouseLeave}>05 text editing</p>
@@ -239,7 +239,7 @@ function Home() {
                         <div className='xl:p-10 pt-10 lg:pt-0 lg:w-[96]' data-aos="fade-up">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/startergy_kvcx48.png'} className='w-8'></img>
                         <h2 className="text-white mt-2 text-lg md:text-xl font-semibold">Stratergy</h2>
-                        <p className="text-white text-xs md:text-sm font-light tracking-wide lg:pr-20  mt-3">Human focused approach to build the best strategy. Our team works collectively to develop strategies that bridge the gap between you and your audience.</p>
+                        <p className="text-white text-xs md:text-sm font-light tracking-wide lg:pr-5  mt-3">The human-focused approach to building the best strategy. It’s an extensive plan that outlines the use of technology to meet business goals. We believe in this plan of action for an organisation to achieve its goals.</p>
                         </div>
                         <div className='xl:p-10 pt-10 lg:pt-0 lg:w-[400px]' data-aos="fade-up">
                         <img src={require('../images/design.png')} className='w-8'></img>
