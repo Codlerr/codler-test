@@ -32,10 +32,10 @@ export default function Imageslider() {
         </div>
         </div>
         
-      <div className=" mt-5 lg:mt-5 md:w-full xs:-ml-3 sm:ml-0 sm:px-6 md:px-0">
+      <div className=" mt-5 lg:mt-5 xs:-ml-3 sm:ml-0 sm:px-3 md:px-0  ">
         <Slider ref={sliderRef} arrows={false} slidesToShow={4} {...settings}>
         <div>
-          <img src={images[0].url} alt='image' className='w-[227px] h-[228px] ml-4 rounded-lg'/>
+          <img src={images[0].url} alt='image' className='w-[227px] h-[228px] -ml-2 sm:ml-4 rounded-lg'/>
           <p className="text-white font-semibold text-sm ml-24 mt-1">N Manasa</p>
           <p className="textlbg font-semibold text-xs ml-[70px] -mt-4">SENIOR CONTENT WRITER</p>
           </div>

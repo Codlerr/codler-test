@@ -155,16 +155,19 @@ function Home() {
                     <h2 className="text-white ml-16 md:ml-24 mt-3 text-2xl md:text-3xl tracking-wider" data-aos="fade-up">Our Happy Clients</h2>
                     <p className="text-zinc-300 px-10 md:px-0 md:p-0 text-xs md:text-sm leading-5 font-light tracking-wide lg:w-[700px] md:mr-12 lg:mr-0  md:ml-24 md:mt-3 lg:pr-36 "
                      data-aos="fade-up">Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
-                    <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%]  md:-mt-10 gap-4 md:w-8/12 mx-auto  pb-10' data-aos="fade-right">
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703089/codler/Group_260_uxfom5.png'} className='md:w-[20] h-[20]  w-12 h-10 mt-16 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='md:w-24 mt-16 xs:ml-0 sm:-ml-8 md:-ml-24 w-36 h-10 md:h-10'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703656/codler/Group_3990_1_gjtw1g.png'} className='w-96 h-10 mt-16 xs:ml-0 sm:-ml-8 md:-ml-32 md:w-[800px] md:h-10 '></img>
+                    <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%]  md:-mt-5 gap-4 md:w-8/12 mx-auto  pb-10' data-aos="fade-right">
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703089/codler/Group_260_uxfom5.png'} className='md:w-12 h-10  w-12 h-10 mt-16 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703940/codler/Group_1682_godhzj.png'} className='md:w-10 mt-16 xs:ml-0 md:-ml-16  w-10 h-10 md:h-10'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1651824106/codler/memories_4x_1_htycnr.png'} className='w-12 h-10 mt-16 xs:ml-0 md:-ml-32 md:w-12 md:h-10 '></img>
+                    </div>
+                    <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%]  -mt-10 gap-4 md:w-8/12 mx-auto  pb-10' data-aos="fade-right">
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704176/codler/CEANOR_1_1_1_1_mebevp.png'} className=' w-24 h-8 mt-5 md:w-24 md:h-8  '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/Group_60570_otkpul.png'} className='  mt-12 w-28  md:-ml-7 h-6'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704073/codler/U_GRAB_FINAL_PDF-01_1_1_lgfsu6.png'} className=' w-36 h-10  mt-10  md:w-36 md:h-12 md:-ml-16'></img>
                     </div>
                     <div className='grid grid-cols-4 lg:grid-cols-4 -mt-10 gap-2 w-8/12 mx-auto  pb-10' data-aos="fade-right">
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703940/codler/Group_1682_godhzj.png'} className=' w-12 h-10 mt-5  md:w-8 md:h-8'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704073/codler/U_GRAB_FINAL_PDF-01_1_1_lgfsu6.png'} className=' w-36 h-10  mt-5 md:mt-0  md:w-24 md:h-10 md:-ml-16'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/Group_2028_jlc1se.png'} className='md:w-24 md:h-9 md:mt-12 mt-16 lg:mt-12 md:-ml-20 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704176/codler/CEANOR_1_1_1_1_mebevp.png'} className=' w-56 h-10 mt-5 md:w-24 md:h-10 md:-ml-24 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650144752/codler/Path_15883_1_ckf6qb.png'} className=' w-10 h-8 mt-5  md:w-16 md:h-8'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/Group_2028_jlc1se.png'} className='w-28 md:w-24 h-9 md:mt-12 mt-12 ml-5 md:ml-0 lg:mt-12 '></img>
                     </div>
                 </div>
 
