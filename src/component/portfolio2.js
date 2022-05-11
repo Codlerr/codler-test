@@ -10,7 +10,7 @@ import v2 from '../images/portfolio-images/port-inner/Pose10 1.png';
 import bub from '../images/portfolio-images/port-inner/bubble.png';
 import bubhalf from '../images/portfolio-images/port-inner/bubble1@2x 2 (1).png';
 import drop from '../images/portfolio-images/port-inner/img4@2x 1.png';
-
+import Slider2 from './slider2';
 
 
 function Portfolio2() {
@@ -23,10 +23,7 @@ function Portfolio2() {
     
     return (
         <div>
-           
-
-
-            <section>
+          <section>
             <img src={shade} className='pt-60 lg:pt-12 blur-xl  lg:blur-lg z-0 absolute' data-aos="zoom-in"></img>
                 <div className='w-10/12 mx-auto xl:mx-20 grid grid-cols-1 lg:grid-cols-2 blur-0 lg:pb-32'>
                     <div className='pt-52 lg:pt-48' data-aos="fade-up">
@@ -126,88 +123,9 @@ function Portfolio2() {
               </div>
             </section>
 */}
-
-
-            <section className='lg:mb-[40%] mb-[80%]'>
-            <div id="carouselExampleCaptions" className="carousel slide relative " data-bs-ride="carousel">
-  <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-  <div className="carousel-inner relative w-full overflow-hidden h-[550px]">
-    <div className="carousel-item active relative float-left ">
-      <img
-        src={require('../images/portfolio-images/port-inner/screenshot.png')}
-        className="block w-full"
-        alt="..."
-      />
-      <div className="carousel-caption hidden md:block absolute text-center " >
-        <h5 className="text-xl">First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div className="carousel-item relative float-left w-full">
-      <img
-        src={require('../images/portfolio-images/port-inner/screenshot2.png')}
-        className="block w-full"
-        alt="..."
-      />
-      <div className="carousel-caption hidden md:block absolute text-center">
-        <h5 className="text-xl">Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div className="carousel-item relative float-left w-full">
-      <img
-        src={require('../images/portfolio-images/port-inner/screenshot3.png')}
-        className="block w-full"
-        alt="..."
-      />
-      <div className="carousel-caption hidden md:block absolute text-center">
-        <h5 className="text-xl">Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button
-    className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide="prev"
-  >
-    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide="next"
-  >
-    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-            </section> 
-
+            <section className='py-3 md:py-12 mb-12'>
+            <Slider2/>
+            </section>
 
         </div>
     )

@@ -11,7 +11,7 @@ import svg3 from '../images/technology/s1.png';
 import svg4 from '../images/technology/s2.png';
 import svg5 from '../images/technology/s5.png';
 import svg6 from '../images/technology/s3.png';
-
+import {Helmet} from 'react-helmet';
 
 function Technology() {
     useEffect(() => {
@@ -20,7 +20,10 @@ function Technology() {
     const navigate = useNavigate('');
     return (
         <div>
-
+            <Helmet>
+            <title>Technologies</title>
+            <meta name="description" content="we develop both mobile and web application.we use React js,Node JS,React native." />
+           </Helmet>
             <section className='w-10/12 sm:ml-4 md:ml-20 pb-20'>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='pt-40' data-aos="fade-up">

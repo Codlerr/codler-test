@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import shade from '../images/onclick/lineshade.png';
 import { images } from '../constants/constants';
 import '../App.css';
-
+import {Helmet} from 'react-helmet';
 
 function Teams() {
     images.map((index)=>console.log(index.name));
@@ -22,8 +22,10 @@ function Teams() {
     }, []);
     return (
         <div>
-            
-                                                                       
+            <Helmet>
+               <title>Our Team</title>
+               <meta name="description" content="do u want to know who we are?" />
+          b   </Helmet>                                                        
                 <section className='h-96'>
                     <div className=''>
                     <img src={shade} className='blur-lg z-0 absolute  pt-40 lg:pt-16' data-aos="zoom-in"></img>

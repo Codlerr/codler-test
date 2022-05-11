@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../App.css';
 import { faArrowRight, faStar, faInstagram, faQuoteLeft, faSearchDollar, faDraftingCompass, faCog, faLightbulb } from '@fortawesome/free-solid-svg-icons'
 import Aos from 'aos';
+import { Helmet } from 'react-helmet';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 function Aboutus() {
@@ -10,6 +11,10 @@ function Aboutus() {
     }, [])
     return (
         <div>
+            <Helmet>
+            <title>About Codler</title>
+            <meta name="description" content="want to know who we are?" />
+           </Helmet>
             <section className='main-content'>
                 <div className='w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2  pt-40' data-aos="fade-up">
                     <div>

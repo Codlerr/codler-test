@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import '../App.css';
 import {faStar} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import {Helmet} from 'react-helmet'
 function Services() {
     useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -13,8 +13,10 @@ function Services() {
     const navigate = useNavigate('');
     return (
         <div>
-
-
+            <Helmet>
+            <title>Services</title>
+            <meta name="description" content="Have a look at services we offer" />
+           </Helmet>
             <section className='servebg'>
                     <div className='w-10/12 ml-5 lg:pl-8 text-white pt-56 md:pt-[500px] lg:pt-56' data-aos="fade-up">
                         <p className='text-xl md:text-4xl font-bold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>Business</p>

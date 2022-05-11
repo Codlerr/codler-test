@@ -11,13 +11,17 @@ import h4 from '../images/faq/Our Devoted TEAM.png';
 import drop1 from '../images/faq/drop1.png';
 import drop2 from '../images/faq/drop2.png';
 import line from '../images/faq/Line 6.png';
+import {Helmet} from 'react-helmet';
 function Faq() {
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
         <div>
-
+           <Helmet>
+            <title>FAQ</title>
+            <meta name="description" content="what you want to know about us?" />
+           </Helmet>
             <section>
                 <img src={shade} className='blur-lg z-0 absolute' data-aos="zoom-in"></img>
                 <div className='w-8/12 mx-auto grid grid-cols-1 lg:grid-cols-2'>

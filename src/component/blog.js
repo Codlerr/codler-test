@@ -11,7 +11,7 @@ import bub from '../images/bloglist/tbubble.jpg';
 import bubr from '../images/bloglist/bubble1@2x 2 (1).png';
 import bubl from '../images/bloglist/bubble1@2x 2.png';
 import line from '../images/bloglist/Line 6.png';
-
+import {Helmet} from 'react-helmet';
 function Blog() {
     useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -19,8 +19,10 @@ function Blog() {
     const navigate = useNavigate('');
     return (
         <div>
-
-
+          <Helmet>
+            <title>Blog</title>
+            <meta name="description" content="Read our blogs" />
+           </Helmet>           
             <section>
                 <div className='blogbg'>
                     <img src={bub}  className='hidden lg:block pt-96 absolute w-8 right-14'></img>

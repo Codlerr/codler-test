@@ -37,7 +37,7 @@ function Home() {
                 <div className='w-10/12 lg:w-11/12 grid mx-auto grid-cols-1 lg:grid-cols-3 flex flex-col-reverse'>
                         <div className='lg:ml-8 pt-12 lg:pt-36' data-aos="fade-up">
                             
-                        <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-24 font-bold ">
+                        <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-16 font-bold ">
                         <p className='text-white text-xl lg:text-5xl md:tracking-wide md:w-[500px]' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                             </h1>
                             <p className="text-white lg:text-l  mt-8" data-aos="fade-right">If you want to build your brand, we will be waiting for you!</p>

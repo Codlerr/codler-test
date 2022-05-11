@@ -3,8 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import drop1 from '../images/contact/img4@2x 1.png';
 import drop2 from '../images/contact/img1@2x 1.png';
-
-
+import {Helmet} from 'react-helmet';
 
 function Contact() {
     useEffect(() => {
@@ -12,6 +11,10 @@ function Contact() {
     }, []);
     return (
         <div>
+            <Helmet>
+            <title>Contact Us</title>
+            <meta name="description" content="get in touch with us" />
+           </Helmet>
             <section className='bg-zinc-900 mb-28'>
                 <div className='w-10/12 lg:w-8/12 mx-auto pt-40 pb-20' >
                     <div className='lg:pl-4'>

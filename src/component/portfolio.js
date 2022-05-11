@@ -10,8 +10,8 @@ import v5 from '../images/portfolio-images/7.png';
 import v6 from '../images/portfolio-images/8.png';
 import v7 from '../images/portfolio-images/9.jpg';
 import line from '../images/portfolio-images/Line 6.png';
+import {Helmet} from 'react-helmet';
 import { useNavigate } from "react-router-dom";
-import bub from '../images/portfolio-images/bubble.png';
 function Portfolio() {
     const navigate = useNavigate('');
     useEffect(() => {
@@ -19,11 +19,13 @@ function Portfolio() {
     }, []);
     return (
         <div>
+               <Helmet>
+               <title>Portfolio</title>
+               <meta name="description" content="want to know who we are?" />
+              </Helmet>
               <section className='probg'>
-                    
-                  <div className='w-10/12 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2'>
-                      
-                        <div className='pt-48 lg:pl-10 xl:pl-20' data-aos="fade-up">
+                     <div className='w-10/12 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2'>
+                      <div className='pt-48 lg:pl-10 xl:pl-20' data-aos="fade-up">
                             <p className='text-white text-3xl  xl:text-4xl font-bold'>Explore our portfolio</p>
                             <p className='text-white text-sm xl:text-lg xl:w-3/4 lg:pt-1'> We are passionate about what we do! Our portfolio is the pure essence of success over our hard work. We have years of industry experience, collaboration, expertise, and quality results.</p>
                         </div>
