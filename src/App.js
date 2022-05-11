@@ -16,12 +16,17 @@ import Portfolioinner from './component/portfolio2';
 import Blogdetails from './component/blog-details';
 import OnClickMobile from './component/onclick-mobile';
 import Teams from './component/teams';
+import {Helmet} from "react-helmet";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
       <div className="bg-black  h-full w-full  ">
           <Header />
+          <Helmet>
+          <title>Codler</title>
+          <meta name="description" content="best software company in banglore" />
+          </Helmet>
           <Routes>
               <Route element={<Home />} path='/' />
               <Route element={<Aboutus />} path='/Aboutus' />
