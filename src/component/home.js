@@ -215,7 +215,7 @@ function Home() {
                 <div className='' data-aos="fade-up">
                 <h1 className="text-white text-8xl  font-extrabold opacity-20 absolute">04</h1>
                 <div className='grid grid-cols-2'>
-                <hr className='textlgcolor mt-12 sm:hidden lg:block w-6' style={{height:'3px'}}/>
+                <hr className='textlgcolor mt-12 sm:-ml-12 w-6' style={{height:'3px'}}/>
                 <p className="text-white text-base -ml-36 md:-ml-64 lg:-ml-36 font-gilroythin tracking-wider mt-10 "> WHY YOU CHOOSE US</p>
                 </div>
                     <p className="text-white text-2xl md:text-3xl font-bold " data-aos="fade-right" data-aos-delay="200">What makes<br /> Codler stand out ?</p>
