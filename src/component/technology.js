@@ -12,8 +12,7 @@ import svg4 from '../images/technology/s2.png';
 import svg5 from '../images/technology/s5.png';
 import svg6 from '../images/technology/s3.png';
 import {Helmet} from 'react-helmet';
-import { Grain } from '@material-ui/icons';
-
+import '../App.css';
 function Technology() {
     useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -25,27 +24,29 @@ function Technology() {
             <title>Technologies</title>
             <meta name="description" content="we develop both mobile and web application.we use React js,Node JS,React native." />
            </Helmet>
-            <section className='w-10/12 sm:ml-4 md:ml-20 pb-20'>
+            <section className=' w-10/12 sm:ml-4 md:ml-20 pb-20'>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='pt-40' data-aos="fade-up">
                         <p className='text-2xl lg:text-[32px] leading-10 font-semibold font-gilroyregular text-white lg:w-2/3'data-aos="fade-up" data-aos-delay="100">It's your dream and we've got digital technology</p>
                         <p className='lg:text-lg text-sm text-zinc-300  tracking-tight font-gilroyregular lg:text-left lg:w-[400px]'>A variety of software development tools and technologies are used to develop resilient solutions customised to our customers' businesses.</p>
                     </div>
-                    <div className='pt-28 hidden lg:block'>
-                        <img data-aos="fade-up" src={logo} className='h-64 w-64 absolute right-60'></img>
+                    <div className=' hidden lg:block'>
+                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652779631/codler/Group_790_gnmokn.png' alt='img' className='w-36 h-36 mt-36 ml-36 z-200 relativehidden lg:block'/>
+                        <img data-aos="fade-up" src={logo} className='h-64 w-64 relative -z-200 ml-[78%] -mt-36 right-60'></img>
                         <p data-aos="fade-up"  className="text-l hidden lg:block  absolute right-60   font-bold opacity-30 text-lg text-zinc-700" >CMS</p>
                         <p data-aos="fade-up"  className="text-l hidden lg:block  absolute right-96 pr-20  font-bold opacity-30 text-lg text-zinc-700" >Mobile</p>
                         <p data-aos="fade-up"  className="text-l hidden lg:block  absolute right-36 top-56  font-bold opacity-30  text-lg text-zinc-700" >Frontend</p>
                         <p data-aos="fade-up"  className="text-l hidden lg:block  absolute right-96 top-56 pr-36   font-bold opacity-30  text-lg  text-zinc-700" >Infra & devops</p>
                         <p data-aos="fade-up"  className="text-l hidden lg:block  absolute right-44 top-80 font-bold opacity-30  text-lg text-zinc-700" >Database</p>
                         <p data-aos="fade-up"  className="text-l hidden lg:block  absolute right-96 top-80 pr-24  font-bold opacity-30 text-lg text-zinc-700" >Backend</p>
-                        
-                    </div>
+                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-16 h-16 ml-[68%] z-200 relative -mt-10 hidden lg:block'/>
+                      </div>
                 </div>
             </section>
 
-            <section className=' py-16 gain ' >
-                    <div className='w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 gap-x-6 gap-y-8'>
+            <section className=' z-200 relative bg-zinc-800 noise' >
+                <div className='py-12 bg-zinc-800'>
+                    <div className=' w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 gap-x-6 gap-y-8'>
                         <div data-aos="fade-up" className='bg-gradient-to-r from-purple-500 to-fuchsia-700 rounded-md px-10 lg:pl-10 cursor-pointer' onClick={() => navigate('./onclickmobile')}>
                             <img src={svg1} className='h-16 -mt-3'></img>
                             <p className='text-white lg:text-xl font-semibold pt-3'>Mobile</p>
@@ -76,6 +77,7 @@ function Technology() {
                             <p className='text-white lg:text-xl font-semibold pt-3'>CMS</p>
                             <p className='text-zinc-400 pb-2 lg:w-4/5 text-sm font-gilroymedium lg:text-base'>Our hands-on experience with popular CMS tools helps enterprises to create and manage their digital content with greater flexibility and ease.</p>
                         </div>
+                    </div>
                     </div>
             </section>
 

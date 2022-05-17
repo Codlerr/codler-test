@@ -16,7 +16,7 @@ function Footer() {
            <div>
                 <section>
                         <div className='lg:w-10/12 md:p-0 w-screen md:mx-auto md:pb-32'>
-                            <div className='flex relative z-600'>
+                            <div className='flex relative z-400'>
                             <img src={tbubble1} className=' lg:block w-16 mt-16 lg:w-24 lg:h-24 ml-2 bubble'></img>
                             <img src={tbubble1} className=' lg:block w-8 h-8 mt-56 lg:w-16  lg:h-16 ml-2 lg:ml-4 bubble2'></img>
                             <img src={tbubble1} className='lg:block w-4 h-4 mt-80 lg:w-8 lg:h-8  ml-2 lg:ml-4  bubble3'></img>

@@ -44,6 +44,13 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
 /* contact end */
 
 /* service */
+.noise{
+    width:100%;
+    height:100%;
+    content:"";
+    pointer-events: none;
+    background: url('./images/technology/grain.png');
+}
 .servebg{
     background-image: url('images/services/bg-wave.jpg');
     background-position: center;
