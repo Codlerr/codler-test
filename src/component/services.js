@@ -17,10 +17,10 @@ function Services() {
             <title>Services</title>
             <meta name="description" content="Have a look at services we offer" />
            </Helmet>
-            <section className='servebg'>
-                    <div className='w-10/12 ml-5 lg:pl-8 text-white pt-56 md:pt-[500px] lg:pt-56' data-aos="fade-up">
-                        <p className='text-xl md:text-4xl font-bold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>Business</p>
-                        <p className='lg:w-2/6 tracking-wide font-light '>Delivering high-quality software development services and leading the way in digital transformation are our strengths. Our skilled staff have demonstrated their talents and are ready to assist you. </p>
+            <section className='servebg lg:h-[600px] '>
+                    <div className=' ml-5 lg:pl-12 h-full text-white pt-56 md:pt-[500px] lg:pt-48' data-aos="fade-up">
+                        <p className='text-xl md:text-[44px] leading-[3rem] font-gilroybold font-extrabold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>business</p>
+                        <p className='w-[37%] text-lg font-medium  font-gilroylight '>Delivering high-quality software development services and leading the way in digital transformation are our strengths. Our skilled staff have demonstrated their talents and are ready to assist you. </p>
                     </div>
             </section>
             <section className='w-11/12 lg:w-10/12 mx-auto mt-20' data-aos="fade-up">
@@ -28,12 +28,12 @@ function Services() {
                     <div className='grid grid-cols-1 md:grid-cols-2 relative'>
                         <div><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/p1_ivmmeh.png'} className='md:w-10/12 md:mt-20 lg:mt-12 md:ml-12'></img></div>
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipses_62_lwwbms.png'} className='hidden  absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
-                        <div className=' lg:py-20 text-white relative'>
+                        <div className=' lg:py-12 text-white relative'>
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629514/codler/shade1_ypr4ql.png'} className='absolute hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
                            <div className='relative lg:mr-10 ml-8 md:mt-12 lg:mt-0  lg:ml-0 mb-5 lg:mb-0 lg:p-0'>
-                            <p className='text-2xl xl:text-3xl font-bold lg:w-full'>Web design and <br/> development company</p>
-                                <p className='text-xs md:text-sm font-light md:w-[90%]'>Take your brand online and lead your business with the help of one of the best teams in India. We will walk you through every nook and corner of the project. Our team will brainstorm, plan, research and organise data to meet your goals. Our accurate market understanding allows us to identify the market demands and integrate them into the design for a better user experience.</p>
-                                <a href='#'  onClick={() => navigate('/services/servicedetails')} className='flex no-underline text-white sbg1-btn w-36 md:h-10 md:w-32 shadow-lg rounded-full'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+                            <p className='text-2xl xl:text-[32px] font-gilroyregular font-bold leading-[2.5rem] tracking-wide lg:w-full'>Web design and <br/> development company</p>
+                                <p className='text-xs md:text-sm font-gilroythin md:w-[90%]'>Take your brand online and lead your business with the help of one of the best teams in India. We will walk you through every nook and corner of the project. Our team will brainstorm, plan, research and organise data to meet your goals. Our accurate market understanding allows us to identify the market demands and integrate them into the design for a better user experience.</p>
+                                <a href='#'  onClick={() => navigate('/services/servicedetails')} className='flex no-underline text-white sbg1-btn w-36 md:h-10 md:w-32  shadow-xl rounded-full'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
                         </div>
@@ -65,8 +65,8 @@ function Services() {
                         <div className='py-8 lg:py-16 text-white relative'>
                             
                            <div className='relative pl-10 pr-4md:mb-3 lg:mb-0 md:mt-16 lg:mt-0 lg:pl-24'>
-                            <p className='text-2xl xl:text-3xl font-bold lg:w-3/4'>Mobile App Developement</p>
-                                <p className='text-xs md:text-sm fpont-light'>Our creative team values your brand and makes the best user experience possible to increase the emotions between your brand and customers. We are experts at building intuitive apps using android native, flutter and react native. Our developers work closely with you from the initial design of your app to ongoing maintenance.</p>
+                            <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-3/4'>Mobile app developement</p>
+                                <p className='text-xs md:text-sm font-gilroythin font-light'>Our creative team values your brand and makes the best user experience possible to increase the emotions between your brand and customers. We are experts at building intuitive apps using android native, flutter and react native. Our developers work closely with you from the initial design of your app to ongoing maintenance.</p>
                                 <a href='#' className='flex no-underline text-white sbg2-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -88,8 +88,8 @@ function Services() {
                         <div className='lg:py-16 text-white relative'>
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/Ellipse_60_1_aawdaq.png'} className='absolute hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
                            <div className='relative lg:p-4 ml-8 lg:ml-0 mb-3 lg:mb-0 md:mt-12 lg:mt-0 mr-5 lg:p-0'>
-                            <p className='text-2xl xl:text-3xl font-bold lg:w-full'>Digital marketing</p>
-                                <p className='text-xs md:text-sm  font-light lg:w-full'>With a strong digital DNA, Codler steps into your marketing world and works as a partner in your growth. We help you plan your marketing ideas effectively and provide an optimal brand roadmap for your journey across the digital landscape. Our tailor-made digital marketing services help you build your brand across every social media platform. Our creative heads transform your ideas into eye-catchy designs.</p>
+                            <p className='text-2xl xl:text-[32px] font-gilroyregular font-bold leading-[2rem] tracking-wide lg:w-full'>Digital marketing</p>
+                                <p className='text-xs md:text-sm  font-light font-gilroythin lg:w-full'>With a strong digital DNA, Codler steps into your marketing world and works as a partner in your growth. We help you plan your marketing ideas effectively and provide an optimal brand roadmap for your journey across the digital landscape. Our tailor-made digital marketing services help you build your brand across every social media platform. Our creative heads transform your ideas into eye-catchy designs.</p>
                                 <a href='#' className='flex no-underline text-white sbg3-btn w-36 rounded-full  md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -107,8 +107,8 @@ function Services() {
                         <div className='py-8 lg:py-16 text-white relative'>
                             
                            <div className='relative pl-10 pr-4 md:mt-5 lg:mt-0 lg:pl-24'>
-                            <p className='text-2xl xl:text-3xl font-bold lg:w-full'>Quality Assurance (QA) & Testing Services</p>
-                                <p className='text-xs md:text-sm font-light'>Clients around the world exclusively use Codlerr's quality assurance services. We are experts in software testing, and they test anything from websites and apps to software products. We help clients minimize risks and succeed. They test many important aspects of software, including functionality, behavior, performance, flexibility, and more. </p>
+                            <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-full'>Quality Assurance (QA) & Testing Services</p>
+                                <p className='text-xs md:text-sm font-gilroythin font-light'>Clients around the world exclusively use Codlerr's quality assurance services. We are experts in software testing, and they test anything from websites and apps to software products. We help clients minimize risks and succeed. They test many important aspects of software, including functionality, behavior, performance, flexibility, and more. </p>
                                 <a href='#' className='flex no-underline text-white sbg4-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -131,8 +131,8 @@ function Services() {
                         <div className='lg:py-16 text-white relative'>
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/Ellipse_60_3_eealyi.png'} className='absolute hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
                            <div className='relative p-4 mr-8 md:mt-5 lg:mt-0 lg:p-0'>
-                            <p className='text-2xl xl:text-3xl font-bold lg:w-full'>Branding</p>
-                                <p className='text-xs md:text-sm lg:text-sm font-light lg:w-full'>Our creative heads are continually questioning and eternally curious, be it examining the technical details of the product or getting inside the minds of consumers. We bravely combine creativity with identity to create brands that live in the hearts of many. We craft stories that let you tell your story in a way that connects the gap between you and your spectators, allowing you to engage with them more quickly and efficiently.  </p>
+                            <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-full'>Branding</p>
+                                <p className='text-xs md:text-sm lg:text-sm font-light font-gilroythin lg:w-full lg:mb-6'>Our creative heads are continually questioning and eternally curious, be it examining the technical details of the product or getting inside the minds of consumers. We bravely combine creativity with identity to create brands that live in the hearts of many. We craft stories that let you tell your story in a way that connects the gap between you and your spectators.  </p>
                                 <a href='#' className='flex no-underline text-white sbg5-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
@@ -149,9 +149,9 @@ function Services() {
                         <div className='py-8 lg:py-16 text-white relative'>
                             
                            <div className='relative pl-10 md:mt-5 lg:mt-0 pr-4 lg:pl-24'>
-                            <p className='text-2xl xl:text-3xl font-bold lg:w-3/4'>Search Engine Optimisation ( SEO )</p>
-                                <p className='text-xs md:text-sm font-light'>Codler uses strategies to get your business in the top searches and earn more revenue. We tailor SEO strategies according to your business model, making it easier to increase the business's credibility and boost your business growth. Earn qualified search traffic to your website with our search engine optimisation services. </p>
-                                <a href='#' className='flex no-underline text-white sbg6-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+                            <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-3/4'>Search Engine Optimisation ( SEO )</p>
+                                <p className='text-xs md:text-sm font-gilroythin font-light'>Codler uses strategies to get your business in the top searches and earn more revenue. We tailor SEO strategies according to your business model, making it easier to increase the business's credibility and boost your business growth.</p>
+                                <a href='#' className='flex  no-underline text-white sbg6-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
                            </div>
                            
                         </div>
@@ -166,7 +166,7 @@ function Services() {
 
             <section className='w-11/12 lg:w-10/12 mx-auto py-24'>
                 <div className='w-10/12 mx-auto' data-aos="fade-up">
-                    <p className='text-zinc-800 text-lg text-color cursor-pointer lg:text-4xl hover:text-purple-500 font-bold'>Developing a top-notch product is the result of researching and defining the current market as well as the goals you have in mind.</p>
+                    <p className='text-zinc-800 text-lg text-color leading-[4rem] font-gilroybold font-bold cursor-pointer lg:text-[50px] hover:text-purple-500 font-bold'>Developing a top-notch product is the result of researching and defining the current market as well as the goals you have in mind.</p>
                 </div>
             </section>
 
@@ -174,10 +174,10 @@ function Services() {
             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/bubhalf_bufeg5.png'} className='hidden  lg:block absolute w-28 left-0 -mt-40'></img>
             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629514/codler/tbubble_uuck1c.png'} className='hidden lg:block absolute w-14 left-40 -mt-20'></img>
 
-            <section className='w-10/12 lg:mt-5 mx-auto bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-xl mb-20' data-aos="zoom-in">
+            <section className='w-10/12 lg:mt-0 mx-auto bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-xl mb-20' data-aos="zoom-in">
                 <div className='w-10/12 mx-auto py-14'>
                     <div>
-                        <p className='text-white text-lg leading-5 font-semibold'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-48 md:ml-56 h-24 textlgcolor'></hr></p>
+                        <p className='text-white text-lg font-semibold font-gilroythin leading-7'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-48 md:ml-48 h-24 textlgcolor'></hr></p>
                         <div className='grid grid-cols-2 lg:grid-flow-col gap-6 mt-2' >
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/U_GRAB_FINAL_PDF-01_1_2_nrltee.png'} className='w-56 h-20 mt-7'></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='lg:w-36 lg:h-16 mt-10 xs:mt-12 lg:mt-9'></img>
@@ -194,13 +194,13 @@ function Services() {
                         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 '>
                             <div className='py-20'>
                                 <div className='text-white pb-10' data-aos="fade-up">
-                                    <p className='text-2xl lg:text-3xl lg:w-4/5 font-semibold'>See what our valuable clients says about us</p>
-                                    <p className='text-zinc-200 lg:w-4/5 font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra quis bibendum adipiscing cum mauris, faucibus nulla. Sed adipiscing sollicitudin </p>
+                                    <p className='text-2xl lg:text-3xl lg:w-4/5 font-gilroyregular font-semibold'>See what our valuable clients says about us</p>
+                                    <p className='text-zinc-200 lg:w-4/5 text-xs font-gilroythin '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra quis bibendum adipiscing cum mauris, faucibus nulla. Sed adipiscing sollicitudin </p>
                                 </div>
 
                                 <div className='w-11/12 mx-auto lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-4' data-aos="fade-up">
                                           <div>
-                                              <div className='bg-zinc-800 z-10 h-72 lg:h-full' data-aos="fade-up">
+                                              <div className='bg-zinc-800 z-10 h-72 lg:h-64' data-aos="fade-up">
                                                     <div className='pl-6 pt-6 flex'>
                                                     <p className="text-xl pr-4 text-white font-semibold">5.0</p>
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500 " />
@@ -210,18 +210,18 @@ function Services() {
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500" />
                                                         
                                                     </div>
-                                                    <p className='text-zinc-400 text-sm font-light px-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                    <p className='text-white leading-5 text-xs font-light font-gilroythin px-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                                     <div className='flex'>
-                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-10 h-10 m-4'></img>
-                                                            <div className='text-zinc-200 -ml-3 mt-[20px]'>
+                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-7 h-7 mx-6 mt-1'></img>
+                                                            <div className='text-zinc-200 text-xs  font-semibold font-gilroythin -ml-3 mt-[3px]'>
                                                                 <p>Arjun nabiyar</p>
-                                                                <p className='-mt-4 text-xs font-light'>Director,lolipop desings</p>
+                                                                <p className='-mt-4 text-xs font-normal font-gilroythin'>Director,lolipop desings</p>
                                                             </div>
                                                         </div>
                                                 </div>
                                          </div>      
                                           <div>
-                                                <div className='bg-zinc-800 z-10 h-72 lg:h-full ' data-aos="fade-up">
+                                                <div className='bg-zinc-800 z-10 h-72 lg:h-64 ' data-aos="fade-up">
                                                     <div className='pl-6 pt-6 flex'>
                                                     <p className="text-xl pr-4 text-white font-semibold">5.0</p>
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500 " />
@@ -231,12 +231,12 @@ function Services() {
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500 " />
                                                         
                                                     </div>
-                                                    <p className='text-zinc-400 px-6 text-sm font-ligh'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                    <p className='text-white leading-5 text-xs font-light font-gilroythin px-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                                     <div className='flex'>
-                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-10 h-10 m-4'></img>
-                                                            <div className='text-zinc-200 -ml-3 mt-[20px]'>
+                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-7 h-7 mx-6 mt-1'></img>
+                                                            <div className='text-zinc-200 text-xs  font-semibold font-gilroythin -ml-3 mt-[3px]'>
                                                                 <p>Arjun nabiyar</p>
-                                                                <p className='-mt-4 text-xs font-light'>Director,lolipop desings</p>
+                                                                <p className='-mt-4  text-xs font-normal font-gilroythin'>Director,lolipop desings</p>
                                                             </div>
                                                         </div>
                                                 </div>

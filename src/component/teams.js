@@ -30,8 +30,8 @@ function Teams() {
                     <div className=''>
                     <img src={shade} className='blur-lg z-0 absolute  pt-40 lg:pt-16' data-aos="zoom-in"></img>
                         <div className='text-white blur-none py-40 mx-12 lg:mx-36' data-aos="fade-up">
-                            <p className='text-3xl w-48 lg:text-2xl font-bold tracking-wide underline decoration-pink-700 decoration-[6px]'>It's all about the people</p>
-                            <p className='text-xs  lg:text-sm lg:w-96'>We are goodones and so are your Clients.We wouldn't have it any other way.Meet the team</p>
+                            <p className='text-3xl w-48 lg:text-3xl font-gilroybold tracking-wide underline decoration-pink-700 decoration-[6px]'>It's all about the people</p>
+                            <p className='text-xs font-gilroythin lg:text-sm lg:w-96'>We are goodones and so are your Clients.We wouldn't have it any other way.Meet the team</p>
                         </div>
                         
                     </div>

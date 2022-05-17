@@ -24,7 +24,7 @@ function Footer() {
                             <div className='footerbg -mt-10 xs:h-[20%] lg:h-48 lg:rounded-lg'>
                                 <div className=' mx-auto grid grid-cols-2 lg:grid-cols-2 gap-4'>
                                     <div className='p-[15%] xl:p-12  lg:ml-24'>
-                                        <p className='text-white text-xs lg:-mt-8 font-bold xl:mt-0 lg:text-xl xl:text-2xl xl:-mt-4 xs:text-[10px]'  data-aos="fade-right">We believe in changing the <br></br>world digitally</p>
+                                        <p className='text-white text-xs lg:-mt-8 font-gilroybold xl:mt-0 lg:text-xl xl:text-2xl xl:-mt-4 xs:text-[10px]'  data-aos="fade-right">We believe in changing the <br></br>world digitally</p>
                                         <a href='#'><button class="man-btn border-slate-100 sm:-mt-12 md:mt-0 md:mb-0 xs:text-[7px] m:h-16 hover:bg-slate-800 text-xs xs:w-20 lg:text-sm w-32 h-[30%] lg:h-10 lg:w-44 lg:h-18 text-white border-nuetral-800 rounded lg:px-4 ">Discuss your project</button></a>
                                     </div>
                                     <div>

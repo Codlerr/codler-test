@@ -7,7 +7,7 @@ module.exports = {
             'sm': '360px',
             'md': '768px',
             'lg': '1024px',
-            'xl': '1280px',
+            'xl': '1270px',
         },
       extend: {
           width: {
@@ -28,7 +28,16 @@ module.exports = {
           marginTop: {
              
           },
-      }
+          fontFamily: {
+             gilroybold:['gilroybold',"cursive"],
+             gilroylight:["gilroylight","cursive"],
+             gilroysemibold:["gilroysemibold","cursive"],
+             gilroythin:["gilroythin","cursive"],
+             gilroymedium:["gilroymedium","cursive"]
+
+          },
+         
+      },
   },
   plugins: [],
 }
