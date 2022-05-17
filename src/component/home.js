@@ -36,7 +36,7 @@ function Home() {
                 <div className='w-10/12 lg:w-11/12 grid mx-auto grid-cols-1 lg:grid-cols-3 flex flex-col-reverse'>
                         <div className='lg:ml-8 pt-12 lg:pt-36' data-aos="fade-up">
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-16 font-bold ">
-                        <p className='text-white text-xl md:text-4xl xl:text-5xl md:tracking-wide md:w-[500px] font-gilroybold' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
+                        <p className='text-white text-3xl md:text-4xl xl:text-5xl md:tracking-wide md:w-[500px] font-gilroybold' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                         </h1>
                         <p className="text-white lg:text-l font-gilroylight  mt-8">If you want to build your brand, we will be waiting for you!</p>
                         <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
@@ -215,7 +215,7 @@ function Home() {
                 <div className='' data-aos="fade-up">
                 <h1 className="text-white text-8xl  font-extrabold opacity-20 absolute">04</h1>
                 <div className='grid grid-cols-2'>
-                <hr className='textlgcolor mt-12 w-6' style={{height:'3px'}}/>
+                <hr className='textlgcolor mt-12 sm:hidden lg:block w-6' style={{height:'3px'}}/>
                 <p className="text-white text-base -ml-36 md:-ml-64 lg:-ml-36 font-gilroythin tracking-wider mt-10 "> WHY YOU CHOOSE US</p>
                 </div>
                     <p className="text-white text-2xl md:text-3xl font-bold " data-aos="fade-right" data-aos-delay="200">What makes<br /> Codler stand out ?</p>
