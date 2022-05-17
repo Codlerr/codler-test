@@ -18,9 +18,9 @@ function Services() {
             <meta name="description" content="Have a look at services we offer" />
            </Helmet>
             <section className='servebg lg:h-[600px] '>
-                    <div className=' ml-5 lg:pl-12 h-full text-white pt-56 md:pt-[500px] lg:pt-48' data-aos="fade-up">
-                        <p className='text-xl md:text-[44px] leading-[3rem] font-gilroybold font-extrabold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>business</p>
-                        <p className='w-[37%] text-lg font-medium  font-gilroylight '>Delivering high-quality software development services and leading the way in digital transformation are our strengths. Our skilled staff have demonstrated their talents and are ready to assist you. </p>
+                    <div className=' mx-5 lg:pl-12 h-full text-white xs:pt-24 sm:pt-56  md:pt-[150px] lg:pt-48' data-aos="fade-up">
+                        <p className='text-xl md:text-2xl lg:text-[44px] lg:leading-[3rem] font-gilroybold font-extrabold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>business</p>
+                        <p className='md:w-[37%] md:text-sm lg:text-lg font-medium  font-gilroylight '>Delivering high-quality software development services and leading the way in digital transformation are our strengths. Our skilled staff have demonstrated their talents and are ready to assist you. </p>
                     </div>
             </section>
             <section className='w-11/12 lg:w-10/12 mx-auto mt-20' data-aos="fade-up">
