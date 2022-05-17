@@ -1,6 +1,25 @@
 @tailwind components;
 @tailwind utilities;
-
+@font-face{
+    src: url(assets/fonts/Gilroy-ExtraBold.ttf);
+    font-family: "gilroybold";
+}
+@font-face{
+    src:url(assets/fonts/Gilroy-UltraLight.ttf);
+    font-family: "gilroythin";
+}
+@font-face {
+    font-family: "gilroylight";
+    src: url(assets/fonts/Gilroy-Light.ttf);
+}
+@font-face {
+    font-family: "gilroymedium";
+    src: url(assets/fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: "gilroysemibold";
+    src: url(assets/fonts/Gilroy-SemiBold.ttf);
+}
 .mainbg{
     background-image: url('images/mainbg.png');
     background-repeat: no-repeat;
@@ -12,7 +31,6 @@
         height: 80vh;
     }
 }
-
 /* contact */
 .contact-btn{
     background: linear-gradient(139.63deg, rgba(255, 255, 255, 0.2) 1.7%, rgba(0, 0, 0, 0) 97.81%),
@@ -26,12 +44,9 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
 /* contact end */
 
 /* service */
-
 .servebg{
     background-image: url('images/services/bg-wave.jpg');
     background-position: center;
-    background-size: cover;
-    height: 100vh;
     z-index: 0;
 }
 @media (max-width:480px){
@@ -45,7 +60,7 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
 
 }
 .sbg1-btn{
-    background: linear-gradient(139.63deg, rgba(255, 255, 255, 0.13) 1.7%, rgba(0, 0, 0, 0) 97.81%),
+background: linear-gradient(139.63deg, rgba(255, 255, 255, 0.13) 1.7%, rgba(0, 0, 0, 0) 97.81%),
 linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11)); 
     
 }
@@ -209,16 +224,6 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
     }
 }
 
-
-/* .probg{
-    background-image: url('images/portfolio-images/Group\ 2074.jpg');
-    z-index: 0;
-    height: 80vh;
-} */
-/* portfoli */
-
-
-/* portfoli2 */
 .port-sec2-bg{
     background: #0F0F0F;
 
