@@ -38,37 +38,37 @@
      export const images=[{
          name:"N Manasa",
          designation:'Senior Content Writer',
-         url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652419570/codler/Image_4_azvgr9.jpg'
+         url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653064095/codler/Image_4_qeidyk.webp'
 
      },
      {
         name:"Rashid PK",
         designation:'Web Developer',
-        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652419571/codler/image_2_p12yvw.jpg'
+        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653064095/codler/image_2_mlwiot.webp'
 
     },
     {
         name:"Suha Fazal",
         designation:'Social Media Marketer',
-        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652419570/codler/Image_6_swt9m5.jpg'
+        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653064095/codler/Image_6_ptsxsl.webp'
 
     },
     {
         name:"Mirza Sadique",
         designation:'Intern',
-        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652419570/codler/image_1_larccr.jpg'
+        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653064095/codler/image_1_ym8lid.webp'
 
     },
     {
         name:"Noora Latheef",
         designation:'Web Developer',
-        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652419570/codler/Image_5_lhz2gz.jpg'
+        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653064095/codler/Image_5_qwcgvo.webp'
 
     },
     {
         name:"Haniyya Hessa Sharfu",
         designation:'Intern',
-        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652419571/codler/image_3_i7ghe3.jpg'
+        url:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653064095/codler/image_3_dvqgsw.webp'
 
     },
     
