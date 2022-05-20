@@ -112,7 +112,7 @@ function Home() {
                              </div> 
                     </div>
                     <div className="w-full" data-aos="zoom-in">
-                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653048104/codler/Image_gl7vsx.png'} alt="mobile"  className="p-16 md:p-0  md:w-[600px] md:h-[500px]"/>
+                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653048104/codler/Image_gl7vsx.png'} alt="mobile"  className="p-16 md:p-0 opacity-70  md:w-[600px] md:h-[547px]"/>
                               <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-28 h-28 ml-[96%]  hidden xl:block'/>
                    </div>
             </div>
