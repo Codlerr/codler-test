@@ -23,18 +23,18 @@ function Portfolio() {
                <title>Portfolio</title>
                <meta name="description" content="want to know who we are?" />
               </Helmet>
-              <section className='probg'>
+              <section className='portfoliobg'>
                      <div className='w-10/12 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2'>
                       <div className='pt-48 lg:pl-10 xl:pl-20' data-aos="fade-up">
-                            <p className='text-white text-3xl  xl:text-4xl font-bold'>Explore our portfolio</p>
-                            <p className='text-white text-sm xl:text-lg xl:w-3/4 lg:pt-1'> We are passionate about what we do! Our portfolio is the pure essence of success over our hard work. We have years of industry experience, collaboration, expertise, and quality results.</p>
+                            <p className='text-white text-3xl xs:mt-32 md:mt-0 xl:text-[40px] tracking-wide leading-none font-semibold font-gilroybold'>Explore our portfolio</p>
+                            <p className='text-white text-sm xl:text-lg font-gilroyregular xl:w-3/4 lg:pt-1'> We are passionate about what we do! Our portfolio is the pure essence of success over our hard work. We have years of industry experience, collaboration, expertise, and quality results.</p>
                         </div>
                         <div className='pt-14 hidden md:block xl:w-[800px] xl:-ml-48'>
-                            <img src={bg1} className='port-bg ' data-aos="fade-up"></img>
+                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652799837/codler/david-becker-YCF34YywBrs-unsplash_1_h1j4ri.png'} className='' data-aos="fade-up"></img>
                         </div>
                   </div>
               </section>
-              <section className='hidden md:block w-11/12 lg:w-10/12 mx-auto md:mx-20 py-8' data-aos="fade-up">
+              <section className='hidden md:block w-11/12 lg:w-10/12 mx-auto lg:mt-2 md:mx-20'>
                   <div className='flex justify-between lg:justify-start'>
                         <a href='#' className='no-underline'         ><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>ALL</p></a>
                         <a href='#' className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>BRANDING</p></a>
@@ -45,13 +45,13 @@ function Portfolio() {
               </section>
 
               <section className='w-10/12 lg:w-10/12 mt-10 md:mt-0 mx-auto overflow-hidden' data-aos="fade-up">
-                  <div className='port-bg' style={{backgroundColor:'#800080'}}>
+                  <div className='port-bg mt-5 bg-blue-500' >
                     <div className='w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2' onClick={()=>navigate('./portfoliodetails')}>
                             <div>
                                 <div className='mt-8 lg:my-24'>
-                                    <span className='flex'><p className='text-white font-semibold text-xs lg:text-base' >OUR RECENT WORK</p><img src={line} className='h-0.5 mt-2.5 pl-2'></img></span>
+                                    <span className='flex'><p className='text-white font-semibold tracking-wide text-xs lg:text-base' >OUR RECENT WORK</p><img src={line} className='h-0.5 mt-2.5 pl-2'></img></span>
                                     <p className='text-white font-bold text-2xl lg:text-3xl ' data-aos="fade-right" data-aos-delay="700">Car Rental App – <br/>CAR CHILLI</p>
-                                    <p className='text-zinc-300 pt-2 text-sm lg:text-base leading-5 font-light lg:leading-7 lg:w-4/5'>A Singapore based car rental mobile app where a user can rent a car from its owner quickly and easily. We were able to change the UI design from a basic structure to a better UI that interacts with the customers—researched how the app should be, and changed the logo to a better one.</p>
+                                    <p className='text-zinc-200 pt-2 text-sm lg:text-base leading-5 font-light font-gilroythinlg:leading-7 lg:w-4/5'>A Singapore based car rental mobile app where a user can rent a car from its owner quickly and easily. We were able to change the UI design from a basic structure to a better UI that interacts with the customers—researched how the app should be, and changed the logo to a better one.</p>
                                 </div>
                                 
                             </div>
@@ -70,7 +70,7 @@ function Portfolio() {
                         <div class="rounded-lg back1-bg h-fit" data-aos="fade-up">
                             <div className='w-9/12 mx-auto text-center pt-6'>
                                     <p className='text-black font-bold'>AI Brilliance Landing page</p>
-                                    <p className='text-black text-xs lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
+                                    <p className='text-black text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
                                     <img src={v2} className='lg:h-72 rounded-lg'></img>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ function Portfolio() {
                         <div class="rounded-lg back2-bg h-fit" data-aos="fade-up">
                                 <div className='w-9/12 mx-auto text-center pt-8 lg:pt-24'>
                                     <p className='text-black font-bold'>AI Brilliance Landing page</p>
-                                    <p className='text-black text-xs lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
+                                    <p className='text-black text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
                                     <img src={v3} className='lg:h-72 rounded-lg'></img>
                                 </div>
                         </div>
@@ -86,7 +86,7 @@ function Portfolio() {
                         <div class="rounded-lg back3-bg h-fit" data-aos="fade-up">
                                 <div className='w-9/12 mx-auto text-center pt-8 lg:pt-24'>
                                     <p className='text-white font-bold'>AI Brilliance Landing page</p>
-                                    <p className='text-white text-xs lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
+                                    <p className='text-white text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
                                     <img src={v4} className='lg:h-72 rounded-lg'></img>
                                 </div>
                         </div>
@@ -94,7 +94,7 @@ function Portfolio() {
                         <div class="rounded-lg back4-bg h-fit" data-aos="fade-up">
                                 <div className='w-9/12 mx-auto text-center pt-6'>
                                     <p className='text-black font-bold'>AI Brilliance Landing page</p>
-                                    <p className='text-black text-xs lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
+                                    <p className='text-black text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
                                     <img src={v5} className='lg:h-72 rounded-lg'></img>
                                 </div>
                         </div>

@@ -29,8 +29,8 @@ function Aboutus() {
 
                     <div>
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585635/codler/officework_bbpbsv.jpg'} className='rounded-xl pt-16 md:pt-0 md:mt-16 lg:mt-20 relative z-200 lg:pt-0 lg:h-80 lg:w-[480px] lg:ml-14'></img>
-                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-24 h-24 ml-[98%] -z-200 -mt-5 hidden lg:block'/>
-                        <div className='bg-zinc-800 opacity-30 ml-64 w-80 h-[580px] hidden mt-[-600px] lg:block'>
+                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-24 h-24 ml-[98%] -z-200 -mt-5 hidden xl:block'/>
+                        <div className='bg-zinc-800 opacity-30 md:ml-24 xl:ml-64 w-80 h-[580px] hidden mt-[-600px] lg:block'>
                         </div>
                     </div>
                         <div>

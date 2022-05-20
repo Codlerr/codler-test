@@ -39,7 +39,7 @@ function Home() {
                         <p className='text-white text-3xl md:text-4xl xl:text-5xl md:tracking-wide md:w-[500px] font-gilroybold' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                         </h1>
                         <p className="text-white lg:text-l font-gilroylight  mt-8">If you want to build your brand, we will be waiting for you!</p>
-                        <button class="bg-gradient-to-tr from-zinc-600 to-zinc-900  text-sm w-40 h-12  text-white border-nuetral-800 rounded px-4" data-aos="fade-right">Let's Talk</button>
+                        <button class=" button_txt text-sm w-40 h-12  text-white border-nuetral rounded px-4" data-aos="fade-right">Let's Talk</button>
                             <div className=" sm:mb-0 mb-12">
                                 <div className='pt-10 xl:pt-16'>
                                     <a href='#'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557143/codler/arrw_jfawrk.png'} className='h-20 lg:mt-16'></img></a>
@@ -79,12 +79,12 @@ function Home() {
         
  
 
-        <section className='w-10/12 mx-auto xs:mt-5  md:pt-24 lg:pt-24 lg:pb-24 '>
+        <section className='w-10/12 mx-auto xs:mt-5 md:px-24 px-10 black-rgba  noise md:pt-24 lg:pt-24 lg:pb-24 '>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div data-aos="fade-up" className="">
                         <p className='text-8xl lg:text-9xl  text-zinc-900 font-extrabold z-0 -ml-6'>01</p>
                         <p className='text-white text-2xl md:text-4xl font-semibold lg:font-bold -mt-20 lg:-mt-24 tracking-wide' data-aos="fade-right" data-aos-delay="200">A little about us</p>
-                        <p className='text-zinc-300  xl:w-[500px] text-lg font-gilroythin '>Our team of innovative minds are handpicked to provide app, web and digital media solutions for your business to help you achieve your current and future goals. We transform visionaries into digital products with care and ease, allowing you to focus on what matters to your business and customers.</p>
+                        <p className='text-zinc-300  xl:w-[500px] text-sm font-gilroythin '>Our team of innovative minds are handpicked to provide app, web and digital media solutions for your business to help you achieve your current and future goals. We transform visionaries into digital products with care and ease, allowing you to focus on what matters to your business and customers.</p>
                         <p className='textlbg testdecoration-none text-sm md:text-md tracking-wider leading-loose font-bold no-underline mt-2'>AN ASTONISHING WORKSPACE</p>
                     </div>
                     <div className="pt-8 md:py-10 lg:py-0 lg:pt-0 relative md:grid-cols-2" data-aos="zoom-in">
@@ -130,7 +130,7 @@ function Home() {
          <section className='bg-transparent '>
             <div className='grid grid-cols-3 bg-zinc-900 lg:grid-cols-4 md:-mt-8 '>
                 <div className='md:-mt-10 -mt-20 lg:mb-10'>
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652514814/codler/Ellipse_24_bqdhdr.png'} alt="img" className='w-96 h-80 ml-8'/>
+                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652514814/codler/Ellipse_24_bqdhdr.png'} alt="img" className='md:w-96 h-80 ml-2 md:ml-8'/>
                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1651349315/codler/Group_2021_gleb4y.png'} className='w-36 md:w-56 lg:w-80 z-100 md:h-64 -mt-56'/>
                 </div>
             <div class="col-span-2 md:pt-14 bg-zinc-900 lg:ml-10 lg:mb-16 ">
@@ -206,11 +206,11 @@ function Home() {
 
         <section>
                 <div className='md:-mt-28'>
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652512796/codler/Group_2080_z69bz7.png'}   alt="" className="z-20 w-40 mt-10 hidden lg:block md:mt-0 h-32 lg:w-72 lg:h-60" data-aos="fade-right"/>
+                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652512796/codler/Group_2080_z69bz7.png'}   alt="" className="z-20 w-40 mt-10 hidden lg:block md:mt-0 h-32 lg:w-96 lg:h-96" data-aos="fade-right"/>
                 </div>
         </section>
 
-       <section className='w-10/12 mx-auto mt-28 lg:mt-10 lg:pb-28 pl-10 md:pl-12'>
+       <section className='w-10/12 xs:mx-3 sm:mx-5 md:mx-auto mt-28 lg:-mt-5 lg:pb-28 pl-10 md:pl-12'>
             <div className='grid grid-cols-1 lg:grid-cols-3'>
                 <div className='' data-aos="fade-up">
                 <h1 className="text-white text-8xl  font-extrabold opacity-20 absolute">04</h1>
@@ -249,34 +249,81 @@ function Home() {
         </section>
           
     
-        <section className=' lg:h-screen -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
+        <section className=' lg:h-screen  z-800 px-20 md:px-12 lg:px-0 relative noise bg-black-rgba -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
             <div className='grid grid-cols-1  md:grid-cols-2 lg:-ml-12 xl:ml-0 overflow-hidden '>
-                <div data-aos="fade-down h-96">
+                <div data-aos="fade-down w-64 h-96">
                 <FontAwesomeIcon icon={faQuoteLeft} className="text-2xl lg:text-7xl text-gray-800 z-0" />
                     <div className='z-10 lg:-mt-24'>
-                        
-                       <hr className="w-5 h-12 textlgcolor ml-24 mt-12" style={{height:'3px'}}/> <span> <p className="text-l  lg:ml-32  tracking-widest -mt-7 font-normal text-white" data-aos="fade-right" data-aos-delay="200">OUR STRENGTH</p>
+                      <hr className="w-5 h-12 textlgcolor ml-24 mt-12" style={{height:'3px'}}/> <span> <p className="text-l  lg:ml-32  tracking-widest -mt-7 font-normal text-white" data-aos="fade-right" data-aos-delay="200">OUR STRENGTH</p>
                         </span>
                         <p className="text-xl lg:text-3xl  lg:ml-24 mt-3 text-white font-bold tracking-wide" data-aos="fade-right" data-aos-delay="200">Get real world advice <br />from people<br />who have been there</p>
                         <p className="text-xs lg:text-lg w-64 lg:ml-24 lg:pr-5 font-gilroythin tracking-wide text-white lg:w-[400px] ">We work thoroughly with our clients to design, develop, and define transformative user experiences across all platforms and brand touchpoints.</p>
                     </div>
                 </div>
 
-                <div className="xl:-ml-8 lg:ml-7">
+                <div className="xl:-ml-8  lg:ml-7">
                     <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 gap-3 '>
                     <div className="flex  flex-col overflow-hidden" data-aos="fade-left">
-                            <div className="md:w-80 w-68 text-xs md:text-sm  lg:ml-0 md:p-2 ml-2  md:h-68 rounded hover:scale-105 box" style={{backgroundColor:'#8B008B'}}>
-                              <div className="inline-block ml-3 ">
+                            <div className="md:w-[280px]  w-56 text-xs xs:h-64 md:text-sm p-3 lg:ml   bg-violet-900 md:h-80 rounded hover:scale-105 box" >
+                              <div className="grid grid-cols-2">
+                                  <div>
                                   <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
-                                  <FontAwesomeIcon icon={faStar} className="text-l  text-yellow-500 " />
+                                  </div>
+                                  <div className='mt-[15px] md:mt-[19px] -ml-16 md:-ml-20'>
+                                  <FontAwesomeIcon icon={faStar} className="text-l  text-white " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-white " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-white " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-white " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-white " />
+                                  </div>
+                                </div>
+                              <p className="md:text-sm text-xs ml-6 md:ml-0 md:mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal explanation and delivered exactly what we wanted. Looking forward to work with them again</p>
+                              <div className='flex'>
+                                <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4  md:ml-0 md:mt-3 '></img>
+                                     <div className='text-white text-[10px] md:text-sm leading-3 md:mt-3 ml-3'>
+                                     <p>Naseef<br/>
+                                        Director,Caenor</p>
+                                    </div>
+                                </div>
+                          </div>
+                            <div className=" md:w-[265px] w-56 p-3 mt-3  rounded hover:scale-105 md:h-56- sectionbg">
+                            <div className="grid grid-cols-2">
+                                  <div>
+                                  <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
+                                  </div>
+                                  <div className='mt-[15px] md:mt-[19px] -ml-16 md:-ml-20'>
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  </div>
+                                </div>
+                              <p className="md:text-sm text-xs ml-6 md:ml-0 mt-1 md:mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal </p>
+                              <div className='flex'>
+                                <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4 md:ml-0 md:mt-3 '></img>
+                                     <div className='text-white text-[10px] md:text-sm leading-3 md:mt-3 ml-3'>
+                                     <p>Arjun nabiyar<br/>
+                                        Director,lolipop desings</p>
+                                    </div>
+                                </div>
+                          </div>
+                      </div>
+                      <div className="flex flex-col md:h-96 lg:-ml-24 hidden lg:block" data-aos="fade-left">
+                            <div className="w-2/3 md:w-[265px] ml-5 md:ml-12 p-3 h-[298px] rounded sectionbg hover:scale-105">
+                            <div className="grid grid-cols-2">
+                                  <div>
+                                  <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
+                                  </div>
+                                  <div className='mt-[19px] -ml-20'>
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500" />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
-                              </div>
-                              <p className="md:text-sm text-xs ml-3 md:ml-0 mt-3 text-white">Lorem Ipsum is simply dummy text of the<br /> printing and typesetting industry. <br />Lorem Ipsum has been the industry's <br />standard dummy text ever since the 1500s,</p>
+                                  </div>
+                                </div>
+                              <p className="md:text-sm text-xs ml-6 md:ml-0 mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal explanation and delivered exactly what we wanted. Looking forward to work with them again</p>
                               <div className='flex'>
                                 <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4 ml-2 md:ml-0 mt-3 '></img>
                                      <div className='text-white text-xs md:text-sm leading-3 md:mt-3 ml-3'>
@@ -285,64 +332,24 @@ function Home() {
                                     </div>
                                 </div>
                           </div>
-                            <div className=" md:w-80 ml-2  mt-3  rounded hover:scale-105 md:h-64 sectionbg">
-                              <div className="inline-block  ml-3">
-                                  <p className="md:text-xl text-sm mt-3 md:mt-0   text-white font-semibold">5.0</p>
+                            <div className="w-2/3 md:w-[265px]  p-3 mt-3 ml-5 h-64 md:ml-12 rounded sectionbg hover:scale-105">
+                            <div className="grid grid-cols-2">
+                                  <div>
+                                  <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
+                                  </div>
+                                  <div className='mt-[19px] -ml-20'>
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
-                              </div>
-                              <p className="text-sm mt-2 text-white  ml-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />Lorem Ipsum has been the industry's </p>
-                               <div className='flex'>
-                                <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 h-4 w-4 mt-3 ml-2 md:ml-0'></img>
-                                     <div className='text-white text-sm leading-3 mt-3 ml-3'>
-                                     <p>Arjun nabiyar<br/><br/>
-                                        Director,lolipop desings</p>
-                                    </div>
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500  " />
+                                  </div>
                                 </div>
-                          </div>
-                      </div>
-                      <div className="flex flex-col md:h-64 lg:-ml-12 hidden lg:block" data-aos="fade-left">
-                            <div className="w-2/3 md:w-80 ml-5 md:ml-12 p-3  rounded sectionbg hover:scale-105">
-                              <div className="inline-block ml-2 md:ml-0">
-                                  <p className="text-xl  text-white font-semibold">5.0</p>
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
-                              </div>
-                              <p className="text-sm mt-2 text-white ml-2 md:ml-0">Lorem Ipsum is simply dummy text of the<br /> printing and typesetting industry. <br />Lorem Ipsum has been the industry's <br />standard dummy text ever since the 1500s,</p>
+                              <p className="md:text-sm text-xs ml-6 md:ml-0 mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements our requirements with minimal</p>
                               <div className='flex'>
-                                <img src={require('../images/services/user1.png')} className='w-4 h-4 md:w-8 md:h-8 mt-3 ml-2 md:ml-0'></img>
-                                     <div className='text-white text-sm leading-3 mt-3 ml-3'>
-                                     <p>Arjun nabiyar<br/><br/>
-                                        Director,lolipop desings</p>
-                                    </div>
-                                </div>
-                          </div>
-                            <div className="w-2/3 md:w-80 md:h-[259px] p-3 mt-3 ml-5 md:ml-12 rounded sectionbg hover:scale-105">
-                              <div className="inline-block">
-                                  <p className="text-xl  text-white font-semibold">5.0</p>
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
-                                  <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
-
-                              </div>
-                              <p className="text-sm mt-2 text-white">Lorem Ipsum is simply dummy text of the<br /> printing and typesetting industry. <br />Lorem Ipsum has been the industry's <br />standard dummy text ever since the 1500s,</p>
-                              <div className='flex'>
-                                <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4 mt-3 '></img>
-                                     <div className='text-white text-sm leading-3 mt-3 ml-3'>
-                                     <p>Arjun nabiyar<br/><br/>
+                                <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4 ml-2 md:ml-0 mt-3 '></img>
+                                     <div className='text-white text-xs md:text-sm leading-3 md:mt-3 ml-3'>
+                                     <p>Arjun nabiyar<br/>
                                         Director,lolipop desings</p>
                                     </div>
                                 </div>
@@ -351,8 +358,8 @@ function Home() {
                     </div>
                  </div>
             </div>
-            <div className="md:w-screen  -ml-24 w-screen h-96  mt-[-65%] ">
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen h-[100%]  -mt-96 " />
+            <div className="md:w-screen  -ml-36 w-screen h-96 lg:mt-[-99%] xl:mt-[-73%] ">
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen blur-sm h-[100%] lg:h-[140%] -mt-96 " />
                   </div>
         </section>
         <section className='bg-[#191919] h-full w-full xs:px-0 sm:px-10 md:px-24 md:py-4  py-10 lg:my-20' >
@@ -376,8 +383,8 @@ function Home() {
 
                         <div data-aos="fade-up">
                             <div className='pt-10'>
-                                <p className='text-sm md:text-lg font-gilroythin  -mt-8 md:mt-0 text-white pl-10 md:pl-0 lg:pr-10 leading-6'>You don't just have to pick up the phone to ring us - we are on Facebook, LinkedIn as well Instagram! See you there!</p>
-                                    <div className='pt-2 pl-10 md:pl-0'>
+                                <p className='text-sm md:text-lg font-gilroythin  -mt-8 md:mt-0 text-white pl-10 lg:pl-0 lg:pr-10 leading-6'>You don't just have to pick up the phone to ring us - we are on Facebook, LinkedIn as well Instagram! See you there!</p>
+                                    <div className='pt-2 pl-10 lg:pl-0'>
                                         <a href='https://www.instagram.com/accounts/login/' className='flex no-underline'> <p className='textlbg testdecoration-none text-sm text-lg font-semibold -mt-2'>Take me to Instagram</p>
                                      <FontAwesomeIcon icon={faArrowRight} className="text-base ml-2 text-white cursor-pointer" /></a>
                                     {/* <span>

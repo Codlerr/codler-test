@@ -36,6 +36,9 @@ module.exports = {
              gilroymedium:["gilroymedium","cursive"]
 
           },
+          colors:{
+            'black-rgba':'rgba(0,0,0,0.54)',
+          },
          
       },
   },

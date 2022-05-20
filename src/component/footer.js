@@ -39,7 +39,7 @@ function Footer() {
                         </div>
                  </section>
                  <footer className='w-10/12 md:mx-auto p-10 md:p-0 md:pb-24 pb-10'>
-                     <div className='grid grid-cols-1 lg:grid-cols-4 gap-4'>
+                     <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
                             <div  className=''>
                                 <p className='text-white lg:text-base font-semibold'>Quick links</p>
                                 <div>
@@ -60,10 +60,9 @@ function Footer() {
                             </div>
                             <div className='lg:-ml-10'>
                                 <p className='text-white text-sm lg:text-base  font-semibold'>Registered Office Address</p>
-                                <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline font-semibold'>codlerr Private Limited,<br></br>
-                                    Buildings Alyssa, Begonia &<br></br>
-                                    Clove Embassy Tech Village,<br></br>
-                                    Outer Ring Road, Devarabeesanahalli<br></br> Village, Bengaluru, 560103,<br></br>
+                                <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline font-semibold'>Codler Solution Private Limited,<br></br>
+                                    Electronic City<br></br>
+                                    Bengaluru, 560100,<br></br>
                                     Karnataka, India</p>
                             </div>
                             <div className=''>

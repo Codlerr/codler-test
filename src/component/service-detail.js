@@ -183,18 +183,18 @@ function Servicedetails() {
                 </div>
             </section>
         
-            <section className='bg-zinc-900 mb-24'>
+            <section className='bg-zinc-900 mb-20'>
                     <div className='w-11/12 lg:w-10/12 mx-auto'>
                         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 '>
                             <div className='py-20'>
                                 <div className='text-white pb-10' data-aos="fade-up">
-                                    <p className='text-2xl lg:text-3xl lg:w-4/5 font-semibold'>See what our valuable clients says about us</p>
-                                    <p className='text-zinc-200 lg:w-4/5 font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra quis bibendum adipiscing cum mauris, faucibus nulla. Sed adipiscing sollicitudin </p>
+                                    <p className='text-2xl lg:text-3xl lg:w-4/5 font-gilroyregular font-semibold'>See what our valuable clients says about us</p>
+                                    <p className='text-zinc-200 lg:w-4/5 text-xs font-gilroythin '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra quis bibendum adipiscing cum mauris, faucibus nulla. Sed adipiscing sollicitudin </p>
                                 </div>
 
                                 <div className='w-11/12 mx-auto lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-4' data-aos="fade-up">
                                           <div>
-                                              <div className='bg-zinc-800 z-10' data-aos="fade-up">
+                                              <div className='bg-zinc-800 z-10 h-72 lg:h-64' data-aos="fade-up">
                                                     <div className='pl-6 pt-6 flex'>
                                                     <p className="text-xl pr-4 text-white font-semibold">5.0</p>
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500 " />
@@ -204,18 +204,18 @@ function Servicedetails() {
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500" />
                                                         
                                                     </div>
-                                                    <p className='text-zinc-400 px-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                    <p className='text-white leading-5 text-xs font-light font-gilroythin px-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                                     <div className='flex'>
-                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-10 h-10 m-4'></img>
-                                                            <div className='text-zinc-200 leading-3 mt-3'>
+                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-7 h-7 mx-6 mt-1'></img>
+                                                            <div className='text-zinc-200 text-xs  font-semibold font-gilroythin -ml-3 mt-[3px]'>
                                                                 <p>Arjun nabiyar</p>
-                                                                <p>Director,lolipop desings</p>
+                                                                <p className='-mt-4 text-xs font-normal font-gilroythin'>Director,lolipop desings</p>
                                                             </div>
                                                         </div>
                                                 </div>
                                          </div>      
                                           <div>
-                                                <div className='bg-zinc-800 z-10' data-aos="fade-up">
+                                                <div className='bg-zinc-800 z-10 h-72 lg:h-64 ' data-aos="fade-up">
                                                     <div className='pl-6 pt-6 flex'>
                                                     <p className="text-xl pr-4 text-white font-semibold">5.0</p>
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500 " />
@@ -225,12 +225,12 @@ function Servicedetails() {
                                                             <FontAwesomeIcon icon={faStar} className="text-l mt-1 text-yellow-500 " />
                                                         
                                                     </div>
-                                                    <p className='text-zinc-400 px-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                    <p className='text-white leading-5 text-xs font-light font-gilroythin px-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1500s, when an Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                                     <div className='flex'>
-                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-10 h-10 m-4'></img>
-                                                            <div className='text-zinc-200 leading-3 mt-3'>
+                                                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629515/codler/user1_uss6f0.png'} className='w-7 h-7 mx-6 mt-1'></img>
+                                                            <div className='text-zinc-200 text-xs  font-semibold font-gilroythin -ml-3 mt-[3px]'>
                                                                 <p>Arjun nabiyar</p>
-                                                                <p>Director,lolipop desings</p>
+                                                                <p className='-mt-4  text-xs font-normal font-gilroythin'>Director,lolipop desings</p>
                                                             </div>
                                                         </div>
                                                 </div>
@@ -245,34 +245,34 @@ function Servicedetails() {
 
 
                             {/* form */}
-                           <div className='py-10' data-aos="fade-up">
-                                        <div class="lg:ml-20 border-2 border-zinc-600  rounded-md">
-                                        <div class="p-4">
+                           <div className='py-5  lg:ml-0 ' data-aos="fade-up">
+                                        <div class="lg:ml-20 border-2 border-zinc-600 lg:w-[90%] rounded-md">
+                                        <div class="lg:px-8 px-3 py-2">
                                             <div class="text-white">
-                                            <p class="text-2xl font-bold">Ready to start a Project?</p>
-                                            <p class="tracking-wider text-zinc-300 md:text-sm">To start, use form below to tell us about you and the project</p>
+                                            <p class="text-2xl font-semibold">Ready to start a Project?</p>
+                                            <p class="tracking-wider text-zinc-300 -mt-3 md:text-sm">To start, use form below to tell us about you and the project</p>
                                             </div>
 
                                             <div class=" text-zinc-400">
-                                                <p className='text-zinc-200'>Name</p>
-                                                <input class="w-full border-b-2 border-zinc-600 outline-none bg-transparent  text-sm md:text-base" type="text"  placeholder="Enter your good name" required/>
+                                                <p className='text-zinc-200 opacity-50 mb-1 text-xs'>Name*</p>
+                                                <input class="w-full border-b-2 border-zinc-600 opacity-50 outline-none bg-transparent  text-sm -mt-20" type="text"  placeholder="Enter your good name" required/>
                                             </div>
 
                                             <div class="pt-2 text-zinc-400">
-                                                <p className='text-zinc-200'>Email</p>
-                                                <input class="w-full border-b-2 border-zinc-600 outline-none bg-transparent   text-sm md:text-base" type="text" placeholder="Enter email ID"/>
+                                                <p className='text-zinc-200 opacity-50 mt-2 mb-1 text-xs'>Email*</p>
+                                                <input class="w-full border-b-2 border-zinc-600 outline-none bg-transparent opacity-50 text-sm " type="text" placeholder="Enter email ID"/>
                                             </div>
 
                                             <div class="pt-2 text-zinc-400 grid grid-cols-1 md:grid-cols-2 gap-8 ">
                                             <div>
-                                                <p className='text-zinc-200'>Phone</p>
+                                                <p className='text-zinc-200 opacity-50 text-xs mt-3'>Phone*</p>
                                                 
                                                 <input class="w-full border-b-2 border-zinc-600 outline-none bg-transparent  text-sm md:text-base" type="text" placeholder="+91"/>
                                             
                                             </div>
                                             <div>
                                                 <label class="" for="">
-                                                    <p className='text-zinc-200'>How soon you want to start</p>
+                                                    <p className='text-zinc-200 opacity-50 text-xs mt-3'>How soon you want to start</p>
                                                     <select class="w-full border-b-2 border-zinc-600 outline-none bg-transparent" name="" id="">
                                                         <option class="" value="">Select</option>
 
@@ -282,7 +282,7 @@ function Servicedetails() {
                                             </div>
 
                                             <div class="pt-3 text-zinc-200">
-                                            <p className='text-zinc-400'>Select a service</p>
+                                            <p className='text-zinc-400 opacity-50 mb-2 text-xs'>Select a service</p>
                                                     <select class="w-full border-b-2 border-zinc-600 outline-none bg-transparent" name="" id="">
                                                         <option class="" value="">Select</option>
 
@@ -290,7 +290,7 @@ function Servicedetails() {
                                             </div>
                                            
                                             <div class="pt-3 text-zinc-200">
-                                            <p className='text-zinc-400'>Requirement</p>
+                                            <p className='text-zinc-400 opacity-50 text-xs mt-2 mb-1'>Requirement</p>
                                                     <select class="w-full border-b-2 border-zinc-600 outline-none bg-transparent" name="" id="">
                                                         <option class="" value="">Select</option>
 
@@ -299,14 +299,14 @@ function Servicedetails() {
 
                                            
                                             
-                                            <div class="pt-3 text-zinc-400">
+                                            <div class="pt-3 text-zinc-400 opacity-50 text-xs">
                                                 <p>Breif about your project</p>
                                                 <input class="text-zinc-200 w-full border-b-2 border-zinc-600 outline-none bg-transparent  text-sm md:text-base" type="text"  placeholder="We are happy to hear" required/>
 
                                             </div>
 
                                             <div class="pt-4 text-white">
-                                                <div class="overflow-hidden border-2 border-dashed border-zinc-200  rounded-md py-2">
+                                                <div class="overflow-hidden border-2 h-12 border-dashed border-zinc-200  rounded-md py-2">
                                                   
                                                         <p class="text-center">Have a file to share with us</p>
                                                        <input type="file" class=" block mx-2 lg:mx-40 w-full text-sm text-slate-500
@@ -323,8 +323,8 @@ function Servicedetails() {
 
 
 
-                                            <div class="pt-4">
-                                                <button class="bg-violet-800 text-white px-4 py-2 rounded-lg">Let's start</button>
+                                            <div class="mt-2">
+                                                <button class="bg-violet-800 h-10 w-28 text-white text-xs px-2 py-2 rounded-lg">Let's start</button>
                                             </div>
                                         </div>
                                     </div>
