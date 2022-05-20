@@ -39,7 +39,7 @@ function Home() {
                         <p className='text-white text-3xl md:text-4xl xl:text-5xl md:tracking-wide md:w-[500px] font-gilroybold' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                         </h1>
                         <p className="text-white lg:text-l font-gilroylight  mt-8">If you want to build your brand, we will be waiting for you!</p>
-                        <button class=" button_txt text-sm w-40 h-12  text-white border-nuetral rounded px-4" data-aos="fade-right">Let's Talk</button>
+                        <button class=" button_txt text-sm w-40 h-12  text-white border-nuetral rounded px-4" onClick={()=>navigate('/Contactus')} data-aos="fade-right">Let's Talk</button>
                             <div className=" sm:mb-0 mb-12">
                                 <div className='pt-10 xl:pt-16'>
                                     <a href='#'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557143/codler/arrw_jfawrk.png'} className='h-20 lg:mt-16'></img></a>
@@ -112,7 +112,7 @@ function Home() {
                              </div> 
                     </div>
                     <div className="w-full" data-aos="zoom-in">
-                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653048104/codler/Image_gl7vsx.png'} alt="mobile"  className="p-16 md:p-0 opacity-70  md:w-[600px] md:h-[547px]"/>
+                              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653048104/codler/Image_gl7vsx.png'} alt="mobile"  className="p-2 md:p-5 lg:p-16 md:p-0 opacity-70  md:w-[600px] md:h-[547px]"/>
                               <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-28 h-28 ml-[96%]  hidden xl:block'/>
                    </div>
             </div>
@@ -131,7 +131,7 @@ function Home() {
             <div className='grid grid-cols-3 bg-zinc-900 lg:grid-cols-4 md:-mt-8 '>
                 <div className='md:-mt-10 -mt-20 lg:mb-10'>
                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652514814/codler/Ellipse_24_bqdhdr.png'} alt="img" className='md:w-96 h-80 ml-2 md:ml-8'/>
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1651349315/codler/Group_2021_gleb4y.png'} className='w-36 md:w-56 lg:w-80 z-100 md:h-64 -mt-56'/>
+                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653057084/codler/Group_2021_2_pbaifm.webp'} className='w-36 md:w-56 lg:w-80 z-100 md:h-64 -mt-56'/>
                 </div>
             <div class="col-span-2 md:pt-14 bg-zinc-900 lg:ml-10 lg:mb-16 ">
             <p className="w-full font-bold mt-12 md:mt-6 md:mt-0 text-lg md:text-2xl md:-ml-20 lg:ml-0 -ml-3  text-center text-white lg:text-4xl font-gilroybold tracking-wider">Tell us about your ideas</p>
@@ -165,7 +165,7 @@ function Home() {
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/Group_2028_jlc1se.png'} className='w-28 md:w-24 h-9 md:mt-12 mt-12 ml-5 md:ml-0 lg:mt-12 '></img>
                     </div>
                 </div><div>
-                      <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557602/codler/businessagmnt_fciszm.jpg'} className='lg:h-[520px] h-80 mt-20 lg:mt-0 md:ml-36 lg:ml-0' data-aos="fade-up"></img>
+                      <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653060370/codler/business-agreement_1_bttbr5.webp'} className='lg:h-[520px] h-80 mt-20 lg:mt-0 md:ml-36 lg:ml-0' data-aos="fade-up"></img>
                 </div>  
             </div>
         </section>
