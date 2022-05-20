@@ -89,7 +89,7 @@ function Home() {
                     </div>
                     <div className="pt-8 md:py-10 lg:py-0 lg:pt-0 relative md:grid-cols-2" data-aos="zoom-in">
                     <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649615719/codler/Ellipse_36_dv7pgn.png' alt='img' className='w-9 h-9 hidden lg:block z-300 ml-96 '/>
-                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649497031/codler/perfect-team-2021-09-02-03-15-29-utc_1_qdbcf6.png'} alt="img" className='md:-mt-24 lg:h-[400px] lg:w-[800px] ' data-aos="zoom-in"/>
+                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653062145/codler/perfect-team-2021-09-02-03-15-29-utc_1_1_bshuyh.webp'} alt="img" className='md:-mt-24 lg:h-[400px] lg:w-[800px] ' data-aos="zoom-in"/>
                    </div>
                    
             </div>
@@ -130,7 +130,7 @@ function Home() {
          <section className='bg-transparent '>
             <div className='grid grid-cols-3 bg-zinc-900 lg:grid-cols-4 md:-mt-8 '>
                 <div className='md:-mt-10 -mt-20 lg:mb-10'>
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652514814/codler/Ellipse_24_bqdhdr.png'} alt="img" className='md:w-96 h-80 ml-2 md:ml-8'/>
+                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653062626/codler/Ellipse_24_1_izmsua.webp'} alt="img" className='md:w-96 h-80 ml-2 md:ml-8'/>
                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653057084/codler/Group_2021_2_pbaifm.webp'} className='w-36 md:w-56 lg:w-80 z-100 md:h-64 -mt-56'/>
                 </div>
             <div class="col-span-2 md:pt-14 bg-zinc-900 lg:ml-10 lg:mb-16 ">
@@ -400,13 +400,13 @@ function Home() {
             <div className='flex justify-evenly'>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 my-20'>
                         
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648555824/codler/sm1_kq25yh.jpg'} alt="img" className="w-52 h-52 lg:w-72 lg:h-60  cursor-pointer rounded  " data-aos="flip-left"/>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556182/codler/sm2_plgzmb.jpg'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer rounded " data-aos="flip-left"/>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556199/codler/sm3_oy9agb.jpg'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer  rounded " data-aos="flip-left"/>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653062983/codler/Rectangle_26_dj1b32.webp'} alt="img" className="w-52 h-52 lg:w-72 lg:h-60  cursor-pointer rounded  " data-aos="flip-left"/>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063028/codler/Rectangle_27_lq8nf2.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer rounded " data-aos="flip-left"/>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063066/codler/Rectangle_28_tfxchg.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer  rounded " data-aos="flip-left"/>
 
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556219/codler/sm4_nusowu.jpg'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer  rounded " data-aos="flip-left"/>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556249/codler/sm5_wyzmj9.jpg'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 hidden md:block cursor-pointer  rounded " data-aos="flip-left" />
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556249/codler/sm6_sijxoz.jpg'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 hidden md:block cursor-pointer rounded " data-aos="flip-left"/>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063124/codler/Rectangle_29_vqci6p.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer  rounded " data-aos="flip-left"/>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063136/codler/Rectangle_30_jnaoz4.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 hidden md:block cursor-pointer  rounded " data-aos="flip-left" />
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653062851/codler/Rectangle_31_n0iuep.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 hidden md:block cursor-pointer rounded " data-aos="flip-left"/>
 
                     </div>
                     </div>
