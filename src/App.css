@@ -22,7 +22,7 @@
 }
 
 .mainbg{
-    background-image: url('images/mainbg.png');
+    background-image: url('https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653296935/codler/bg_1_3_h5hxvp.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -65,7 +65,7 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(65, 62, 62, 0.11));
     content:"";
     z-index:500;
     pointer-events: none;
-    background: url('./images/technology/grain.png');
+    background: url('https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653296936/codler/Rectangle_ud7ptk.webp');
 }
 .servebg{
     background-image: url('images/services/bg-wave.jpg');

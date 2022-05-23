@@ -96,7 +96,7 @@ function Home() {
         </section>
         <section>
         <div className="w-full z-0 -ml-6">
-             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557491/codler/drop2_nza6it.png'} alt="mobile" style={{ width: '430px', height: '400px' }} className=" z-100 " />
+             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653300873/codler/img1_2x_1_1_lcgq5e.webp'} alt="mobile" style={{ width: '430px', height: '400px' }} className=" z-100 " />
            </div>
         </section>
 
@@ -113,7 +113,7 @@ function Home() {
                     </div>
                     <div className="w-full" data-aos="zoom-in">
                               <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653048104/codler/Image_gl7vsx.png'} alt="mobile"  className="p-2 md:p-5 lg:p-16 md:p-0 opacity-70  md:w-[600px] md:h-[547px]"/>
-                              <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-28 h-28 ml-[96%]  hidden xl:block'/>
+                              <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653300873/codler/img4_2x_1_5_yatmot.webp' alt='img' className='w-28 h-28 ml-[96%]  hidden xl:block'/>
                    </div>
             </div>
         </section>
@@ -363,7 +363,7 @@ function Home() {
                   </div>
         </section>
         <section className='bg-[#191919] h-full w-full xs:px-0 sm:px-10 md:px-24 md:py-4  py-10 lg:my-20' >
-            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/img4_2x_1_3_qfxnu0.png'} className='w-20 h-20 -ml-24 -mt-12'/>
+            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653296935/codler/img4_2x_1_4_lavqsr.webp'} className='w-20 h-20 -ml-24 -mt-12'/>
             <div>
             <Imageslider/>
             </div>

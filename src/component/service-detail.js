@@ -14,7 +14,7 @@ import v1 from '../images/serviceinner/Vector.png';
 import v2 from '../images/serviceinner/Vector1.png';
 import v3 from '../images/serviceinner/Group 2527.png';
 import drop from '../images/serviceinner/img4@2x 1.png';
-
+import '../App.css'
 
 
 
@@ -31,11 +31,11 @@ function Servicedetails() {
             <section className="s-inner-bg">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className="w-10/12 mx-auto  lg:w-full text-white md:py-96 pt-80 lg:pt-64 lg:pl-32">
-                        <h1 className='font-bold text-3xl  md:text-4xl lg:w-3/4'data-aos="fade-right" data-aos-delay="1000">Mobile application development company</h1>
-                        <p className='text-sm md:text-lg mt-3 font-light tracking-wider lg:w-3/4' data-aos="fade-right" data-aos-delay="2000">Codlerr's mobile app development service uses world-class technologies.</p>
+                        <h1 className='font-bold text-3xl gilroysemibold lg:leading-[3rem] md:text-[43px] 'data-aos="fade-right" data-aos-delay="1000">Mobile application development company</h1>
+                        <p className='text-sm md:text-lg mt-3 font-light font-gilroyregular tracking-wider lg:w-3/4' data-aos="fade-right" data-aos-delay="2000">Codlerr's mobile app development service uses world-class technologies.</p>
                     </div>
                     <div className='hidden lg:block'>
-                        <img src={b1} className='lg:pt-40 absolute right-0'></img>
+                        <img src={b1} className='lg:pt-28 absolute right-0'></img>
                     </div>
                 </div>
             </section>
@@ -44,8 +44,8 @@ function Servicedetails() {
                 <div className='w-10/12 lg:w-8/12 mx-auto pt-20'>
                     <img src={drop} className='hidden lg:block absolute right-0 h-32 mt-96'></img>
                     <div className='text-white text-center'>
-                        <h1 className='font-bold' data-aos="fade-right" data-aos-delay="200">We Think Mobile First.</h1>
-                        <p className='text-sm lg:text-base font-light lg:w-3/4 mx-auto'>Codlerr's mobile app development service uses world-class technologies. We use React Native, Flutter and others to make your apps scalable and future-proof on both native and cross-platforms. Our backbone is our professional mobile developers, who will interact with you at every stage of the project.</p>
+                        <h1 className='font-semibold font-gilroysemibold text-4xl' data-aos="fade-right" data-aos-delay="200">We Think Mobile First.</h1>
+                        <p className='text-sm lg:text-sm lg:mt-3 font-light font-gilroythin lg:w-3/4 mx-auto'>Codlerr's mobile app development service uses world-class technologies. We use React Native, Flutter and others to make your apps scalable and future-proof on both native and cross-platforms. Our backbone is our professional mobile developers, who will interact with you at every stage of the project.</p>
                     </div>
                     <div>
                         <img src={b2}></img>
@@ -54,36 +54,36 @@ function Servicedetails() {
                 
             </section>
 
-            <section className='bg-black'>
+            <section className='bg-black noise'>
                 <div className='w-10/12 mx-auto pb-20'>
                 <div>
-                    <h1 className='text-white text-2xl lg:text-4xl text-center font-bold pt-8 lg:pt-0' data-aos="fade-right" data-aos-delay="200">We help you create Apps for</h1>
+                    <h1 className='text-white text-2xl lg:text-4xl text-center font-gilroysemibold font-semibold pt-8 lg:pt-0' data-aos="fade-right" data-aos-delay="200">We help you create Apps for</h1>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 text-white pt-10 lg:pt-16'>
-                    <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl py-8 px-4'>
-                        <img src={v1} className='h-10'></img>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 text-white pt-10 lg:pt-20'>
+                    <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl h-72  px-4'>
+                        <img src={v1} className='h-9 mt-4'></img>
                         <h4 className='pt-3'>Enterprise</h4>
-                        <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
+                        <p className='text-sm mt-3 font-gilroythin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
                     </div>
-                    <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl py-8 px-4'>
-                        <img src={v2} className='h-10'></img>
+                    <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl h-72 px-4'>
+                        <img src={v2} className='h-9 mt-4'></img>
                         <h4 className='pt-3'>Business</h4>
-                        <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
+                        <p className='text-sm mt-3 font-gilroythin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
                     </div>
-                    <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl py-8 px-4'>
-                        <img src={v3} className='h-10'></img>
-                        <h4 className='pt-3'>Consumers</h4>
-                        <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
+                    <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl  h-72 px-4'>
+                        <img src={v3} className='h-9 mt-4'></img>
+                        <h4 className='pt-3 font-gilroyregular'>Consumers</h4>
+                        <p className='text-sm mt-3 font-gilroythin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
                     </div>
                 </div>
                 </div>
             </section>
 
-            <section className='bg-black'>
-                <div className='grid grid-cols-1 lg:grid-cols-2 py-10 lg:pt-0'>
-                    <div className='text-white mx-10 lg:py-40 lg:px-20'>
-                        <h2 className='lg:w-3/4' data-aos="fade-right" data-aos-delay="200">Native Mobile App Development</h2>
-                        <p className='text-sm lg:text-base pt-4  lg:pt-8'>Codlerr, a top-notch native mobile app development company, builds customer-centric, indefectible, innovative, and high quality native mobile apps as a result for any of their software of iOS and Android.Our top-notch mobile app developers provide secure and adaptable mobility solutions for your business.</p>
+            <section className='bg-zinc-900 noise'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 py-5 lg:pt-0'>
+                    <div className='text-white mx-10 lg:py-28 lg:px-20'>
+                        <h2 className='lg:w-3/4 font-gilroysemibold' data-aos="fade-right" data-aos-delay="200">Native Mobile App Development</h2>
+                        <p className='text-sm lg:text-sm pt-4 font-gilroythin  lg:pt-8'>Codlerr, a top-notch native mobile app development company, builds customer-centric, indefectible, innovative, and high quality native mobile apps as a result for any of their software of iOS and Android.Our top-notch mobile app developers provide secure and adaptable mobility solutions for your business.</p>
                     </div>
                     <div>
                         <img src={b3}></img>
@@ -96,49 +96,48 @@ function Servicedetails() {
                     <div>
                         <img src={b4}></img>
                     </div>
-                    <div className='text-white mx-10 lg:py-40 lg:px-20'>
-                        <h2 className='pt-8 lg:pt-0' data-aos="fade-right" data-aos-delay="200">iOS Mobile App development</h2>
-                        <p className='text-sm lg:text-base pt-4  lg:pt-8'>Codlerr, a top-notch native mobile app development company, builds customer-centric, indefectible, innovative, and high quality native mobile apps as a result for any of their software of iOS and Android.Our top-notch mobile app developers provide secure and adaptable mobility solutions for your business.</p>
+                    <div className='text-white mx-10 lg:py-36 lg:px-20'>
+                        <h2 className='pt-8 lg:pt-0 font-gilroysemibold' data-aos="fade-right" data-aos-delay="200">iOS Mobile App development</h2>
+                        <p className='text-sm lg:text-sm pt-2 font-gilroythin lg:pt-8'>Codlerr, a top-notch native mobile app development company, builds customer-centric, indefectible, innovative, and high quality native mobile apps as a result for any of their software of iOS and Android.Our top-notch mobile app developers provide secure and adaptable mobility solutions for your business.</p>
                     </div>
                 </div>
             </section>
 
             <section className='bg-black'>
-                <div className='w-10/12 lg:w-8/12 mx-auto'>
-                    <p className='text-zinc-800 lg:text-3xl text-color font-bold py-12'>Get our skilled iOS developers to create full-featured, robust, and responsive iOS mobile apps.</p>
+                <div className='w-10/12 lg:w-8/12 mx-56 mt-3'>
+                    <p className='text-zinc-800 lg:text-5xl font-gilroybold font-semibold lg:leading-[4rem]  text-color font-bold py-12'>Get our skilled iOS developers to create full-featured, robust, and responsive iOS mobile apps.</p>
                 </div>
             </section>
 
             <section className='bg-black mb-12 md:mb-16'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 lg:-mt-4'>
                     <div className='text-white mx-10 lg:pt-6 lg:px-20'>
-                        <h2 className=' font-bold mt-5' data-aos="fade-right" data-aos-delay="200">Cross-platform/Hybrid mobile app development. 
-                        (PWA) Development:</h2>
-                        <p className='text-sm lg:text-base pt-4  lg:pt-8'>Codlerr is the premier cross-platform/hybrid mobile app development company, providing businesses with a variety of benefits while also allowing them to reach a larger audience via devices running different operating systems. Our cross-platform developers have a track record of creating feature-rich, cross-platform compatible hybrid apps using cross-platform and technologies like React Native and Flutter, as well as HTML5 and JavaScript.
+                        <h2 className=' font-bold tracking-wider mt-5' data-aos="fade-right" data-aos-delay="200">Cross-platform/Hybrid mobile app development</h2>
+                        <p className='text-sm lg:text-sm font-gilroythin pt-4  lg:pt-8'>Codlerr is the premier cross-platform/hybrid mobile app development company, providing businesses with a variety of benefits while also allowing them to reach a larger audience via devices running different operating systems. Our cross-platform developers have a track record of creating feature-rich, cross-platform compatible hybrid apps using cross-platform and technologies like React Native and Flutter, as well as HTML5 and JavaScript.
                         </p>
                         <p className='text-lg font-bold sectionbg4'>Features</p>
                         <div className='lg:flex' data-aos="fade-right">
                     <p className='text-zinc-400 pr-8 text-3xl opacity-30 font-bold'>01</p>
-                        <p className='text-white lg:text-sm ' >Whereas web and mobile apps have the same code base in the case of hybrid apps.</p>
+                        <p className='text-white font-gilroythin text-xs lg:text-sm ' >Whereas web and mobile apps have the same code base in the case of hybrid apps.</p>
                     </div>
                     <hr className="textlgcolor ml-16 text-6xl" style={{height:'3px'}}/>
                     <div className='lg:flex ' data-aos="fade-right">
                         <p className='text-zinc-400 pr-8 text-3xl opacity-30 font-bold'>02</p>
-                        <p className='text-white lg:text-sm '>In brief, we are using various plugins, you may control numerous hardware and software capabilities.
+                        <p className='text-white font-gilroythin text-xs lg:text-sm '>In brief, we are using various plugins, you may control numerous hardware and software capabilities.
                     </p></div>
                     <hr className="textlgcolor  ml-16 w-46  text-6xl"style={{height:'3px'}} />
                     <div className='lg:flex ' data-aos="fade-right">
                         <p className='text-white lg:text-xl '>
                     <div className='lg:flex ' data-aos="fade-right">
                         <p className='text-zinc-400  text-3xl pr-8 opacity-30 font-bold'>03</p>
-                        <p className='text-white lg:text-sm '>A simple and quick approach to creating mobile applications with different types of features and functions.
+                        <p className='text-white font-gilroythin text-xs lg:text-sm '>A simple and quick approach to creating mobile applications with different types of features and functions.
 </p>
                     </div></p>
                     </div>
 
                     </div>
                     <div>
-                        <img src={b5} className="mt-28"></img>
+                        <img src={b5} className="mt-16"></img>
                     </div>
                 </div>
             </section>
@@ -148,31 +147,31 @@ function Servicedetails() {
                     <div>
                         <img src={require('../images/services/img3.png')}></img>
                     </div>
-                    <div className='text-white mx-10 lg:py-28 lg:px-20'>
-                        <h2 className='pt-8 lg:pt-0' data-aos="fade-right" data-aos-delay="200">Progressive Web Apps 
+                    <div className='text-white mx-10 lg:py-12 lg:px-20'>
+                        <h2 className='pt-8 lg:pt-0' data-aos="fade-right" data-aos-delay="200">Progressive Web Apps <br/>
                         (PWA) Development:</h2>
-                        <p className='text-sm lg:text-base pt-4  lg:pt-8'>Our outstanding Progressive Web Applications (PWA) development services construct apps with the same smooth performance as any native mobile apps. CODLERR produces progressive web apps that run quickly across all devices with minimal effort in order to maximise user engagement. We include unique features in web apps, such as offline browsing, push alerts, data analysis, and simple distribution methods.
+                        <p className='text-sm lg:text-sm pt-4 font-gilroythin lg:pt-0'>Our outstanding Progressive Web Applications (PWA) development services construct apps with the same smooth performance as any native mobile apps. CODLERR produces progressive web apps that run quickly across all devices with minimal effort in order to maximise user engagement. We include unique features in web apps, such as offline browsing, push alerts, data analysis, and simple distribution methods.
                         </p>
                     </div>
                 </div>
             </section>
             <section className='bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 py-10 lg:pt-0'>
-                    <div className='text-white mx-10 lg:py-24 lg:px-20'>
+                    <div className='text-white mx-10 lg:mt-28 lg:py-24 lg:px-20'>
                         <h2 className='lg:w-3/4' data-aos="fade-right" data-aos-delay="200">Android  Mobile App development.</h2>
-                        <p className='text-sm lg:text-base pt-4  lg:pt-8'>Codlerr is a leading Android app development business. When our cutting-edge technology is blended with the expertise of our developers, we create an unrivalled unique Android mobile app solution for all sorts of businesses. Creating Android apps for Android devices and across the entire Android platform is what we do.
+                        <p className='text-sm lg:text-sm pt-4 font-gilroythin lg:pt-8'>Codlerr is a leading Android app development business. When our cutting-edge technology is blended with the expertise of our developers, we create an unrivalled unique Android mobile app solution for all sorts of businesses. Creating Android apps for Android devices and across the entire Android platform is what we do.
                         Hire the finest Android app developers from Codlerr. Who has expertise in developing bespoke Android apps with 100% client satisfaction is what we ensured about.
                         </p>
                     </div>
                     <div>
-                        <img src={require('../images/services/img4.png')}></img>
+                        <img src={require('../images/services/img4.png')} className='mt-24'></img>
                     </div>
                 </div>
             </section>
             <section className='w-10/12 mt-5 mx-auto bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-xl mb-20' data-aos="zoom-in">
                 <div className='w-10/12 mx-auto py-14'>
                     <div>
-                        <p className='text-white text-base font-bold'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-56 h-24 textlgcolor'></hr></p>
+                        <p className='text-white text-lg font-semibold font-gilroythin leading-7'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-56 h-24 textlgcolor'></hr></p>
                         <div className='grid grid-cols-2 lg:grid-flow-col gap-6 mt-2' >
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556429/codler/jsk_tjljta.png'} className='w-48 h-16 mt-12'></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648556430/codler/odikko_bzk7bo.png'} className='w-56 h-36'></img>
