@@ -5,14 +5,6 @@ import { useNavigate } from "react-router-dom";
 import '../App.css';
 import { faArrowRight, faStar, faQuoteLeft} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import b1 from '../images/serviceinner/p2.png';
-import b2 from '../images/serviceinner/t1.png';
-import b3 from '../images/serviceinner/t2.jpg';
-import b4 from '../images/serviceinner/t3.jpg';
-import b5 from '../images/serviceinner/t4.jpg';
-import v1 from '../images/serviceinner/Vector.png';
-import v2 from '../images/serviceinner/Vector1.png';
-import v3 from '../images/serviceinner/Group 2527.png';
 import drop from '../images/serviceinner/img4@2x 1.png';
 import '../App.css'
 
@@ -35,7 +27,7 @@ function Servicedetails() {
                         <p className='text-sm md:text-lg mt-3 font-light font-gilroyregular tracking-wider lg:w-3/4' data-aos="fade-right" data-aos-delay="2000">Codlerr's mobile app development service uses world-class technologies.</p>
                     </div>
                     <div className='hidden lg:block'>
-                        <img src={b1} className='lg:pt-28 absolute right-0'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319140/codler/p2_tun7us.png'} className='lg:pt-28 absolute right-0'></img>
                     </div>
                 </div>
             </section>
@@ -48,7 +40,7 @@ function Servicedetails() {
                         <p className='text-sm lg:text-sm lg:mt-3 font-light font-gilroythin lg:w-3/4 mx-auto'>Codlerr's mobile app development service uses world-class technologies. We use React Native, Flutter and others to make your apps scalable and future-proof on both native and cross-platforms. Our backbone is our professional mobile developers, who will interact with you at every stage of the project.</p>
                     </div>
                     <div>
-                        <img src={b2}></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319134/codler/t1_vez2ak.png'}></img>
                     </div>
                 </div>
                 
@@ -61,17 +53,17 @@ function Servicedetails() {
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 text-white pt-10 lg:pt-20'>
                     <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl h-72  px-4'>
-                        <img src={v1} className='h-9 mt-4'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319142/codler/Vector_gwbxfv.png'} className='h-9 mt-4'></img>
                         <h4 className='pt-3'>Enterprise</h4>
                         <p className='text-sm mt-3 font-gilroythin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
                     </div>
                     <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl h-72 px-4'>
-                        <img src={v2} className='h-9 mt-4'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319143/codler/Vector1_sw0og4.png'} className='h-9 mt-4'></img>
                         <h4 className='pt-3'>Business</h4>
                         <p className='text-sm mt-3 font-gilroythin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
                     </div>
                     <div className='bg-gradient-to-r from-zinc-700 to-zinc-800 rounded-xl  h-72 px-4'>
-                        <img src={v3} className='h-9 mt-4'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319127/codler/Group_2527_y66tvy.png'} className='h-9 mt-4'></img>
                         <h4 className='pt-3 font-gilroyregular'>Consumers</h4>
                         <p className='text-sm mt-3 font-gilroythin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id a, integer phasellus nibh at fermentum. Nec, ultrices luctus nam nulla a ultrices vestibulum, vulputate. Non arcu sed viverra fringilla scelerisque felis, venenatis. Accumsan, in consequat et </p>
                     </div>
@@ -86,7 +78,7 @@ function Servicedetails() {
                         <p className='text-sm lg:text-sm pt-4 font-gilroythin  lg:pt-8'>Codlerr, a top-notch native mobile app development company, builds customer-centric, indefectible, innovative, and high quality native mobile apps as a result for any of their software of iOS and Android.Our top-notch mobile app developers provide secure and adaptable mobility solutions for your business.</p>
                     </div>
                     <div>
-                        <img src={b3}></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319143/codler/t2_mcqk9f.jpg'}></img>
                     </div>
                 </div>
             </section>
@@ -94,7 +86,7 @@ function Servicedetails() {
             <section className='bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 pt-10 lg:pt-0'>
                     <div>
-                        <img src={b4}></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319138/codler/t3_ojww2j.jpg'}></img>
                     </div>
                     <div className='text-white mx-10 lg:py-36 lg:px-20'>
                         <h2 className='pt-8 lg:pt-0 font-gilroysemibold' data-aos="fade-right" data-aos-delay="200">iOS Mobile App development</h2>
@@ -137,7 +129,7 @@ function Servicedetails() {
 
                     </div>
                     <div>
-                        <img src={b5} className="mt-16"></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319140/codler/t4_kyww6p.jpg'} className="mt-16"></img>
                     </div>
                 </div>
             </section>
@@ -145,7 +137,7 @@ function Servicedetails() {
             <section className='bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 pt-10 lg:pt-0'>
                     <div>
-                        <img src={require('../images/services/img3.png')}></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319139/codler/t5_kmt72s.jpg'}></img>
                     </div>
                     <div className='text-white mx-10 lg:py-12 lg:px-20'>
                         <h2 className='pt-8 lg:pt-0' data-aos="fade-right" data-aos-delay="200">Progressive Web Apps <br/>
@@ -164,7 +156,7 @@ function Servicedetails() {
                         </p>
                     </div>
                     <div>
-                        <img src={require('../images/services/img4.png')} className='mt-24'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653319142/codler/t6_wt7jsa.jpg'} className='mt-24'></img>
                     </div>
                 </div>
             </section>
