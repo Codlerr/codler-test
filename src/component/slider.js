@@ -26,7 +26,7 @@ export default function Imageslider() {
         <p className='text-lg md:text-2xl font-gilroybold text-white xs:px-2 sm:px-0 font-bold underline decoration-pink-700 decoration-[6px] '>Our Team of <br/>Talented explorers</p>
         <div className='grid  grid-cols-1 md:grid-cols-2 '>
           <div>
-        <p className='text-xs md:text-sm font-light tracking-wider text-white w-80 xs:px-2 sm:px-0'>We are goodones.and so are your clients.We wouuldn’t have it any other way. Meet the team</p>
+        <p className='text-xs md:text-sm font-light tracking-wider text-white w-80 xs:px-2 sm:px-0'>We believe in working together for success.</p>
         <div className='pt-2 pl-10 md:pl-0'>
              <a href='/teams' className='flex no-underline'> <p className='textlbg testdecoration-none text-sm text-lg font-semibold -mt-2'>See Our Team</p>
                <FontAwesomeIcon icon={faArrowRight} className="text-base ml-2 text-white cursor-pointer" /></a>

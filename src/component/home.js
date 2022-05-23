@@ -38,7 +38,7 @@ function Home() {
                         <h1 className="text-white text-xl lg:text-2xl mt-24 md:mt-48 lg:mt-16 font-bold ">
                         <p className='text-white text-3xl md:text-4xl xl:text-5xl md:tracking-wide md:w-[500px] font-gilroybold' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                         </h1>
-                        <p className="text-white lg:text-l font-gilroylight  mt-8">If you want to build your brand, we will be waiting for you!</p>
+                        <p className="text-white lg:text-l font-gilroylight  mt-8">If you want to build your brand, we can code it for you!</p>
                         <button class=" button_txt text-sm w-40 h-12  text-white border-nuetral rounded px-4" onClick={()=>navigate('/Contactus')} data-aos="fade-right">Let's Talk</button>
                             <div className=" sm:mb-0 mb-12">
                                 <div className='pt-10 xl:pt-16'>

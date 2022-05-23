@@ -1,14 +1,6 @@
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import bg1 from '../images/portfolio-images/bg2.jpg';
-import v1 from '../images/portfolio-images/screenshot.png';
-import v2 from '../images/portfolio-images/Screenshot 4.jpg';
-import v3 from '../images/portfolio-images/5.jpg';
-import v4 from '../images/portfolio-images/6.jpg';
-import v5 from '../images/portfolio-images/7.png';
-import v6 from '../images/portfolio-images/8.png';
-import v7 from '../images/portfolio-images/9.jpg';
 import line from '../images/portfolio-images/Line 6.png';
 import {Helmet} from 'react-helmet';
 import { useNavigate } from "react-router-dom";
@@ -57,7 +49,7 @@ function Portfolio() {
                             </div>
                             <div className=''>
                                   
-                                    <img src={v1} className='lg:h-fit'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653048104/codler/Image_gl7vsx.png'} className='lg:h-fit'></img>
                             </div>
                     </div>
                     
@@ -71,7 +63,7 @@ function Portfolio() {
                             <div className='w-9/12 mx-auto text-center pt-6'>
                                     <p className='text-black font-bold'>AI Brilliance Landing page</p>
                                     <p className='text-black text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
-                                    <img src={v2} className='lg:h-72 rounded-lg'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653329614/codler/Screenshot_4_kysfqm.jpg'} className='lg:h-72 rounded-lg'></img>
                             </div>
                         </div>
 
@@ -79,7 +71,7 @@ function Portfolio() {
                                 <div className='w-9/12 mx-auto text-center pt-8 lg:pt-24'>
                                     <p className='text-black font-bold'>AI Brilliance Landing page</p>
                                     <p className='text-black text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
-                                    <img src={v3} className='lg:h-72 rounded-lg'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653329715/codler/5_odgq9c.jpg'} className='lg:h-72 rounded-lg'></img>
                                 </div>
                         </div>
 
@@ -87,7 +79,7 @@ function Portfolio() {
                                 <div className='w-9/12 mx-auto text-center pt-8 lg:pt-24'>
                                     <p className='text-white font-bold'>AI Brilliance Landing page</p>
                                     <p className='text-white text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
-                                    <img src={v4} className='lg:h-72 rounded-lg'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653320131/codler/6_vtum3j.jpg'} className='lg:h-72 rounded-lg'></img>
                                 </div>
                         </div>
 
@@ -95,18 +87,18 @@ function Portfolio() {
                                 <div className='w-9/12 mx-auto text-center pt-6'>
                                     <p className='text-black font-bold'>AI Brilliance Landing page</p>
                                     <p className='text-black text-xs font-gilroythin lg:mx-10'>AI brilliance is an E-learning platform. Learners across the world can study advanced skills in data science, machine learning, and AI careers. The number of students enrolled in AI Brilliance courses such as Advanced Manufacturing Process Analysis far exceeds 30,00</p>
-                                    <img src={v5} className='lg:h-72 rounded-lg'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653320220/codler/7_uezops.png'} className='lg:h-72 rounded-lg'></img>
                                 </div>
                         </div>
 
                         <div> 
                             <div className='lg:-mt-16' data-aos="fade-up">
-                                    <img src={v6} className='lg:w-full lg:h-80 rounded-lg'></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653320161/codler/8_x9wkiv.png'} className='lg:w-full lg:h-80 rounded-lg'></img>
                             </div>
                         </div>
                         <div> 
                             <div className='bg-black lg:-mt-16 rounded-lg' data-aos="fade-up">
-                                    <img src={v7} className='lg:w-8/12 mx-auto lg:h-80 lg:py-8 '></img>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653320118/codler/9_whlozb.jpg'} className='lg:w-8/12 mx-auto lg:h-80 lg:py-8 '></img>
                                     
                             </div>
                         </div>

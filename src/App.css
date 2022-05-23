@@ -196,7 +196,7 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.11));
 
 }
 .footerbg{
-    background-image: url('images/lastbg.png');
+    background-image: url('https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653337740/codler/lastbg_tsbkr2.webp');
     background-repeat: no-repeat;
     background-position: center;
     /* border-radius: 10px; */
@@ -600,7 +600,7 @@ p{
     height: 100%;
     width: 100%;
     /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
-    background-image: url('images/mainbg.png');
+    background-image: url('https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653338007/codler/mainbg_qm0qcg.webp');
     clip-path: circle(0px at calc(100% - 140px) 45px);
     transition: all 0.3s ease-in-out;
     z-index: 200;

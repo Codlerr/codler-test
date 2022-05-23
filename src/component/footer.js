@@ -31,7 +31,7 @@ function Footer() {
                                         
                                         {/* <img src={bgbk} className='absolute right-10 lg:right-80 lg:w-44 w-40 h-52 lg:h-60 -mt-2 lg:-mt-10'></img> */}
                                         <img src={bgman} className='absolute right-8 lg:right-80 -ml-48 md:ml-0 lg:w-44 w-24 h-36 md:mt-5 lg:h-60 -mt-2 lg:-mt-10' data-aos="zoom-in-down"></img>
-                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649701951/codler/Group_2098_abwmrr.png'} alt='img' className='hidden lg:block lg:w-28 lg:h-16 lg:ml-28 mt-16 relative z-200'/>
+                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653296935/codler/Group_2098_1_dfgwkw.webp'} alt='img' className='hidden lg:block lg:w-28 lg:h-16 lg:ml-28 mt-16 relative z-200'/>
                                     </div>
                                 </div>
 
