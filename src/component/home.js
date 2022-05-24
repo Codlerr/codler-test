@@ -194,19 +194,19 @@ function Home() {
                                       <p className="text-2xl blur-sm  ml-20 mt-2 font-semibold text-white cursor-pointer" onMouseEnter={()=>showCards(4)} onMouseLeave={mouseLeave}>05 text editing</p>
                               </div>
                             <div>
-                                <img src={require('../images/mobiless.png')} className='w-56 h-48 mt-36' />
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653372979/codler/mobile-application-software-web-development-with-3d-shapes-bar-chart-infographic-3d-rendering_1_ivgp6q.webp'} className='w-56 h-48 mt-36' />
                             </div>
                         </div>
                      </div>
                    </div>
-                      <img src={require('../images/about-us-images/img3.png')} className='w-96 h-64 ml-12 overflow-hidden colorbubble -mt-96 hidden xl:block'/>
+                      <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653372979/codler/img1_2x_1_2_1_ujrd4e.webp'} className='w-96 h-64 ml-12 overflow-hidden colorbubble -mt-96 hidden xl:block'/>
                  </div>
               </div>
             </section>
 
         <section>
                 <div className='md:-mt-28'>
-                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652512796/codler/Group_2080_z69bz7.png'}   alt="" className="z-20 w-40 mt-10 hidden lg:block md:mt-0 h-32 lg:w-96 lg:h-96" data-aos="fade-right"/>
+                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653372979/codler/successful-professionals-2021-09-01-10-51-18-utc_copy_3_rawoez.webp'}   alt="" className="z-20 w-40 mt-10 hidden lg:block md:mt-0 h-32 lg:w-96 lg:h-96" data-aos="fade-right"/>
                 </div>
         </section>
 
