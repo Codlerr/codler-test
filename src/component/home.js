@@ -69,7 +69,7 @@ function Home() {
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold  text-2xl  z-0   lg:mt-36 lg:ml-[82%]  bold text-zinc-500">HTML</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold  z-0  relative text-2xl lg:ml-36 md:mt-24  text-zinc-500 ">Python</p>
                                 <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-2xl absolute z-0 relative lg:ml-0 md:-mt-24 text-2xl opacity-30 text-zinc-500">React js</p>   
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649675344/codler/Group_2531_keeobr.png'} alt="image1" className="image1 hidden lg:block absolute w-[42%] h-[350px] md:-mt-[350px] " data-aos="zoom-in"/>
+                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653398594/codler/istock_xgvrrb.webp'} alt="image1" className="image1 hidden lg:block absolute w-[42%] h-[350px] md:-mt-[350px] " data-aos="zoom-in"/>
                             </span> 
                            
                         </div>
