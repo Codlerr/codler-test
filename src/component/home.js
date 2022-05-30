@@ -94,6 +94,8 @@ function Home() {
                    
             </div>
         </section>
+
+{/*
         <section>
         <div className="w-full z-0 -ml-6">
              <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653300873/codler/img1_2x_1_1_lcgq5e.webp'} alt="mobile" style={{ width: '430px', height: '400px' }} className=" z-100 " />
@@ -116,11 +118,11 @@ function Home() {
                               <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653300873/codler/img4_2x_1_5_yatmot.webp' alt='img' className='w-28 h-28 ml-[96%]  hidden xl:block'/>
                    </div>
             </div>
-        </section>
+    </section>*/}
         
         <section >
           <div className="w-full" data-aos="zoom-in">
-                      <p className="w-full text-2xl md:text-8xl font-extrabold opacity-30 md:opacity-10 mt-5 text-white tracking-wider">
+                      <p className="w-full text-2xl md:text-8xl font-extrabold opacity-30 md:opacity-10 mt-3 text-white tracking-wider">
                           <marquee className='md:h-48'>We code your vision into reality! We code your vision into reality! We code your vision into reality!
                           </marquee>
                       </p>
@@ -362,12 +364,13 @@ function Home() {
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen blur-sm h-[100%] lg:h-[140%] -mt-96 " />
                   </div>
         </section>
+        {/*
         <section className='bg-[#191919] h-full w-full xs:px-0 sm:px-10 md:px-24 md:py-4  py-10 lg:my-20' >
             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653296935/codler/img4_2x_1_4_lavqsr.webp'} className='w-20 h-20 -ml-24 -mt-12'/>
             <div>
             <Imageslider/>
             </div>
-        </section>
+    </section>*/}
            
          <section className='w-10/12 lg:w-8/12 mx-auto mt-10 '>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
