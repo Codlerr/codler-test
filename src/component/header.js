@@ -37,7 +37,7 @@ function Header() {
                                 <li><a href=" " onClick={() => navigate('/portfolio')}>Portfolio</a></li>
                                 <li><a href=" " onClick={() => navigate('/blog')}>Blog</a></li>
                                {/* <li><a href=" " onClick={() => navigate('/teams')}>Our Team</a></li>*/}
-                                <li><a href=" " onClick={() => navigate('/faq')}>Faq</a></li>
+                                <li><a href=" " onClick={() => navigate('/faq')}>FAQ</a></li>
                                 <li><a href=" " onClick={() => navigate('/Contactus')}>Contact us</a></li>
                             </ul>
                         </div>

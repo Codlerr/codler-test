@@ -122,11 +122,49 @@ function Portfolio2() {
                     </a>
               </div>
             </section>
-*/}
+
             <section className='py-3 md:py-12 mb-12'>
             <Slider2/>
             </section>
 
+    <section className='mb-36'>
+        <div className='flex flex-row'>
+        <a href='https://www.ugrab.in/' className='portfolio-image-main' style={{opacity:'1',transform:'matrix3d(1, 0.000174533, 0, 0, -0.000174533, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.1, 1'}}>
+        <div className='potfolio-image-box w-56 h-56 ml-12'>
+        <div className='portfolio-image-outerbox '>
+        <div className='portfolio-image'>
+        </div> 
+        <div className='link-box w-96 h-10 '>
+        <img src={require('../images/link-icon.png')} className='-ml-4 mt-2' alt='img'/ >
+        <p className='link-text ml-2 -mt-4'>www.ugrab.in</p>
+        
+        </div> 
+        <div className='show-eye '>
+            <img src={require('../images/eye.png')} className='mt-2 ml-1' alt=''/>
+            </div>   
+            <p className='text-white'></p> 
+        </div>
+        </div>
+        </a>
+        <a href='https://www.ugrab.in/' className='portfolio-image-main' style={{opacity:'1',transform:'matrix3d(1, 0.000174533, 0, 0, -0.000174533, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.1, 1'}}>
+        <div className='potfolio-image-box w-56 h-56 ml-12'>
+        <div className='portfolio-image-outerbox '>
+        <div className='portfolio-image'>
+        </div> 
+        <div className='link-box w-96 h-10 '>
+        <img src={require('../images/link-icon.png')} className='-ml-4 mt-2' alt='img'/ >
+        <p className='link-text ml-2 -mt-4'>www.ugrab.in</p>
+        
+        </div> 
+        <div className='show-eye '>
+            <img src={require('../images/eye.png')} className='mt-2 ml-1' alt=''/>
+            </div>   
+            <p className='text-white'></p> 
+        </div>
+        </div>
+        </a>
+        </div>
+    </section>*/}
         </div>
     )
 }

@@ -799,4 +799,96 @@ p{
     50%  {transform: translateX(0%);}
     100% {transform: translateX(40%);}
 }
+._wPDyp {
+    flex-basis:30%;
+}
+.portfolio-image-box{
+    
+}
+.portfolio-image-outerbox{
+    overflow: hidden;
+    -webkit-box-shadow: 10px 15px 50px 0 #d5d5d5;
+    box-shadow: 10px 15px 50px 0 #d5d5d5;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+}
+.portfolio-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    padding-top: 300px;
+    background-image: url('https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653985150/codler/screenshot-ugrab_rsorjz.png');
+}
+.link-box{
+    font-size: 12px;
+    padding-left: 22px;
+    background: rgba(0,0,0,.5);
+    padding: 6px 15px;
+    right: initial;
+    border-radius: 100px;
+    padding-left: 34px;
+    bottom: 10px;
+    left: 10px;
+    -webkit-box-shadow: 6px 3px 11px 0 rgb(134 134 134 / 25%);
+    box-shadow: 6px 3px 11px 0 rgb(134 134 134 / 25%);
+    position: absolute;
+    color: #fff;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: calc(100% - 60px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.portfolio-image-main{
+    opacity: 1;
+    transform: matrix3d(1, 0.000174533, 0, 0, -0.000174533, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.1, 1);
+}
+.show-eye{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+    background: rgba(237,102,80,.71);
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+._wPDyp{
+    flex-basis: calc(100%/3 - 10px) !important;
+    padding:10px;
+}
+._wPDyp img{
+    flex-basis: calc(100%/3 - 10px);
+    border-radius: 5px;
+}
+.glass{
+    background-color:rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(30px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 15px;
+    background:linear-gradient(to right,rgb(249, 20, 58),rgb(7, 7, 243),transparent);
+    background-clip: padding-box;
+    box-shadow:0.5px 0.5px 0.5px 0.5px rgb(217, 204, 204);
+    transform: skew(45deg) translateX(0)
+    }
+.glass:hover{
+    background: linear-gradient(to bottom,gray,transparent);
+}
+.glass a{
+    position: relative;
+    z-index: 2;
+}
   /*  */

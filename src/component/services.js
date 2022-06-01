@@ -67,8 +67,8 @@ function Services() {
                            <div className='relative pl-10 pr-4md:mb-3 lg:mb-0 md:mt-5 lg:mt-0 lg:pl-24'>
                             <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-3/4'>Mobile app developement</p>
                                 <p className='text-xs md:text-sm xs:pr-5 md:pr-0 font-gilroythin font-light'>Our creative team values your brand and makes the best user experience possible to increase the emotions between your brand and customers. We are experts at building intuitive apps using android native, flutter and react native. Our developers work closely with you from the initial design of your app to ongoing maintenance.</p>
-                                <a href='#' className='flex no-underline text-white  sbg2-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
-                           </div>
+                  {/*                                <a href='#' className='flex no-underline text-white  sbg2-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+ */}                           </div>
                         </div>
                         <div className='relative'>
                             <span className='flex justify-center'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/p2_obqr2f.png'} className='lg:my-10 py-4  lg:absolute z-10 pl-8 right-0 md:w-10/12 md:mt-12 md:ml-12'></img></span>
@@ -89,7 +89,8 @@ function Services() {
                            <div className='relative lg:p-4 ml-8 lg:ml-0 mb-3 lg:mb-0 md:mt-12 lg:-mt-5 xl:mt-0 mr-5 lg:p-0'>
                             <p className='text-2xl xl:text-[32px] font-gilroyregular font-bold leading-[2rem] tracking-wide lg:w-full'>Digital marketing</p>
                                 <p className='text-xs md:text-sm xs:pr-5 md:pr-0  font-light font-gilroythin lg:w-full'>With a strong digital DNA, Codler steps into your marketing world and works as a partner in your growth. We help you plan your marketing ideas effectively and provide an optimal brand roadmap for your journey across the digital landscape. Our tailor-made digital marketing services help you build your brand across every social media platform. Our creative heads transform your ideas into eye-catchy designs.</p>
-                                <a href='#' className='flex no-underline text-white sbg3-btn w-36 rounded-full  md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+                             {/*                               <a href='#' className='flex no-underline text-white sbg3-btn w-36 rounded-full  md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+                            */}
                            </div>
                            
                         </div>
@@ -108,8 +109,9 @@ function Services() {
                            <div className='relative pl-10 pr-4 md:mt-5 lg:-mt-5 xl:mt-0 lg:pl-24'>
                             <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-full'>Quality Assurance (QA) & Testing Services</p>
                                 <p className='text-xs md:text-sm xs:pr-5 md:pr-0 font-gilroythin font-light'>Clients around the world exclusively use Codlerr's quality assurance services. We are experts in software testing, and they test anything from websites and apps to software products. We help clients minimize risks and succeed. They test many important aspects of software, including functionality, behavior, performance, flexibility, and more. </p>
-                                <a href='#' className='flex no-underline text-white sbg4-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
-                           </div>
+                        {/*                                <a href='#' className='flex no-underline text-white sbg4-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+                        */}
+                       </div>
                            
                         </div>
                         <div className='relative'>
@@ -132,7 +134,8 @@ function Services() {
                            <div className='relative p-4 mr-8 md:mt-5 lg:-mt-5 xl:mt-0 lg:p-0'>
                             <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-full'>Branding</p>
                                 <p className='text-xs md:text-sm lg:text-sm xs:pr-5 md:pr-0  font-light font-gilroythin lg:w-full lg:mb-6'>Our creative heads are continually questioning and eternally curious, be it examining the technical details of the product or getting inside the minds of consumers. We bravely combine creativity with identity to create brands that live in the hearts of many. We craft stories that let you tell your story in a way that connects the gap between you and your spectators.  </p>
-                                <a href='#' className='flex no-underline text-white sbg5-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+                            {/*                                <a href='#' className='flex no-underline text-white sbg5-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+ */}
                            </div>
                            
                         </div>
@@ -150,8 +153,8 @@ function Services() {
                            <div className='relative pl-10 md:mt-5 lg:-mt-5 xl:mt-0 pr-4 lg:pl-24'>
                             <p className='text-2xl xl:text-[32px] font-gilroyregular font-semibold leading-[2rem] tracking-wide lg:w-3/4'>Search Engine Optimisation ( SEO )</p>
                                 <p className='text-xs md:text-sm xs:pr-5 md:pr-0 font-gilroythin font-light'>Codler uses strategies to get your business in the top searches and earn more revenue. We tailor SEO strategies according to your business model, making it easier to increase the business's credibility and boost your business growth.</p>
-                                <a href='#' className='flex  no-underline text-white sbg6-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
-                           </div>
+                           {/*                                <a href='#' className='flex  no-underline text-white sbg6-btn w-36 rounded-full md:h-10 md:w-32 shadow-lg'><p className='my-2.5 lg:my-3 pl-4 pr-2 text-xs'>Learn more</p><i class="fa-solid fa-arrow-right text-xl pt-2 lg:pt-3"></i></a>
+ */}                           </div>
                            
                         </div>
                         <div className='relative'>
@@ -190,14 +193,13 @@ function Services() {
 
             <section className='bg-zinc-900 mb-20'>
                     <div className='w-11/12 lg:w-10/12 mx-auto'>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 '>
-                            <div className='py-20'>
-                                <div className='text-white pb-10' data-aos="fade-up">
+                            <div className='pt-20 pb-5 lg:ml-28 xl:ml-64 text-center'>
+                                <div className='text-white pb-10 ' data-aos="fade-up">
                                     <p className='text-2xl lg:text-3xl lg:w-4/5 font-gilroyregular font-semibold'>See what our valuable clients says about us</p>
-                                    <p className='text-zinc-200 lg:w-4/5 text-xs font-gilroythin '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra quis bibendum adipiscing cum mauris, faucibus nulla. Sed adipiscing sollicitudin </p>
+                                    <p className='text-zinc-200 lg:w-4/5 text-xs font-gilroythin text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra quis bibendum adipiscing cum mauris, faucibus nulla. Sed adipiscing sollicitudin </p>
                                 </div>
 
-                                <div className='w-11/12 mx-auto lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-4' data-aos="fade-up">
+                              {/*  <div className='w-11/12 mx-auto lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-4' data-aos="fade-up">
                                           <div>
                                               <div className='bg-zinc-800 z-10 h-72 lg:h-64' data-aos="fade-up">
                                                     <div className='pl-6 pt-6 flex'>
@@ -245,12 +247,12 @@ function Services() {
 
 
 
-                                </div>
+                                </div>*/}
                             </div>
 
 
                             {/* form */}
-                           <div className='py-5  lg:ml-0 ' data-aos="fade-up">
+                           <div className='pb-5 lg:ml-0 ' data-aos="fade-up">
                                         <div class="lg:ml-20 border-2 border-zinc-600 lg:w-[90%] rounded-md">
                                         <div class="lg:px-8 px-3 py-2">
                                             <div class="text-white">
@@ -335,7 +337,7 @@ function Services() {
                                     </div>
                            </div>
                             {/* form */}
-                        </div>
+                    
                     </div>
             </section>
 

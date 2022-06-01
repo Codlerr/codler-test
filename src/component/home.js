@@ -4,10 +4,11 @@ import { useNavigate } from "react-router-dom";
 import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aos from 'aos';
+import InstagramFeed from 'react-ig-feed';
+import 'react-ig-feed/dist/index.css';
 import "aos/dist/aos.css";
 import { services } from '../constants/constants';
 import Imageslider from './slider';
-
 function Home() {
  
         useEffect(() => {
@@ -39,7 +40,7 @@ function Home() {
                         <p className='text-white text-3xl md:text-4xl xl:text-5xl md:tracking-wide md:w-[500px] font-gilroybold' data-aos="fade-right">Your vision & <br/>our technology <br/></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3 md:w-[500px]' data-aos="fade-right" data-aos-delay="200"></p><p className='text-white text-xl lg:text-3xl md:tracking-wide -mt-3' data-aos="fade-right" data-aos-delay="200"></p>
                         </h1>
                         <p className="text-white lg:text-l font-gilroylight  mt-8">If you want to build your brand, we can code it for you!</p>
-                        <button class=" button_txt text-sm w-40 h-12  text-white border-nuetral rounded px-4" onClick={()=>navigate('/Contactus')} data-aos="fade-right">Let's Talk</button>
+                        <button class=" glass text-sm  opacity-50 w-40 h-12 hover:tracking-wide border-nuetral rounded px-4" onClick={()=>navigate('/Contactus')} data-aos="fade-right"> <a className=' text-white  cursor-pointer z-400 relative -mt-9  text-sm'>Let's Talk </a></button>
                             <div className=" sm:mb-0 mb-12">
                                 <div className='pt-10 xl:pt-16'>
                                     <a href='#'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648557143/codler/arrw_jfawrk.png'} className='h-20 lg:mt-16'></img></a>
@@ -58,18 +59,18 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='bg-gray-800 opacity-50 ml-96 relative w-56 h-screen hidden lg:block' style={{height:'850px'}}>
+                        <div className='bg-gray-800 opacity-50 lg:ml-64 xl:ml-96 relative w-56 h-screen hidden lg:block' style={{height:'850px'}}>
                         </div>
                         <div className='mt-8 md:-ml-48 flex hidden md:block justify-center'> 
                         <span className='' >     
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-extrabold text-2xl relative z-0 absolute lg:ml-56 lg:top-36 text-zinc-500" >CSS</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-2xl relative z-0 absolute lg:mt-24 lg:pl-16  bold text-zinc-500" >Javascript</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold  text-2xl relative z-0 absolute lg:mt-0 lg:ml-[80%]  bold text-gray-500" >UI/UX</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold absolute text-2xl  z-0 lg:-ml-10  mt-50 bold text-zinc-500" >Web design</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold  text-2xl  z-0   lg:mt-36 lg:ml-[82%]  bold text-zinc-500">HTML</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold  z-0  relative text-2xl lg:ml-36 md:mt-24  text-zinc-500 ">Python</p>
-                                <p data-aos="fade-up"  className=" hidden lg:block  font-bold text-2xl absolute z-0 relative lg:ml-0 md:-mt-24 text-2xl opacity-30 text-zinc-500">React js</p>   
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653398594/codler/istock_xgvrrb.webp'} alt="image1" className="image1 hidden lg:block absolute w-[42%] h-[350px] md:-mt-[350px] " data-aos="zoom-in"/>
+                                <p data-aos="fade-up"  className=" hidden  font-extrabold text-2xl relative z-0 absolute lg:ml-56 lg:top-36 text-zinc-500" >CSS</p>
+                                <p data-aos="fade-up"  className=" hidden  font-bold text-2xl relative z-0 absolute lg:mt-24 lg:pl-16  bold text-zinc-500" >Javascript</p>
+                                <p data-aos="fade-up"  className=" hidden  font-bold  text-2xl relative z-0 absolute lg:mt-0 lg:ml-[80%]  bold text-gray-500" >UI/UX</p>
+                                <p data-aos="fade-up"  className=" hidden  font-bold absolute text-2xl  z-0 lg:-ml-10  mt-50 bold text-zinc-500" >Web design</p>
+                                <p data-aos="fade-up"  className=" hidden   font-bold  text-2xl  z-0   lg:mt-36 lg:ml-[82%]  bold text-zinc-500">HTML</p>
+                                <p data-aos="fade-up"  className=" hidden  font-bold  z-0  relative text-2xl lg:ml-36 md:mt-24  text-zinc-500 ">Python</p>
+                                <p data-aos="fade-up"  className=" hidden  font-bold text-2xl absolute z-0 relative lg:ml-0 md:-mt-24 text-2xl opacity-30 text-zinc-500">React js</p>   
+                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653398594/codler/istock_xgvrrb.webp'} alt="image1" className="image1 hidden lg:block absolute lg:w-[52%] xl:w-[42%] h-[350px] xl:mt-28 lg:mt-24 " data-aos="zoom-in"/>
                             </span> 
                            
                         </div>
@@ -250,7 +251,7 @@ function Home() {
             </div>
         </section>
           
-    
+    {/*
         <section className=' lg:h-screen  z-800 px-20 md:px-12 lg:px-0 relative noise bg-black-rgba -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
             <div className='grid grid-cols-1  md:grid-cols-2 lg:-ml-12 xl:ml-0 overflow-hidden '>
                 <div data-aos="fade-down w-64 h-96">
@@ -372,7 +373,7 @@ function Home() {
             </div>
     </section>*/}
            
-         <section className='w-10/12 lg:w-8/12 mx-auto mt-10 '>
+         <section className='w-10/12 lg:w-8/12 mx-auto  '>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                         <div data-aos="fade-down">
                         <div className='grid grid-cols-2'>
@@ -400,24 +401,14 @@ function Home() {
         </section>   
 
         <section>
-            <div className='flex justify-evenly'>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 my-20'>
-                        
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653062983/codler/Rectangle_26_dj1b32.webp'} alt="img" className="w-52 h-52 lg:w-72 lg:h-60  cursor-pointer rounded  " data-aos="flip-left"/>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063028/codler/Rectangle_27_lq8nf2.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer rounded " data-aos="flip-left"/>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063066/codler/Rectangle_28_tfxchg.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer  rounded " data-aos="flip-left"/>
-
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063124/codler/Rectangle_29_vqci6p.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 cursor-pointer  rounded " data-aos="flip-left"/>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653063136/codler/Rectangle_30_jnaoz4.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 hidden md:block cursor-pointer  rounded " data-aos="flip-left" />
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653062851/codler/Rectangle_31_n0iuep.webp'} alt="img" className="w-52 h-52  lg:w-72 lg:h-60 hidden md:block cursor-pointer rounded " data-aos="flip-left"/>
-
-                    </div>
+            <div className=' ml-56 mr-56'>
+            <InstagramFeed className='instafeed sm:visible ' token='IGQVJWbUs4ZAW9xMDJQTFQxaUNRMkVqWm9JLUNSc2hlcHpDWVBGMkt3bGZAOVHpIdnQwS0ZAjV1VPNzRRbnI3LVd3QXNXOUZACNjVUZAEJFNVU0Rllvc2ljVFgwQTY2aWlrNGc5Q1VIVEpGS0w5UWRLdE8ySgZDZD' counter='6'/>
+             
                     </div>
                     <div className='w-full h-96 -mt-96 bg-zinc-900'>
 
                     </div>
             </section>
-
 
             
         <section className='w-10/12 mx-auto md:mb-24 py-20'>
@@ -439,10 +430,6 @@ function Home() {
             </div>
            
         </section>
-
-
-
-
 
 
             </div>

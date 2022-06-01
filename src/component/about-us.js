@@ -218,7 +218,7 @@ function Aboutus() {
                             </div>
                             
                     </div>
-                    <p className='pt-20 w-10/12 lg:w-7/12 mx-auto text-zinc-300  text-center text-xs lg:text-sm font-gilroythin md:mt-12' data-aos="fade-up">The Codlerr team of top experts can assist you with any industrial project you select, regardless of its scale or complexity. It is important for us to keep up with the latest developments in the industry in which we work.Our inventive professionals provide you with highly competent and customer-centric solutions. From small companies to multinationals, our top-notch mobile app, web development and designing services are available to businesses of all sizes.</p>
+                    <p className='pt-20 w-10/12 lg:w-7/12 mx-auto text-zinc-300  text-center text-xs lg:text-lg font-gilroythin md:mt-12' data-aos="fade-up">The Codlerr team of top experts can assist you with any industrial project you select, regardless of its scale or complexity. It is important for us to keep up with the latest developments in the industry in which we work.Our inventive professionals provide you with highly competent and customer-centric solutions. From small companies to multinationals, our top-notch mobile app, web development and designing services are available to businesses of all sizes.</p>
             </section>
 
             <section className='lg:py-0 md:-mt-24 lg:mt-0 xl:-ml-24 md:mb-24'>

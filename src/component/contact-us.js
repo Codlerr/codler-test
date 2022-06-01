@@ -28,15 +28,15 @@ function Contact() {
                             </div>
 
                             <div class="pt-6 md:pt-8 text-white" data-aos="fade-up">
-                                <input class="w-full border-b-2 border-zinc-700 outline-none font-gilroyregular text-zinc-800 bg-transparent py-4 md:py-8 text-sm md:text-xl " type="text" placeholder="Email address"/>
+                                <input class="w-full border-b-2 border-zinc-700 outline-none font-gilroyregular text-zinc-800 bg-transparent py-4 md:py-8 text-sm md:text-sm " type="text" placeholder="Email address"/>
                             </div>
 
                             <div class="pt-6 md:pt-8 text-white" data-aos="fade-up">
-                                <input class="w-full border-b-2 border-zinc-700 outline-none bg-transparent font-gilroyregular text-zinc-800 py-4 md:py-8 text-sm md:text-2xl " type="text" placeholder="Phone number"/>
+                                <input class="w-full border-b-2 border-zinc-700 outline-none bg-transparent font-gilroyregular text-zinc-800 py-4 md:py-8 text-sm md:text-sm " type="text" placeholder="Phone number"/>
                             </div>
 
                             <div class="pt-6 md:pt-8 text-white" data-aos="fade-up">
-                                <input class="w-full border-b-2 border-zinc-700 outline-none bg-transparent font-gilroyregular text-zinc-500 py-4 md:py-8 text-sm md:text-2xl " type="text" placeholder="Brief about the project"/>
+                                <input class="w-full border-b-2 border-zinc-700 outline-none bg-transparent font-gilroyregular text-zinc-500 py-4 md:py-8 text-sm md:text-sm " type="text" placeholder="Brief about the project"/>
                             </div>
                             <div class="pt-8 grid w-80 grid-cols-2" data-aos="fade-up">
                                 <a href='#' className=''><button class="contact-btn hover:bg-zinc-800 w-28 md:w-36 py-3 font-gilroythin  text-xs rounded-xl text-white" type="submit">Send</button></a>
@@ -53,11 +53,11 @@ function Contact() {
                         <p className='text-2xl lg:text-4xl font-bold'>You can always find us on</p>
                             <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-6 gap-x-16 pt-3 mb-6 '>
                                 <div>
-                                    <p className='text-lg lg:text-lg font-semibold'>Codler Solutions pvt limited</p>
+                                    <p className='text-lg lg:text-lg font-semibold'>Codler Solutions Pvt Limited</p>
                                     <p className='text-sm md:text-sm -mt-2'>Electronics city<br/>Banglore<br/>Pin 560100<br/>Karnataka<br/>India</p>
                                 </div>
                                 <div>
-                                    <p className='text-xl lg:text-lg font-semibold'>Info@codler.com</p>
+                                    <p className='text-xl lg:text-lg font-semibold'>Info@codlerr.com</p>
                                     <p className='text-sm md:text-sm -mt-2'>Mail us directly if any queries, we are here to help you</p>
                                 </div>
                                 <div>
