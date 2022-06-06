@@ -41,8 +41,7 @@ function App() {
               <Route element={<Blogdetails />} path='/blog/blogdetails' />
               <Route element={<OnClickMobile />} path='/technology/onclickmobile' />
               <Route element={<Teams />} path='/teams' />
-
-              </Routes>
+            </Routes>
           <Footer />
       </div>
       
