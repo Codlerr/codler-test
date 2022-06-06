@@ -59,9 +59,9 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='bg-gray-800 opacity-50 lg:ml-64 xl:ml-96 relative w-56 h-screen hidden lg:block' style={{height:'850px'}}>
-                        </div>
-                        <div className='mt-8 md:-ml-48 flex hidden md:block justify-center'> 
+                       {/* <div className='bg-gray-800 opacity-50 lg:ml-64 xl:ml-96 relative w-56 h-screen hidden lg:block' style={{height:'850px'}}>
+                        </div>*/}
+                        <div className='mt-8 ml-36 flex hidden md:block justify-center'> 
                         <span className='' >     
                                 <p data-aos="fade-up"  className=" hidden  font-extrabold text-2xl relative z-0 absolute lg:ml-56 lg:top-36 text-zinc-500" >CSS</p>
                                 <p data-aos="fade-up"  className=" hidden  font-bold text-2xl relative z-0 absolute lg:mt-24 lg:pl-16  bold text-zinc-500" >Javascript</p>
@@ -153,20 +153,22 @@ function Home() {
                 <h2 className="text-white ml-10 md:ml-32 lg:ml-24 mt-3 text-2xl md:text-3xl tracking-wider" data-aos="fade-right">Our Happy Clients</h2>
                     <p className="text-zinc-300 px-10 md:px-0 md:p-0 text-xs md:text-sm lg:text-md leading-5 font-gilroythin tracking-wide lg:w-[700px] md:mr-12 lg:mr-0  md:ml-32 lg:ml-24 md:mt-3 md:pr-36 "
                      >Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
-                    <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%] -mt-5  md:-mt-12 gap-4 md:w-8/12 mx-auto  pb-10'>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703089/codler/Group_260_uxfom5.png'} className='md:w-12 h-10  w-12 h-10 mt-16 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703940/codler/Group_1682_godhzj.png'} className='md:w-10 mt-16 xs:ml-0 md:-ml-16  w-10 h-10 md:h-10'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1651824106/codler/memories_4x_1_htycnr.png'} className='w-12 h-10 mt-16 xs:ml-0 md:-ml-32 md:w-12 md:h-10 '></img>
+                    <div className='grid grid-cols-5 lg:grid-cols-5 w-[70%] -mt-5  md:-mt-12 gap-4 md:w-8/12 mx-auto  pb-10'>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242041/codler/cravello_1_qyhmid.png'} className='md:w-12 h-10  w-12 h-10 mt-16 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654373500/codler/Group_60590_dwz9cf.png'} className='md:w-10 mt-16 xs:ml-0   w-10 h-10 md:h-10'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/memories_1_jgyzvt.png'} className='w-12 h-10 mt-16 xs:ml-0  md:w-16 md:h-12 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/jsk1_1_lxtej9.png'} className=' w-10 h-8 mt-16  md:w-16 md:h-8'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/iluzia_1_dvq2ys.png'} className='w-28 md:w-24 h-9  mt-16   '></img>
                     </div>
                     <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%]  -mt-10 gap-4 md:w-8/12 mx-auto  pb-10'>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704176/codler/CEANOR_1_1_1_1_mebevp.png'} className=' w-24 h-8 mt-5 md:w-24 md:h-8  '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/Group_60570_otkpul.png'} className='  mt-12 w-28  md:-ml-7 h-6'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649704073/codler/U_GRAB_FINAL_PDF-01_1_1_lgfsu6.png'} className=' w-36 h-10  mt-10  md:w-36 md:h-12 md:-ml-16'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242041/codler/CEANOR_xslfif.png'} className=' w-24 h-8 mt-5 md:w-24 md:h-10  '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242046/codler/ondaceimg_1_qg7zrj.png'} className='  mt-12 w-28  md:-ml-7 h-9'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242052/codler/ugrabin_1_uqvlzt.png'} className=' w-36 h-12  mt-10  md:w-36 md:h-12 md:-ml-16'></img>
                     </div>
-                    <div className='grid grid-cols-4 lg:grid-cols-4 -mt-10 gap-2 w-8/12 mx-auto  pb-10'>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650144752/codler/Path_15883_1_ckf6qb.png'} className=' w-10 h-8 mt-5  md:w-16 md:h-8'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650310414/codler/Group_2028_jlc1se.png'} className='w-28 md:w-24 h-9 md:mt-12 mt-12 ml-5 md:ml-0 lg:mt-12 '></img>
-                    </div>
+                  {/*  <div className='grid grid-cols-4 lg:grid-cols-4 -mt-10 gap-2 w-8/12 mx-auto  pb-10'>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/jsk1_1_lxtej9.png'} className=' w-10 h-8 mt-5  md:w-16 md:h-8'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/iluzia_1_dvq2ys.png'} className='w-28 md:w-24 h-9 md:mt-12 mt-12 ml-5 md:ml-0 lg:mt-12 '></img>
+                    </div>*/}
                 </div><div>
                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653060370/codler/business-agreement_1_bttbr5.webp'} className='lg:h-[520px] h-80 mt-20 lg:mt-0 md:ml-36 lg:ml-0' data-aos="fade-up"></img>
                 </div>  
@@ -251,7 +253,7 @@ function Home() {
             </div>
         </section>
           
-    {/*
+    
         <section className=' lg:h-screen  z-800 px-20 md:px-12 lg:px-0 relative noise bg-black-rgba -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
             <div className='grid grid-cols-1  md:grid-cols-2 lg:-ml-12 xl:ml-0 overflow-hidden '>
                 <div data-aos="fade-down w-64 h-96">
@@ -267,7 +269,7 @@ function Home() {
                 <div className="xl:-ml-8  lg:ml-7">
                     <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 gap-3 '>
                     <div className="flex  flex-col overflow-hidden" data-aos="fade-left">
-                            <div className="md:w-[280px]  w-56 text-xs xs:h-64 md:text-sm p-3 lg:ml   bg-violet-900 md:h-80 rounded hover:scale-105 box" >
+                          <div className="md:w-[280px]  w-56 text-xs xs:h-64 md:text-sm p-3 lg:ml   bg-violet-900 md:h-80 rounded hover:scale-105 box" >
                               <div className="grid grid-cols-2">
                                   <div>
                                   <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
@@ -282,14 +284,15 @@ function Home() {
                                 </div>
                               <p className="md:text-sm text-xs ml-6 md:ml-0 md:mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal explanation and delivered exactly what we wanted. Looking forward to work with them again</p>
                               <div className='flex'>
-                                <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4  md:ml-0 md:mt-3 '></img>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654482314/codler/a5b989fc-828b-4ada-bee0-ba9faf58560e_cqxxaf.jpg'} className='md:w-8 rounded-full md:h-8 w-4 h-4  md:ml-0 md:mt-3 '></img>
                                      <div className='text-white text-[10px] md:text-sm leading-3 md:mt-3 ml-3'>
                                      <p>Naseef<br/>
-                                        Director,Caenor</p>
+                                        Director,Ceanor</p>
                                     </div>
                                 </div>
                           </div>
-                            <div className=" md:w-[265px] w-56 p-3 mt-3  rounded hover:scale-105 md:h-56- sectionbg">
+                          
+                          {/*  <div className=" md:w-[265px] w-56 p-3 mt-3  rounded hover:scale-105 md:h-56- sectionbg">
                             <div className="grid grid-cols-2">
                                   <div>
                                   <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
@@ -310,10 +313,10 @@ function Home() {
                                         Director,lolipop desings</p>
                                     </div>
                                 </div>
-                          </div>
+                          </div>*/}
                       </div>
-                      <div className="flex flex-col md:h-96 lg:-ml-24 hidden lg:block" data-aos="fade-left">
-                            <div className="w-2/3 md:w-[265px] ml-5 md:ml-12 p-3 h-[298px] rounded sectionbg hover:scale-105">
+                      <div className="flex flex-col md:h-96 lg:-ml-24 " data-aos="fade-left">
+                            <div className="w-2/3 md:w-[280px]  ml-5 md:ml-12 p-3  h-[310px] rounded sectionbg hover:scale-105">
                             <div className="grid grid-cols-2">
                                   <div>
                                   <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
@@ -326,16 +329,16 @@ function Home() {
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
                                   </div>
                                 </div>
-                              <p className="md:text-sm text-xs ml-6 md:ml-0 mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal explanation and delivered exactly what we wanted. Looking forward to work with them again</p>
+                              <p className="md:text-sm text-xs ml-6 md:ml-0 mt-3 font-gilroythin text-white">Admore helped us with Digital marketing and Brand building for Odikko.Odikko being an online marketplace startup required good digital marketing presence . The plans were executed flawlessly by Admore Team</p>
                               <div className='flex'>
-                                <img src={require('../images/services/user1.png')} className='md:w-8 md:h-8 w-4 h-4 ml-2 md:ml-0 mt-3 '></img>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654373542/codler/4438355b-b1a4-4d13-9ecd-bceed7fcb79d_ut2zoc.jpg'} className='md:w-8 md:h-8 rounded-full w-4 h-4 ml-2 md:ml-0 mt-3 '></img>
                                      <div className='text-white text-xs md:text-sm leading-3 md:mt-3 ml-3'>
-                                     <p>Arjun nabiyar<br/>
-                                        Director,lolipop desings</p>
+                                     <p>Prabin BP<br/>
+                                        MD,Panac Systems Pvt Ltd</p>
                                     </div>
                                 </div>
                           </div>
-                            <div className="w-2/3 md:w-[265px]  p-3 mt-3 ml-5 h-64 md:ml-12 rounded sectionbg hover:scale-105">
+                        {/*    <div className="w-2/3 md:w-[265px]  p-3 mt-3 ml-5 h-64 md:ml-12 rounded sectionbg hover:scale-105">
                             <div className="grid grid-cols-2">
                                   <div>
                                   <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
@@ -356,12 +359,12 @@ function Home() {
                                         Director,lolipop desings</p>
                                     </div>
                                 </div>
-                          </div>
+                          </div>*/}
                       </div>
                     </div>
                  </div>
             </div>
-            <div className="md:w-screen  -ml-36 w-screen h-96 lg:mt-[-99%] xl:mt-[-73%] ">
+            <div className="md:w-screen  -ml-36 w-screen h-96 lg:mt-[-99%] xl:mt-[-53%] ">
                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="bg" className="w-screen blur-sm h-[100%] lg:h-[140%] -mt-96 " />
                   </div>
         </section>

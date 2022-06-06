@@ -31,7 +31,6 @@ function Footer() {
                                         
                                         {/* <img src={bgbk} className='absolute right-10 lg:right-80 lg:w-44 w-40 h-52 lg:h-60 -mt-2 lg:-mt-10'></img> */}
                                         <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653398593/codler/bgman_1_qgligo.webp'} className='absolute right-8 lg:right-80 -ml-48 md:ml-0 lg:w-44 w-24 h-36 md:mt-5 lg:h-60 -mt-2 lg:-mt-10' data-aos="zoom-in-down"></img>
-                                    <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1653296935/codler/Group_2098_1_dfgwkw.webp'} alt='img' className='hidden lg:block lg:w-28 lg:h-16 lg:ml-28 mt-16 relative z-200'/>
                                     </div>
                                 </div>
 
@@ -61,9 +60,9 @@ function Footer() {
                             <div className='lg:-ml-10'>
                                 <p className='text-white text-sm lg:text-base  font-semibold'>Registered Office Address</p>
                                 <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline font-semibold'>Codler Solution Private Limited,<br></br>
-                                    Electronic City<br></br>
-                                    Bengaluru, 560100,<br></br>
-                                    Karnataka, India</p>
+                                    Kannur,Kerala<br></br>
+                                    Banglore,Karnataka<br></br>
+                                    </p>
                             </div>
                             <div className=''>
                                 <p className='text-white lg:text-base  font-semibold'>Signup for newsletters</p>

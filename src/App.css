@@ -41,6 +41,7 @@
 }
 /* contact */
 .contact-btn{
+    box-shadow: #202020;
     background: linear-gradient(139.63deg, rgba(255, 255, 255, 0.2) 1.7%, rgba(0, 0, 0, 0) 97.81%),
 linear-gradient(0deg, rgba(255, 255, 255, 0.11), rgba(65, 62, 62, 0.11));
 

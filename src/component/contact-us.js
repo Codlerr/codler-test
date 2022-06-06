@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import drop1 from '../images/contact/img4@2x 1.png';
 import drop2 from '../images/contact/img1@2x 1.png';
 import {Helmet} from 'react-helmet';
-
+import '../App.css';
 function Contact() {
     useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -39,8 +39,8 @@ function Contact() {
                                 <input class="w-full border-b-2 border-zinc-700 outline-none bg-transparent font-gilroyregular text-zinc-500 py-4 md:py-8 text-sm md:text-sm " type="text" placeholder="Brief about the project"/>
                             </div>
                             <div class="pt-8 grid w-80 grid-cols-2" data-aos="fade-up">
-                                <a href='#' className=''><button class="contact-btn hover:bg-zinc-800 w-28 md:w-36 py-3 font-gilroythin  text-xs rounded-xl text-white" type="submit">Send</button></a>
-                                <a href='https://wa.me/917012696630' className=''><button class="contact-btn hover:bg-zinc-800 w-28 md:w-36 py-3 text-xs font-gilroythin rounded-xl text-white" type="submit">Contact Us</button></a>
+                                <a href='#' className=''><button class="contact-btn  hover:bg-zinc-800 w-28 md:w-36 py-3 font-gilroyregular  text-xs rounded-xl text-white" type="submit">SEND</button></a>
+                                <a href='https://wa.me/917012696630' className=''><button class="contact-btn hover:bg-zinc-800 w-28 md:w-36 py-3 text-xs font-gilroyregular rounded-xl text-white" type="submit">CONTACT US</button></a>
 
                             </div>
                         </div>
@@ -54,7 +54,7 @@ function Contact() {
                             <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-6 gap-x-16 pt-3 mb-6 '>
                                 <div>
                                     <p className='text-lg lg:text-lg font-semibold'>Codler Solutions Pvt Limited</p>
-                                    <p className='text-sm md:text-sm -mt-2'>Electronics city<br/>Banglore<br/>Pin 560100<br/>Karnataka<br/>India</p>
+                                    <p className='text-sm md:text-sm -mt-2'>Kannur,Kerala<br/>Banglore,Karnataka</p>
                                 </div>
                                 <div>
                                     <p className='text-xl lg:text-lg font-semibold'>Info@codlerr.com</p>

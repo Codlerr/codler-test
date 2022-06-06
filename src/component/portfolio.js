@@ -1,10 +1,15 @@
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
-import line from '../images/portfolio-images/Line 6.png';
+import { useEffect, useState } from 'react';
 import {Helmet} from 'react-helmet';
 import { useNavigate } from "react-router-dom";
+import DisplayPictures from './portfolio/digital-marketing';
+import DisplayPicturesWebsite from './portfolio/website';
+import DisplayPicturesBranding from './portfolio/branding';
+import DisplayPicturesApp from './portfolio/app';
+import DisplayPicturesAll from './portfolio/all';
 function Portfolio() {
+    const[action,setAction]=useState('first');
     const navigate = useNavigate('');
     useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -26,17 +31,25 @@ function Portfolio() {
                         </div>
                   </div>
               </section>
-              <section className='hidden md:block w-11/12 lg:w-10/12 mx-auto lg:mt-2 md:mx-20'>
+              <section className='sm:mx-7 lg:mt-2 md:mx-36'>
                   <div className='flex justify-between lg:justify-start'>
-                        <a href='#' className='no-underline'         ><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>ALL</p></a>
-                        <a href='#' className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>BRANDING</p></a>
-                        <a href='#' className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>WEBSITE</p></a>
-                        <a href='#' className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>APP DESING</p></a>
-                        <a href='#' className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>DIGITAL MARKETING</p></a>
+                        <button  className='no-underline'   onClick={()=>setAction('fifth')}      ><p className='text-zinc-300 hover:text-white sm:text-xs lg:text-lg font-semibold'> ALL</p></button>
+                        <button href='#' onClick={()=>setAction('first')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>DIGITAL MARKETING</p></button>
+                        <button href='#' onClick={()=>setAction('second')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>WEBSITE</p></button>
+                        <button href='#' onClick={()=>setAction('third')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>APP DESING</p></button>
+                        <button href='#' onClick={()=>setAction('fourth')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>BRANDING</p></button>
                   </div>
+                 <div className='h-full mb-56'>
+                     {action ==='first' && <DisplayPictures/>}
+                     {action ==='second' && <DisplayPicturesWebsite/>}
+                     {action ==='third' && <DisplayPicturesApp/>}
+                     {action ==='fourth' && <DisplayPicturesBranding/>}
+                     {action ==='fifth' && <DisplayPicturesAll/>}
+
+                 </div>
               </section>
 
-              <section className='w-10/12 lg:w-10/12 mt-10 md:mt-0 mx-auto overflow-hidden' data-aos="fade-up">
+          {/*    <section className='w-10/12 lg:w-10/12 mt-10 md:mt-0 mx-auto overflow-hidden' data-aos="fade-up">
                   <div className='port-bg mt-5 bg-blue-500' >
                     <div className='w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2' onClick={()=>navigate('./portfoliodetails')}>
                             <div>
@@ -105,7 +118,7 @@ function Portfolio() {
 
                   </div>
 
-              </section>
+    </section>*/}
       
         </div>
         

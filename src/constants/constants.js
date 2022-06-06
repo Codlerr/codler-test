@@ -73,4 +73,38 @@
     },
     
     ]
+    export const Digital=[{src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281811/codler/b9e5e354-12b5-4794-8a7c-54f3bd147aaf_qtpyfa.jpg'},
+        {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281811/codler/0f6690c8-9f80-4f25-982d-505fefa97e29_c3wfew.jpg'},
+        {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281811/codler/91770ec6-c0fa-4e7e-8e5a-a3a5d3bffaa2_vndpee.jpg'},
+        {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281802/codler/c6f59564-3781-4afe-b608-94402f1ef6b4_m61akc.jpg'},
+    ]
+
+    export const Website=[{src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281805/codler/942b5c3e-eeb6-4ad3-8e12-51c80a3ad7b6_vioqxe.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281803/codler/e84d0a71-77c1-4afc-85e9-c3e4fec374a5_jpltod.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281805/codler/942b5c3e-eeb6-4ad3-8e12-51c80a3ad7b6_vioqxe.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281806/codler/539c986a-b797-4881-ab32-fb9478e6dd49_h8fesm.jpg'},
+    ]
+
+    export const App=[{src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281802/codler/c6f59564-3781-4afe-b608-94402f1ef6b4_m61akc.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281803/codler/e84d0a71-77c1-4afc-85e9-c3e4fec374a5_jpltod.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281805/codler/942b5c3e-eeb6-4ad3-8e12-51c80a3ad7b6_vioqxe.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281806/codler/539c986a-b797-4881-ab32-fb9478e6dd49_h8fesm.jpg'},
+    ]
+
+    export const Branding=[{src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281802/codler/c6f59564-3781-4afe-b608-94402f1ef6b4_m61akc.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281803/codler/e84d0a71-77c1-4afc-85e9-c3e4fec374a5_jpltod.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281805/codler/942b5c3e-eeb6-4ad3-8e12-51c80a3ad7b6_vioqxe.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281806/codler/539c986a-b797-4881-ab32-fb9478e6dd49_h8fesm.jpg'},
+    ]
+
+    export const All=[
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281802/codler/c6f59564-3781-4afe-b608-94402f1ef6b4_m61akc.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281803/codler/e84d0a71-77c1-4afc-85e9-c3e4fec374a5_jpltod.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281805/codler/942b5c3e-eeb6-4ad3-8e12-51c80a3ad7b6_vioqxe.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281806/codler/539c986a-b797-4881-ab32-fb9478e6dd49_h8fesm.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281811/codler/b9e5e354-12b5-4794-8a7c-54f3bd147aaf_qtpyfa.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281811/codler/0f6690c8-9f80-4f25-982d-505fefa97e29_c3wfew.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281811/codler/91770ec6-c0fa-4e7e-8e5a-a3a5d3bffaa2_vndpee.jpg'},
+    {src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654281802/codler/c6f59564-3781-4afe-b608-94402f1ef6b4_m61akc.jpg'},
+    ]
    
