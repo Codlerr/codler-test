@@ -155,10 +155,10 @@ function Home() {
                      >Without our clients, we wouldn’t exist. We have a dedicated customer base happy with our strategic insights, innovative solutions, and product development. We are working with some of the leading companies across the globe and hope to add yours to our list. </p>
                     <div className='grid grid-cols-5 lg:grid-cols-5 w-[70%] -mt-5  md:-mt-12 gap-4 md:w-8/12 mx-auto  pb-10'>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242041/codler/cravello_1_qyhmid.png'} className='md:w-12 h-10  w-12 h-10 mt-16 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654373500/codler/Group_60590_dwz9cf.png'} className='md:w-10 mt-16 xs:ml-0   w-10 h-10 md:h-10'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654512828/codler/car_chilly_au9rkh.png'} className='md:w-28 mt-16 xs:ml-0   w-10 h-10 md:h-10'></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/memories_1_jgyzvt.png'} className='w-12 h-10 mt-16 xs:ml-0  md:w-16 md:h-12 '></img>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/jsk1_1_lxtej9.png'} className=' w-10 h-8 mt-16  md:w-16 md:h-8'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/iluzia_1_dvq2ys.png'} className='w-28 md:w-24 h-9  mt-16   '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242042/codler/iluzia_1_dvq2ys.png'} className='sm:w-36 md:w-24 h-9  mt-16   '></img>
                     </div>
                     <div className='grid grid-cols-3 lg:grid-cols-3 w-[70%]  -mt-10 gap-4 md:w-8/12 mx-auto  pb-10'>
                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242041/codler/CEANOR_xslfif.png'} className=' w-24 h-8 mt-5 md:w-24 md:h-10  '></img>
@@ -254,7 +254,7 @@ function Home() {
         </section>
           
     
-        <section className=' lg:h-screen  z-800 px-20 md:px-12 lg:px-0 relative noise bg-black-rgba -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
+        <section className='lg:h-screen lg:mb-56 xl:mb-0  z-800 px-20 md:px-12 lg:px-0 relative noise bg-black-rgba -mt-12 md:mt-20 lg:-mt-28 p-12 md:mx-0 md:p-20'>
             <div className='grid grid-cols-1  md:grid-cols-2 lg:-ml-12 xl:ml-0 overflow-hidden '>
                 <div data-aos="fade-down w-64 h-96">
                 <FontAwesomeIcon icon={faQuoteLeft} className="text-2xl lg:text-7xl text-gray-800 z-0" />
@@ -266,8 +266,8 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="xl:-ml-8  lg:ml-7">
-                    <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 gap-3 '>
+                <div className="xl:-ml-8 lg:ml-7">
+                    <div className='grid grid-cols-1 grid-rows-1 xl:grid-cols-2 lg:grid-rows-2 gap-3 '>
                     <div className="flex  flex-col overflow-hidden" data-aos="fade-left">
                           <div className="md:w-[280px]  w-56 text-xs xs:h-64 md:text-sm p-3 lg:ml   bg-violet-900 md:h-80 rounded hover:scale-105 box" >
                               <div className="grid grid-cols-2">
@@ -284,7 +284,7 @@ function Home() {
                                 </div>
                               <p className="md:text-sm text-xs ml-6 md:ml-0 md:mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal explanation and delivered exactly what we wanted. Looking forward to work with them again</p>
                               <div className='flex'>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654482314/codler/a5b989fc-828b-4ada-bee0-ba9faf58560e_cqxxaf.jpg'} className='md:w-8 rounded-full md:h-8 w-4 h-4  md:ml-0 md:mt-3 '></img>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654482314/codler/a5b989fc-828b-4ada-bee0-ba9faf58560e_cqxxaf.jpg'} className='md:w-8 rounded-full md:h-8 w-8 h-8  md:ml-0 md:mt-3 '></img>
                                      <div className='text-white text-[10px] md:text-sm leading-3 md:mt-3 ml-3'>
                                      <p>Naseef<br/>
                                         Director,Ceanor</p>
@@ -315,13 +315,13 @@ function Home() {
                                 </div>
                           </div>*/}
                       </div>
-                      <div className="flex flex-col md:h-96 lg:-ml-24 " data-aos="fade-left">
-                            <div className="w-2/3 md:w-[280px]  ml-5 md:ml-12 p-3  h-[310px] rounded sectionbg hover:scale-105">
+                      <div className="flex flex-col md:h-96 lg:-ml-12 xl:-ml-24 " data-aos="fade-left">
+                            <div className="w-56 md:w-[280px]  lg:ml-12 p-3  h-[310px] rounded sectionbg hover:scale-105">
                             <div className="grid grid-cols-2">
                                   <div>
                                   <p className="md:text-xl text-sm mt-3 md:mt-0  text-white font-semibold">5.0</p>
                                   </div>
-                                  <div className='mt-[19px] -ml-20'>
+                                  <div className='mt-[15px] md:mt-[19px] -ml-16 md:-ml-20'>
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500" />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
@@ -331,8 +331,8 @@ function Home() {
                                 </div>
                               <p className="md:text-sm text-xs ml-6 md:ml-0 mt-3 font-gilroythin text-white">Admore helped us with Digital marketing and Brand building for Odikko.Odikko being an online marketplace startup required good digital marketing presence . The plans were executed flawlessly by Admore Team</p>
                               <div className='flex'>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654373542/codler/4438355b-b1a4-4d13-9ecd-bceed7fcb79d_ut2zoc.jpg'} className='md:w-8 md:h-8 rounded-full w-4 h-4 ml-2 md:ml-0 mt-3 '></img>
-                                     <div className='text-white text-xs md:text-sm leading-3 md:mt-3 ml-3'>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654373542/codler/4438355b-b1a4-4d13-9ecd-bceed7fcb79d_ut2zoc.jpg'} className='md:w-8 md:h-8 rounded-full w-8 h-8 ml-2 md:ml-0 md:mt-3 '></img>
+                                     <div className='text-white text-[10px] md:text-[12px] leading-4 md:mt-3 ml-3'>
                                      <p>Prabin BP<br/>
                                         MD,Panac Systems Pvt Ltd</p>
                                     </div>
@@ -418,13 +418,13 @@ function Home() {
 
            <div className='lg:ml-40 ml-10'>
                     <div className='lg:flex' data-aos="fade-right">
-                    <p className='text-zinc-400 pr-8  text-sm font-gilroythin lg:pt-10'>December 14,2022</p>
-                        <p className='text-white lg:text-2xl ' >Case study: Custom clothing<br></br>responsive website</p>
+                    <p className='text-zinc-400 pr-8  text-sm font-gilroythin lg:pt-10'></p>
+                        <p className='text-white lg:text-2xl ' >Warning:You're losing memory by not using <br></br>IT Solutions</p>
                     </div>
                     <hr className="text-gray-400 mr-40 md:opacity-20 text-2xl" />
                     <div className='lg:flex ' data-aos="fade-right">
-                        <p className='text-zinc-400 pr-8 text-sm font-gilroythin lg:pt-10'>December 14,2022</p>
-                        <p className='text-white lg:text-2xl '>Case study: Designing a landing page for a<br></br> creative arts convention by The Creative</p>
+                        <p className='text-zinc-400 pr-8 text-sm font-gilroythin lg:pt-10'></p>
+                        <p className='text-white lg:text-2xl '>Case study: Why IT Solution is the<br></br> secret ingredient?</p>
                     </div>
                     <hr className="text-gray-400 mr-40 md:opacity-20 text-2xl" />
                         <div className='pt-6'>
