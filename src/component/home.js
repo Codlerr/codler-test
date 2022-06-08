@@ -282,7 +282,7 @@ function Home() {
                                   <FontAwesomeIcon icon={faStar} className="text-l text-white " />
                                   </div>
                                 </div>
-                              <p className="md:text-sm text-xs ml-6 md:ml-0 md:mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal explanation and delivered exactly what we wanted. Looking forward to work with them again</p>
+                              <p className="md:text-sm text-xs ml-6 md:ml-0 md:mt-3 font-gilroythin text-white">It was a great experience working with Codler. They understood our requirements with minimal explanation and delivered exactly what we wanted. Looking forward to work with them again.</p>
                               <div className='flex'>
                                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654482314/codler/a5b989fc-828b-4ada-bee0-ba9faf58560e_cqxxaf.jpg'} className='md:w-8 rounded-full md:h-8 w-8 h-8  md:ml-0 md:mt-3 '></img>
                                      <div className='text-white text-[10px] md:text-sm leading-3 md:mt-3 ml-3'>
@@ -329,7 +329,7 @@ function Home() {
                                   <FontAwesomeIcon icon={faStar} className="text-l text-yellow-500 " />
                                   </div>
                                 </div>
-                              <p className="md:text-sm text-xs ml-6 md:ml-0 mt-3 font-gilroythin text-white">Admore helped us with Digital marketing and Brand building for Odikko.Odikko being an online marketplace startup required good digital marketing presence . The plans were executed flawlessly by Admore Team</p>
+                              <p className="md:text-sm text-xs ml-6 md:ml-0 mt-3 font-gilroythin text-white">Codler helped us with Digital marketing and Brand building for Odikko.Odikko being an online marketplace startup required good digital marketing presence . The plans were executed flawlessly by Codler Team.</p>
                               <div className='flex'>
                                 <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654373542/codler/4438355b-b1a4-4d13-9ecd-bceed7fcb79d_ut2zoc.jpg'} className='md:w-8 md:h-8 rounded-full w-8 h-8 ml-2 md:ml-0 md:mt-3 '></img>
                                      <div className='text-white text-[10px] md:text-[12px] leading-4 md:mt-3 ml-3'>
