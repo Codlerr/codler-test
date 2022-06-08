@@ -59,9 +59,11 @@ function Footer() {
                             </div>
                             <div className='lg:-ml-10'>
                                 <p className='text-white text-sm lg:text-base  font-semibold'>Registered Office Address</p>
-                                <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline font-semibold'>Codler Solution Private Limited,<br></br>
-                                    Kannur,Kerala<br></br>
-                                    Banglore,Karnataka<br></br>
+                                <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline font-semibold'>Codler Solutions Private Limited,<br></br>
+                                    Raaz Villa,Near Excel Public School,Chalakkara,<br></br>
+                                    Mahe, Pondicherry,India. PIN - 673310<br></br>
+                                    Phone- 7012696630<br/><br/>
+                                    Email- info@codlerr.com
                                     </p>
                             </div>
                             <div className=''>

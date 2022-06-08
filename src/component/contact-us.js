@@ -53,8 +53,11 @@ function Contact() {
                         <p className='text-2xl lg:text-4xl font-bold'>You can always find us on</p>
                             <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-6 gap-x-16 pt-3 mb-6 '>
                                 <div>
-                                    <p className='text-lg lg:text-lg font-semibold'>Codler Solutions Pvt Limited</p>
-                                    <p className='text-sm md:text-sm -mt-2'>Kannur,Kerala<br/>Banglore,Karnataka</p>
+                                    <p className='text-lg lg:text-md font-semibold'>Codler Solutions Pvt Limited</p>
+                                    <p className='text-lg lg:text-sm '> Raaz Villa,Near Excel Public School,Chalakkara,<br></br>
+                                    Mahe, Pondicherry,India. PIN - 673310<br></br>
+                                    Phone- 7012696630<br/><br/>
+                                    Email- info@codlerr.com</p>
                                 </div>
                                 <div>
                                     <p className='text-xl lg:text-lg font-semibold'>Info@codlerr.com</p>
