@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function display(index){
     const navigate = useNavigate('');
     return(
-        <div className='cursor-pointer hover:scale-[1.1] grid h-96 grid-rows-2 relative rounded-lg' style={{background:`${index.bgcolor}`,color:`${index.color}`}} > 
+        <div className='cursor-pointer hover:scale-[1.1] grid h-96 grid-rows-2 relative rounded-lg' onClick={{()=>navigate(`${index.link}`)}} style={{background:`${index.bgcolor}`,color:`${index.color}`}} > 
         <div className=' '>
            <p className=' font-bold text-center mt-10'>{index.name} Landing page</p>
            <p className=' text-xs font-gilroythin mx-3 md:mx-10'>{index.description}</p>
