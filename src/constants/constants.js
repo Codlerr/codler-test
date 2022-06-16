@@ -354,6 +354,13 @@
         description:'Memories holdings LLC is a service oriented company which has been in the Property Management service since 1975 and are pioneers in enting and leasing.',
         src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1655309974/codler/WhatsApp_Image_2022-06-15_at_12.14.40_PM_g6jdgb.jpg'
     },
+    {
+        link:'/portfolio/krijay',
+        bgcolor:'rgb(128,0,0)',
+        name:'Neu Holz LLC',
+        description:'Neu Holz LLC is a supplier of a wide range of interior and exterior wood panel products established and located in the Emirate of Dubai',
+        src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1655372710/codler/Web_capture_16-6-2022_15121__wklnzg.jpg'
+    },
   
     ]
 

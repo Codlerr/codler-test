@@ -16,10 +16,10 @@ function display(index){
 function DisplayPicturesAll(){
     return(
         <div className=' gap-10 mt-16'>
-         <DisplayPictures/>
-         <DisplayPicturesWebsite/>
-         <DisplayPicturesBranding/>
-        </div>
+        <DisplayPicturesWebsite/>
+        <DisplayPicturesBranding/>
+        <DisplayPictures/>
+       </div>
     )
 }
 export default DisplayPicturesAll;
