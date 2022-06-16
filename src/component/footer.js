@@ -60,8 +60,7 @@ function Footer() {
                             <div className='lg:-ml-10'>
                                 <p className='text-white text-sm lg:text-base  font-semibold'>Registered Office Address</p>
                                 <p className='text-zinc-600 lg:text-sm hover:text-zinc-400 tracking-wide duration-500 no-underline font-semibold'>Codler Solutions Private Limited,<br></br>
-                                    Mahe<br/>
-                                    Banglore<br/>
+                                    Mahe | Banglore
                                     </p>
                             </div>
                             <div className=''>

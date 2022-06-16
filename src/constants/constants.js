@@ -195,6 +195,14 @@
             name:'ATK BUILD MART',
             src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1655312133/codler/Screenshot_77_dbne4a.png',
         },
+          {
+            link:'/portfolio/ceanor',
+            description:'ATK Enterprises is one of the leading trade organizations reliable for quality and service backed by efficient and trained staffs.',
+            bgcolor:'rgb(255,0,0)',
+            color:'white',
+            name:'ATK ENTERPRISE',
+            src:'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1655369904/codler/Screenshot_81_dnitvy.png',
+        },
     ]
 
     export const all=[

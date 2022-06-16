@@ -73,9 +73,9 @@ function Contact() {
                         
                 </div>
                         <div className='py-10 text-center text-[18px] hidden lg:block bg-black'>
-                            <a href='#' className='pr-10 no-underline font-semibold font-gilroyregular text-white'>Behance </a>
-                            <a href='https://www.instagram.com/codlerr/?igshid=YmMyMTA2M2Y%3D' className='pr-10 no-underline font-semibold  font-gilroyregular text-white'>Instagram</a>
-                            <a href='https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEay4B-9DMJxwAAAYE4lPiAcE3Lhem4Ls0R8WR51Q60MkFAh7OVeUzxKP-88ub-o1uB3S85S-1g8eGoDIJ5nQT4HIOkpf4Qb6PL93lsUMAI3ykEnx75N2n1uSJ3KKs9Z__njBA=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcodlerr%2F' className='pr-10 no-underline font-semibold font-gilroyregular text-white'>Linkedin</a>
+                            <a href='#' className='pr-10 no-underline font-semibold font-gilroyregular text-white'>Behance |</a>
+                            <a href='https://www.instagram.com/codlerr/?igshid=YmMyMTA2M2Y%3D' className=' no-underline font-semibold -ml-10 font-gilroyregular text-white'>Instagram|</a>
+                            <a href='https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEay4B-9DMJxwAAAYE4lPiAcE3Lhem4Ls0R8WR51Q60MkFAh7OVeUzxKP-88ub-o1uB3S85S-1g8eGoDIJ5nQT4HIOkpf4Qb6PL93lsUMAI3ykEnx75N2n1uSJ3KKs9Z__njBA=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcodlerr%2F' className=' no-underline font-semibold font-gilroyregular  text-white'>Linkedin |</a>
                             <a href='#' className=' no-underline font-semibold font-gilroyregular text-white'>Facebook</a>
                         </div> 
             </section>
