@@ -25,7 +25,7 @@ function Teams() {
             <Helmet>
                <title>Our Team</title>
                <meta name="description" content="do u want to know who we are?" />
-          b   </Helmet>                                                        
+             </Helmet>                                                        
                 <section className='h-96'>
                     <div className=''>
                     <img src={shade} className='blur-lg z-0 absolute  pt-40 lg:pt-16' data-aos="zoom-in"></img>
