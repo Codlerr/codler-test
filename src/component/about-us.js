@@ -28,9 +28,10 @@ function Aboutus() {
                     </div>
 
                     <div>
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585635/codler/officework_bbpbsv.jpg'} className='rounded-xl pt-16 md:pt-0 md:mt-16 lg:mt-20 relative z-200 lg:pt-0 lg:h-80 lg:w-[480px] lg:ml-14'></img>
-                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-24 h-24 ml-[98%] -z-200 -mt-5 hidden xl:block'/>
-                        <div className='bg-zinc-800 opacity-30 md:ml-24 xl:ml-64 w-80 h-[580px] hidden mt-[-600px] '>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585635/codler/officework_bbpbsv.jpg'} className='rounded-xl pt-16 md:pt-0 md:mt-16 lg:mt-20 relative z-200 lg:pt-0 lg:h-80 lg:w-[460px] lg:ml-14'></img>
+                        <img src='https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585628/codler/bubble2_nkoawf.png' alt='img' className='w-28 h-28 ml-[86%] relative z-200 -mt-10 hidden xl:block'/>
+                        <div className='bg-zinc-800 opacity-30 md:ml-24 xl:ml-64 w-80 h-[580px] hidden mt-[-600px] 
+                        .'>
                         </div>
                     </div>
                         <div>
@@ -38,7 +39,7 @@ function Aboutus() {
                 </div>
             </section>
 
-            <section className=''>
+            <section className='noise'>
                     <div className='w-10/12 lg:w-8/12 mx-auto'>
                         <div className='grid grid-cols-1 lg:grid-cols-2 mt-20'>
                                 <div className='md:ml-20'  data-aos="fade-right">
@@ -52,7 +53,7 @@ function Aboutus() {
                             </div>
 
                             <div>
-                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649503993/codler/creative-business-team-discussing-over-the-laptop-2021-08-28-18-10-11-utc_1_v46o3a.png'} className='absolute h-96 w-96 xl:ml-24 lg:-mt-36 xl:-mt-40 hidden lg:block'  data-aos="fade-up" style={{width:'500px'}}></img>
+                                <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649503993/codler/creative-business-team-discussing-over-the-laptop-2021-08-28-18-10-11-utc_1_v46o3a.png'} className='absolute h-96 w-full xl:ml-24 lg:-mt-36 xl:-mt-40 hidden lg:block'  data-aos="fade-up" style={{width:'500px'}}></img>
                             </div>
                         </div>
                     </div>
@@ -63,14 +64,14 @@ function Aboutus() {
             </section>
 
             <section className='w-10/12 mx-auto bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-xl' data-aos="zoom-in">
-                <div className='w-10/12 mx-auto py-10'>
+                <div className='w-10/12 mx-auto py-16'>
                     <div>
                         <p className='text-white text-lg font-semibold font-gilroythin leading-7'>We proudly work with</p>
                         <div className='grid grid-cols-2 lg:grid-flow-col gap-6 mt-2' >
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/U_GRAB_FINAL_PDF-01_1_2_nrltee.png'} className='w-56 h-20 mt-7'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='lg:w-36 lg:h-16 mt-10 xs:mt-12 lg:mt-9'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/Group_60570_otkpul.png'} className='w-64 h-12 xl:-ml-12 mt-12 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/CEANOR_1_1_1_2_x89qjw.png'} className='w-48 mt-10 h-16'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242052/codler/ugrabin_1_uqvlzt.png'} className='w-56 h-20 mt-7'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654512828/codler/car_chilly_au9rkh.png'} className='lg:w-36 lg:h-16 mt-10 xs:mt-12 lg:mt-9'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242041/codler/CEANOR_xslfif.png'} className='w-64 h-20 xl:-ml-12 mt-4 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242046/codler/ondaceimg_1_qg7zrj.png'} className='w-56 mt-4 h-16'></img>
                         </div>
                     </div>
                 </div>
@@ -100,7 +101,7 @@ function Aboutus() {
                                     <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648585993/codler/Vectors16_ssimsk.png'} className='h-12 mt-1'></img>
                                     <p className='text-white pl-4 text-2xl font-semibold'>Approach with<br></br> a Vision</p>
                                 </div>
-                                <p className='text-zinc-300 pl-16 lg:px-12 text-sm  font-gilroythin font-light  tracking-normal'>Our performance is dependent on our vision and how we make it a reality. We follow our ideals throughout the whole process, from recruiting to exceptional outputs. We realize the necessity of meeting client expectations in order to provide high-quality products.</p>
+                                <p className='text-zinc-300 pl-16 lg:px-16 text-sm  font-gilroythin font-light  tracking-normal'>Our performance is dependent on our vision and how we make it a reality. We follow our ideals throughout the whole process, from recruiting to exceptional outputs. We realize the necessity of meeting client expectations in order to provide high-quality products.</p>
                             </div>
                             <div data-aos="fade-up">
                                 <div className='flex'>
@@ -114,7 +115,7 @@ function Aboutus() {
                                     <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586016/codler/Vectors13_b7gsxi.png'} className='h-12'></img>
                                     <p className='text-white pl-3 text-2xl font-semibold'>Amazing Environment</p>
                                 </div>
-                                <p className='text-zinc-300 pl-16  text-sm lg:px-12 font-light  font-gilroythin tracking-normal'>All that Codlerr has to offer includes promises, global recognitions, and testaments. Besides, we value the variety of opinions, cultures, and people with the utmost respect. </p>
+                                <p className='text-zinc-300 pl-16  text-sm lg:px-16 font-light  font-gilroythin tracking-normal'>All that Codlerr has to offer includes promises, global recognitions, and testaments. Besides, we value the variety of opinions, cultures, and people with the utmost respect. </p>
                             </div>
                         </div>
                     </div>
@@ -194,7 +195,7 @@ function Aboutus() {
                     
             </section>
                    
-            <section className='w-10/12 mx-auto mt-10 lg:mt-0 md:my-12 '>
+            <section className='w-10/12 mx-auto mt-10 lg:mt-0 md:mt-12 '>
                     <div data-aos="fade-up">
                         <p className='text-white sm:text-4xl tracking-wide font-gilroybold text-center'>Industries we serve</p>
              
@@ -218,10 +219,10 @@ function Aboutus() {
                             </div>
                             
                     </div>
-                    <p className='pt-20 w-10/12 lg:w-7/12 mx-auto text-zinc-300  text-center text-xs lg:text-lg font-gilroythin md:mt-12' data-aos="fade-up">The Codlerr team of top experts can assist you with any industrial project you select, regardless of its scale or complexity. It is important for us to keep up with the latest developments in the industry in which we work.Our inventive professionals provide you with highly competent and customer-centric solutions. From small companies to multinationals, our top-notch mobile app, web development and designing services are available to businesses of all sizes.</p>
+                    <p className='pt-20  mx-24 text-zinc-300  text-center text-xs lg:text-lg font-gilroythin md:mt-12' data-aos="fade-up">The Codlerr team of top experts can assist you with any industrial project you select, regardless of its scale or complexity. It is important for us to keep up with the latest developments in the industry in which we work.Our inventive professionals provide you with highly competent and customer-centric solutions. From small companies to multinationals, our top-notch mobile app, web development and designing services are available to businesses of all sizes.</p>
             </section>
 
-            <section className='lg:py-0 md:-mt-24 lg:mt-0 xl:-ml-24 md:mb-24'>
+            <section className='lg:py-0 md:-mt-24 lg:-mt-10 xl:-ml-24 md:mb-24'>
                         <div className="blur-xl z-0 ">
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648586941/codler/lineshade_z7kfah.png'} alt="mobile"  className="" data-aos="zoom-in" />
                             

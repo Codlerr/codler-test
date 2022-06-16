@@ -17,9 +17,9 @@ function Services() {
             <title>Services</title>
             <meta name="description" content="Have a look at services we offer" />
            </Helmet>
-            <section className='servebg lg:h-[600px] '>
-                    <div className=' mx-5 lg:pl-12 h-full text-white xs:pt-24 sm:pt-56 md:ml-24 lg:ml-0  md:pt-36 lg:pt-48' data-aos="fade-up">
-                        <p className='text-xl md:text-2xl md:-mt-10 xl:mt-0 md:ml-12 lg:ml-0  lg:text-[44px] lg:leading-[3rem] font-gilroybold font-extrabold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>business</p>
+            <section className='bg-[url(https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654930309/codler/bg-wave_h2kgso.jpg)] bg-center sm:h-[550px] lg:h-[610px] '>
+                    <div className=' mx-5 lg:pl-12 h-full text-white xs:pt-24 sm:pt-56 md:ml-16 lg:ml-0 md:pt-56 lg:pt-48' data-aos="fade-up">
+                        <p className='text-xl md:text-2xl md:-mt-10 xl:mt-0 md:ml-12 lg:ml-0 lg:text-[34px] xl:text-[44px] lg:leading-[3rem] font-gilroybold font-extrabold lg:w-2/4' data-aos="fade-right" data-aos-delay="100">It's your choice to choose<br/> what’s relevant to your <br/>business</p>
                         <p className='md:w-[37%] md:text-sm lg:text-lg font-medium md:ml-12 lg:ml-0  font-gilroylight '>Delivering high-quality software development services and leading the way in digital transformation are our strengths. Our skilled staff have demonstrated their talents and are ready to assist you. </p>
                     </div>
             </section>
@@ -27,7 +27,7 @@ function Services() {
                 <div className='s-bg1 rounded-lg md:h-96' >
                     <div className='grid grid-cols-1 md:grid-cols-2 relative'>
                         <div><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/p1_ivmmeh.png'} className='md:w-10/12 md:mt-20 lg:mt-12 md:ml-12'></img></div>
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipses_62_lwwbms.png'} className='hidden  absolute bottom-0 left-0 w-40 rounded-bl-lg'></img>
+                        <img src={require('../images/services/Ellipse 62.png')} className='absolute mt-72 left-0 w-40 rounded-bl-lg'></img>
                         <div className=' lg:py-12 text-white relative'>
                             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629514/codler/shade1_ypr4ql.png'} className='absolute hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
                            <div className='relative lg:mr-10 ml-8 md:mt-5 lg:-mt-7 xl:mt-0  lg:ml-0 mb-5 lg:mb-0 lg:p-0'>
@@ -61,7 +61,7 @@ function Services() {
                 <div className='s-bg2 rounded-lg' data-aos="fade-up">
                     <div className='grid grid-cols-1 md:grid-cols-2 relative md:h-96'>
                         
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipse_62_paozir.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg '></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/Ellipses_62_lwwbms.png'} className='hidden lg:block absolute bottom-0 left-0 w-40 rounded-bl-lg '></img>
                         <div className='py-8 lg:py-16 text-white relative'>
                             
                            <div className='relative pl-10 pr-4md:mb-3 lg:mb-0 md:mt-5 lg:mt-0 lg:pl-24'>
@@ -72,7 +72,7 @@ function Services() {
                         </div>
                         <div className='relative'>
                             <span className='flex justify-center'><img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629513/codler/p2_obqr2f.png'} className='lg:my-10 py-4  lg:absolute z-10 pl-8 right-0 md:w-10/12 md:mt-12 md:ml-12'></img></span>
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/Ellipse_60_1_aawdaq.png'} className='absolute  hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
+                            <img src={require('../images/services/Ellipse 60.png')} className='absolute  hidden lg:block right-0 top-0 w-72 rounded-tr-lg'></img>
                         </div>
                         
                     </div>
@@ -176,15 +176,15 @@ function Services() {
             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629512/codler/bubhalf_bufeg5.png'} className='hidden  lg:block absolute w-28 left-0 -mt-40'></img>
             <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1648629514/codler/tbubble_uuck1c.png'} className='hidden lg:block absolute w-14 left-40 -mt-20'></img>
 
-            <section className='w-10/12 lg:mt-0 mx-auto bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-xl mb-20' data-aos="zoom-in">
-                <div className='w-10/12 mx-auto py-14'>
+            <section className='w-10/12 mx-auto bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-xl mb-36' data-aos="zoom-in">
+                <div className='w-10/12 mx-auto py-16'>
                     <div>
-                        <p className='text-white text-lg font-semibold font-gilroythin leading-7'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-48 md:ml-48 h-24 textlgcolor'></hr></p>
+                    <p className='text-white text-lg font-semibold font-gilroythin leading-7'>We proudly work with<hr className='w-16 h-56 font-bold -mt-3 ml-48 md:ml-48 h-24 textlgcolor'></hr></p>
                         <div className='grid grid-cols-2 lg:grid-flow-col gap-6 mt-2' >
-                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/U_GRAB_FINAL_PDF-01_1_2_nrltee.png'} className='w-56 h-20 mt-7'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1649703335/codler/Group_10401_vgefy0.png'} className='lg:w-36 lg:h-16 mt-10 xs:mt-12 lg:mt-9'></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/Group_60570_otkpul.png'} className='w-64 h-12 xl:-ml-12 mt-12 '></img>
-                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1650141845/codler/CEANOR_1_1_1_2_x89qjw.png'} className='w-48 mt-10 h-16'></img>
+                        <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242052/codler/ugrabin_1_uqvlzt.png'} className='w-56 h-20 mt-7'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654512828/codler/car_chilly_au9rkh.png'} className='lg:w-36 lg:h-16 mt-10 xs:mt-12 lg:mt-9'></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242041/codler/CEANOR_xslfif.png'} className='w-64 h-20 xl:-ml-12 mt-4 '></img>
+                       <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654242046/codler/ondaceimg_1_qg7zrj.png'} className='w-56 mt-4 h-16'></img>
                         </div>
                     </div>
                 </div>

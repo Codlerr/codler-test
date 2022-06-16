@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import DisplayPictures from './portfolio/digital-marketing';
 import DisplayPicturesWebsite from './portfolio/website';
 import DisplayPicturesBranding from './portfolio/branding';
-import DisplayPicturesApp from './portfolio/app';
+import DisplayVideos from './portfolio/videos';
 import DisplayPicturesAll from './portfolio/all';
 function Portfolio() {
     const[action,setAction]=useState('first');
@@ -26,26 +26,26 @@ function Portfolio() {
                             <p className='text-white text-3xl xs:mt-32 md:mt-0 xl:text-[40px] tracking-wide leading-none font-semibold font-gilroybold'>Explore our portfolio</p>
                             <p className='text-white text-sm xl:text-lg font-gilroyregular xl:w-3/4 lg:pt-1'> We are passionate about what we do! Our portfolio is the pure essence of success over our hard work. We have years of industry experience, collaboration, expertise, and quality results.</p>
                         </div>
-                        <div className='pt-14 hidden md:block xl:w-[800px] xl:-ml-48'>
-                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1652799837/codler/david-becker-YCF34YywBrs-unsplash_1_h1j4ri.png'} className='' data-aos="fade-up"></img>
+                        <div className='pt-2 hidden md:block xl:w-[900px] xl:-ml-56'>
+                            <img src={'https://res.cloudinary.com/dbwyrrrqo/image/upload/v1654928690/codler/unsplash_txshbe.png'} className='' data-aos="fade-up"></img>
                         </div>
                   </div>
               </section>
               <section className='sm:mx-7 lg:mt-2 md:mx-36'>
                   <div className='flex justify-between lg:justify-start'>
-                        <button  className='no-underline'   onClick={()=>setAction('fifth')}      ><p className='text-zinc-300 hover:text-white sm:text-xs lg:text-lg font-semibold'> ALL</p></button>
-                        <button href='#' onClick={()=>setAction('first')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>DIGITAL MARKETING</p></button>
-                        <button href='#' onClick={()=>setAction('second')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>WEBSITE</p></button>
-                        <button href='#' onClick={()=>setAction('third')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>APP DESING</p></button>
-                        <button href='#' onClick={()=>setAction('fourth')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white text-xs lg:text-lg font-semibold'>BRANDING</p></button>
+                        <button  className='no-underline'   onClick={()=>setAction('first')}      ><p className='text-zinc-300 hover:text-white sm:text-xs decoration-purple-900 decoration-4 lg:text-lg hover:underline font-semibold'> ALL</p></button>
+                        <button href='#' onClick={()=>setAction('second')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white decoration-purple-900 decoration-4 text-xs hover:underline lg:text-lg font-semibold'>WEBSITE</p></button>
+                        <button href='#' onClick={()=>setAction('fifth')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white decoration-purple-900 decoration-4 text-xs hover:underline lg:text-lg  font-semibold'>DIGITAL MARKETING</p></button>
+                        <button href='#' onClick={()=>setAction('fourth')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white decoration-purple-900 decoration-4 text-xs hover:underline lg:text-lg font-semibold'>BRANDING</p></button>
+                        <button href='#' onClick={()=>setAction('third')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white decoration-purple-900 decoration-4 text-xs hover:underline lg:text-lg font-semibold'>VIDEOS</p></button>
+
                   </div>
                  <div className='h-full mb-56'>
-                     {action ==='first' && <DisplayPictures/>}
+                     {action ==='first' && <DisplayPicturesAll/>}
+                     {action ==='fifth' && <DisplayPictures/>}
                      {action ==='second' && <DisplayPicturesWebsite/>}
-                     {action ==='third' && <DisplayPicturesApp/>}
+                     {action ==='third' && <DisplayVideos/>}
                      {action ==='fourth' && <DisplayPicturesBranding/>}
-                     {action ==='fifth' && <DisplayPicturesAll/>}
-
                  </div>
               </section>
 

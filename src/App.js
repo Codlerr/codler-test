@@ -19,6 +19,9 @@ import Teams from './component/teams';
 import {Helmet} from "react-helmet";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import PortfolioKrijay from './component/portfolio-inner/websites/krijay';
+import PortfolioCeanor from './component/portfolio-inner/websites/ceanor';
+import PortfolioCarchilli from './component/portfolio-inner/apps/carchilli';
 function App() {
   return (
       <div className="bg-black  h-full w-full  ">
@@ -41,6 +44,10 @@ function App() {
               <Route element={<Blogdetails />} path='/blog/blogdetails' />
               <Route element={<OnClickMobile />} path='/technology/onclickmobile' />
               <Route element={<Teams />} path='/teams' />
+              <Route element={<PortfolioKrijay />} path='/portfolio/krijay' />
+              <Route element={<PortfolioCeanor />} path='/portfolio/ceanor' />
+              <Route element={<PortfolioCarchilli />} path='/portfolio/carchilli' />
+
             </Routes>
           <Footer />
       </div>
