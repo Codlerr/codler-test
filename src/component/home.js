@@ -400,7 +400,7 @@ function Home() {
                             </div>
                         </div>
                 </div>
-                                </section> */}  
+                                </section>  
 
         <section>
             <div className=' ml-56 mr-56'>
@@ -410,7 +410,7 @@ function Home() {
                     <div className='w-full h-96 -mt-96 bg-zinc-900'>
 
                     </div>
-            </section>
+</section>*/}
 
             
         <section className='w-10/12 mx-auto md:mb-24 py-20'>
