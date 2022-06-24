@@ -18,7 +18,7 @@ function display(index){
 }
 function displayVideos(index){
     return(
-        <div className='cursor-pointer p-5  relative rounded-lg' style={{background:`${index.bgcolor}`,color:`${index.fontcolor}`}} onClick={()=> navigate('/portfolio/krijay')}> 
+        <div className='cursor-pointer p-5  relative rounded-lg' style={{background:`${index.bgcolor}`,color:`${index.fontcolor}`}} > 
         <video className='md:w-[600px] md:h-[300px]' controls autoPlay>
             <source src={index.src} type='video/mp4'></source>
         </video>

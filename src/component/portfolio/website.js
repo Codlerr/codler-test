@@ -3,7 +3,6 @@ import { Website } from '../../constants/constants';
 import '../../App.css';
 import { useNavigate } from "react-router-dom";
 function display(index){
-    const navigate = useNavigate('');
     return(
         <div className='cursor-pointer hover:scale-[1.1] grid h-96 grid-rows-2 relative rounded-lg'  style={{background:`${index.bgcolor}`,color:`${index.color}`}} > 
         <div className=' '>
@@ -20,6 +19,7 @@ function display(index){
     )
 }
 function DisplayPicturesWebsite(){
+    const navigate = useNavigate('');
     return(
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10 mt-16'>
         {Website.map(display)}

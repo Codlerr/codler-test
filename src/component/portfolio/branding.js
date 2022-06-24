@@ -2,7 +2,7 @@ import react from 'react';
 import {Branding,BrandingBrochures} from '../../constants/constants';
 function display(index){
     return(
-        <div className='cursor-pointer pb-3 relative rounded-lg hover:scale-[1.1]' style={{background:`${index.bgcolor}`}} onClick={()=> navigate(`${index.link}`)}> 
+        <div className='cursor-pointer pb-3 relative rounded-lg hover:scale-[1.1]' style={{background:`${index.bgcolor}`}}> 
         <div>
            <p className='text-black font-bold text-center mt-10'>{index.name} Landing page</p>
            <p className='text-black text-xs font-gilroythin lg:mx-10'>{index.description}</p>
