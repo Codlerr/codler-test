@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aos from 'aos';
-import InstagramFeed from 'react-ig-feed';
 import 'react-ig-feed/dist/index.css';
 import "aos/dist/aos.css";
 import { services } from '../constants/constants';
@@ -376,7 +375,7 @@ function Home() {
             </div>
     </section>*/}
            
-         <section className='w-10/12 lg:w-8/12 mx-auto  '>
+        {/* <section className='w-10/12 lg:w-8/12 mx-auto  '>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                         <div data-aos="fade-down">
                         <div className='grid grid-cols-2'>
@@ -396,12 +395,12 @@ function Home() {
                                      <FontAwesomeIcon icon={faArrowRight} className="text-base ml-2 text-white cursor-pointer" /></a>
                                     {/* <span>
                                         <FontAwesomeIcon icon={faArrowRight} className="text-base ml-2 text-white cursor-pointer" />
-                                    </span> */}
+                                    </span> */}{/*
                                     </div>
                             </div>
                         </div>
                 </div>
-        </section>   
+                                </section> */}  
 
         <section>
             <div className=' ml-56 mr-56'>
