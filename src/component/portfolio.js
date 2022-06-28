@@ -40,13 +40,13 @@ function Portfolio() {
                         <button href='#' onClick={()=>setAction('third')} className='no-underline lg:pl-20'><p className='text-zinc-300 hover:text-white decoration-purple-900 decoration-4 text-xs hover:underline lg:text-lg font-semibold'>VIDEOS</p></button>
 
                   </div>
-                 <div className='h-full mb-56'>
+                 {/* <div className='h-full mb-56'>
                      {action ==='first' && <DisplayPicturesAll/>}
                      {action ==='fifth' && <DisplayPictures/>}
                      {action ==='second' && <DisplayPicturesWebsite/>}
                      {action ==='third' && <DisplayVideos/>}
                      {action ==='fourth' && <DisplayPicturesBranding/>}
-                 </div>
+                 </div> */}
               </section>
 
           {/*    <section className='w-10/12 lg:w-10/12 mt-10 md:mt-0 mx-auto overflow-hidden' data-aos="fade-up">
