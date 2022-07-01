@@ -11,8 +11,6 @@ import Services from './component/services';
 import Servicedetails from './component/service-detail';
 import Blog from './component/blog';
 import Faq from './component/faq';
-import Portfolio from './component/portfolio';
-import Portfolioinner from './component/portfolio2';
 import Blogdetails from './component/blog-details';
 import OnClickMobile from './component/onclick-mobile';
 import Teams from './component/teams';
@@ -31,8 +29,8 @@ function App() {
               <Route element={<Home />} path='/' />
               <Route element={<Aboutus />} path='/Aboutus' />
               <Route element={<Contact />} path='/Contactus' />
-              <Route element={<Portfolio />} path='/portfolio' />
-              <Route element={<Portfolioinner />} path='portfolio/portfoliodetails' />
+             {/*<Route element={<Portfolio />} path='/portfolio' />
+              <Route element={<Portfolioinner />} path='portfolio/portfoliodetails' />*/}
               <Route element={<Technology/>} path='/technology' />
               <Route element={<Services />} path='/services' />
               <Route element={<Servicedetails />} path='/services/servicedetails' />
