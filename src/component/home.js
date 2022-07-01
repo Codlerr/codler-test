@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aos from 'aos';
-import 'react-ig-feed/dist/index.css';
+// import 'react-ig-feed/dist/index.css';
 import "aos/dist/aos.css";
 import { services } from '../constants/constants';
 import Imageslider from './slider';
